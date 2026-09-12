@@ -1,0 +1,3335 @@
+{
+ "schemaVersion": "1.1",
+ "subject": "yuwen",
+ "subjectName": "语文",
+ "grade": 1,
+ "term": "up",
+ "updated": "2026-09-12",
+ "textbook": "人教版统编版（2024年修订）一年级上册",
+ "chapters": [
+  {
+   "id": "yw-c0",
+   "title": "我上学了（我是中国人 / 我爱我们的祖国 / 我是小学生 / 我爱学语文）",
+   "order": 0,
+   "questions": [
+    {
+     "id": "yw-c0-001",
+     "type": "choice",
+     "stem": "我们是（　）人。",
+     "stemPinyin": "wǒ men shì rén",
+     "options": [
+      "法国",
+      "中国",
+      "德国",
+      "美国"
+     ],
+     "optionsPinyin": [
+      "fǎ guó",
+      "zhōng guó",
+      "dé guó",
+      "měi guó"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "我们是中国人，我们的祖国叫中国。"
+    },
+    {
+     "id": "yw-c0-002",
+     "type": "judge",
+     "stem": "我们的祖国是中国。",
+     "stemPinyin": "wǒ men de zǔ guó shì zhōng guó",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "我们的祖国叫中国，我们都是中国人。"
+    },
+    {
+     "id": "yw-c0-003",
+     "type": "choice",
+     "stem": "语文课上，我们主要学（　）。",
+     "stemPinyin": "yǔ wén kè shàng wǒ men zhǔ yào xué",
+     "options": [
+      "跑步、跳远",
+      "数数、算题",
+      "认字、读书",
+      "画画、做手工"
+     ],
+     "optionsPinyin": [
+      "pǎo bù tiào yuǎn",
+      "shǔ shǔ suàn tí",
+      "rèn zì dú shū",
+      "huà huà zuò shǒu gōng"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "语文课上学认字、读课文；数数是数学课的内容。"
+    },
+    {
+     "id": "yw-c0-004",
+     "type": "judge",
+     "stem": "成为小学生以后，我们要按时到校上课。",
+     "stemPinyin": "chéng wéi xiǎo xué shēng yǐ hòu wǒ men yào àn shí dào xiào shàng kè",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "小学生要按时上学，认真听讲。"
+    },
+    {
+     "id": "yw-c0-005",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "我",
+       "right": "wǒ",
+       "leftPinyin": "wǒ"
+      },
+      {
+       "left": "是",
+       "right": "shì",
+       "leftPinyin": "shì"
+      },
+      {
+       "left": "小",
+       "right": "xiǎo",
+       "leftPinyin": "xiǎo"
+      },
+      {
+       "left": "学",
+       "right": "xué",
+       "leftPinyin": "xué"
+      }
+     ],
+     "difficulty": 2,
+     "modes": [
+      "match"
+     ],
+     "explain": "这四个字连起来就是“我是小学”。"
+    }
+   ]
+  },
+  {
+   "id": "yw-c1",
+   "title": "第一单元·识字（天地人/金木水火土/口耳目手足/日月山川）",
+   "order": 1,
+   "questions": [
+    {
+     "id": "yw-c1-001",
+     "type": "choice",
+     "stem": "下面哪个字读 tiān？",
+     "stemPinyin": "xià miàn nǎ ge zì dú",
+     "options": [
+      "地",
+      "天",
+      "人",
+      "田"
+     ],
+     "optionsPinyin": [
+      "dì",
+      "tiān",
+      "rén",
+      "tián"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“天”读 tiān，如：天空、天气。"
+    },
+    {
+     "id": "yw-c1-002",
+     "type": "choice",
+     "stem": "下面哪个字读 dì？",
+     "stemPinyin": "xià miàn nǎ ge zì dú",
+     "options": [
+      "他",
+      "天",
+      "的",
+      "地"
+     ],
+     "optionsPinyin": [
+      "tā",
+      "tiān",
+      "de",
+      "dì"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“地”读 dì，如：土地、大地。"
+    },
+    {
+     "id": "yw-c1-003",
+     "type": "choice",
+     "stem": "“你、我、他”中的“他”读什么？",
+     "stemPinyin": "nǐ wǒ tā zhōng de tā dú shén me",
+     "options": [
+      "dā",
+      "tǎ",
+      "tà",
+      "tā"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“他”读 tā，指其他人。"
+    },
+    {
+     "id": "yw-c1-004",
+     "type": "choice",
+     "stem": "哪个字表示“嘴巴”？",
+     "stemPinyin": "nǎ ge zì biǎo shì zuǐ bā",
+     "options": [
+      "耳",
+      "手",
+      "目",
+      "口"
+     ],
+     "optionsPinyin": [
+      "ěr",
+      "shǒu",
+      "mù",
+      "kǒu"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“口”就是嘴巴；“目”是眼睛，“耳”是耳朵。"
+    },
+    {
+     "id": "yw-c1-005",
+     "type": "choice",
+     "stem": "“目”表示身体的哪个部位？",
+     "stemPinyin": "mù biǎo shì shēn tǐ de nǎ ge bù wèi",
+     "options": [
+      "耳朵",
+      "脚",
+      "嘴巴",
+      "眼睛"
+     ],
+     "optionsPinyin": [
+      "ěr duǒ",
+      "jiǎo",
+      "zuǐ bā",
+      "yǎn jīng"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“目”就是眼睛，比如“目不转睛”。"
+    },
+    {
+     "id": "yw-c1-006",
+     "type": "choice",
+     "stem": "“足”就是我们身体上的什么？",
+     "stemPinyin": "zú jiù shì wǒ men shēn tǐ shàng de shén me",
+     "options": [
+      "背",
+      "手",
+      "脚",
+      "头"
+     ],
+     "optionsPinyin": [
+      "bèi",
+      "shǒu",
+      "jiǎo",
+      "tóu"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“足”就是脚，比如“足球”是用脚踢的球。"
+    },
+    {
+     "id": "yw-c1-007",
+     "type": "choice",
+     "stem": "汉字“山”的读音是？",
+     "stemPinyin": "hàn zì shān de dú yīn shì",
+     "options": [
+      "chān",
+      "shāng",
+      "shān",
+      "sān"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“山”读 shān，注意不是平舌音 sān。"
+    },
+    {
+     "id": "yw-c1-008",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "天",
+       "right": "tiān",
+       "leftPinyin": "tiān"
+      },
+      {
+       "left": "地",
+       "right": "dì",
+       "leftPinyin": "dì"
+      },
+      {
+       "left": "水",
+       "right": "shuǐ",
+       "leftPinyin": "shuǐ"
+      },
+      {
+       "left": "火",
+       "right": "huǒ",
+       "leftPinyin": "huǒ"
+      }
+     ],
+     "difficulty": 1,
+     "modes": [
+      "match"
+     ],
+     "explain": "把生字和它的拼音配起来。"
+    },
+    {
+     "id": "yw-c1-009",
+     "type": "judge",
+     "stem": "“金木水火土”中没有一个“木”字。",
+     "stemPinyin": "jīn mù shuǐ huǒ tǔ zhōng méi yǒu yí gè mù zì",
+     "answer": false,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "金、木、水、火、土，第二个字就是“木”，所以这句话不对。"
+    },
+    {
+     "id": "yw-c1-010",
+     "type": "judge",
+     "stem": "“三”表示数字 4。",
+     "stemPinyin": "sān biǎo shì shù zì",
+     "answer": false,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“三”表示数字 3，不是 4。"
+    },
+    {
+     "id": "yw-c1-011",
+     "type": "choice",
+     "stem": "数字 10 用汉字写是？",
+     "stemPinyin": "shù zì yòng hàn zì xiě shì",
+     "options": [
+      "是",
+      "十",
+      "实",
+      "石"
+     ],
+     "optionsPinyin": [
+      "shì",
+      "shí",
+      "shí",
+      "shí"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "数字 10 的汉字是“十”。"
+    },
+    {
+     "id": "yw-c1-012",
+     "type": "choice",
+     "stem": "“七”读作？",
+     "stemPinyin": "qī dú zuò",
+     "options": [
+      "qǐ",
+      "pī",
+      "qí",
+      "qī"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“七”读 qī，第一声。"
+    },
+    {
+     "id": "yw-c1-013",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "1",
+       "right": "一",
+       "rightPinyin": "yī"
+      },
+      {
+       "left": "2",
+       "right": "二",
+       "rightPinyin": "èr"
+      },
+      {
+       "left": "5",
+       "right": "五",
+       "rightPinyin": "wǔ"
+      },
+      {
+       "left": "8",
+       "right": "八",
+       "rightPinyin": "bā"
+      }
+     ],
+     "difficulty": 1,
+     "modes": [
+      "match"
+     ],
+     "explain": "数字和对应的汉字配起来。"
+    },
+    {
+     "id": "yw-c1-014",
+     "type": "choice",
+     "stem": "“日月山川”中的“日”指什么？",
+     "stemPinyin": "rì yuè shān chuān zhōng de rì zhǐ shén me",
+     "options": [
+      "太阳",
+      "月亮",
+      "云朵",
+      "星星"
+     ],
+     "optionsPinyin": [
+      "tài yáng",
+      "yuè liàng",
+      "yún duǒ",
+      "xīng xīng"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“日”指太阳，如：日出、日光。"
+    },
+    {
+     "id": "yw-c1-015",
+     "type": "judge",
+     "stem": "“上”和“下”是一对意思相反的字。",
+     "stemPinyin": "shàng hé xià shì yí duì yì si xiāng fǎn de zì",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "上、下是相反的方向，就像课文里说的“天地分上下”。"
+    },
+    {
+     "id": "yw-c1-016",
+     "type": "choice",
+     "stem": "“六”的读音是？",
+     "stemPinyin": "liù de dú yīn shì",
+     "options": [
+      "liú",
+      "liù",
+      "niù",
+      "liū"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“六”读 liù，是第四声。"
+    },
+    {
+     "id": "yw-c1-017",
+     "type": "choice",
+     "stem": "数字 8 用汉字写是？",
+     "stemPinyin": "shù zì yòng hàn zì xiě shì",
+     "options": [
+      "大",
+      "人",
+      "八",
+      "入"
+     ],
+     "optionsPinyin": [
+      "dà",
+      "rén",
+      "bā",
+      "rù"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "数字 8 的汉字是“八”，读 bā。"
+    },
+    {
+     "id": "yw-c1-018",
+     "type": "choice",
+     "stem": "“山川”的“川”指的是（　）。",
+     "stemPinyin": "shān chuān de chuān zhǐ de shì",
+     "options": [
+      "大山",
+      "天空",
+      "田地",
+      "河流"
+     ],
+     "optionsPinyin": [
+      "dà shān",
+      "tiān kōng",
+      "tián dì",
+      "hé liú"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“川”指河流，“山川”就是山和河流。"
+    },
+    {
+     "id": "yw-c1-019",
+     "type": "choice",
+     "stem": "“山”字的第一笔是（　）。",
+     "stemPinyin": "shān zì de dì yì bǐ shì",
+     "options": [
+      "竖",
+      "撇",
+      "竖折",
+      "横"
+     ],
+     "optionsPinyin": [
+      "shù",
+      "piē",
+      "shù zhé",
+      "héng"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“山”的笔顺是：先写中间的竖，再写竖折，最后写竖。"
+    },
+    {
+     "id": "yw-c1-020",
+     "type": "choice",
+     "stem": "“禾”指的是（　）。",
+     "stemPinyin": "hé zhǐ de shì",
+     "options": [
+      "大山",
+      "谷类庄稼",
+      "火",
+      "水"
+     ],
+     "optionsPinyin": [
+      "dà shān",
+      "gǔ lèi zhuāng jià",
+      "huǒ",
+      "shuǐ"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“禾”指谷类庄稼，像田里的禾苗。"
+    }
+   ]
+  },
+  {
+   "id": "yw-c2",
+   "title": "第二单元·汉语拼音（a o e / i u ü / b p m f / d t n l）",
+   "order": 2,
+   "questions": [
+    {
+     "id": "yw-c2-001",
+     "type": "choice",
+     "stem": "下面哪个是韵母？",
+     "stemPinyin": "xià miàn nǎ ge shì yùn mǔ",
+     "options": [
+      "b",
+      "p",
+      "m",
+      "a"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "a 是韵母，b、p、m 都是声母。"
+    },
+    {
+     "id": "yw-c2-002",
+     "type": "choice",
+     "stem": "下面哪个是声母？",
+     "stemPinyin": "xià miàn nǎ ge shì shēng mǔ",
+     "options": [
+      "e",
+      "o",
+      "d",
+      "u"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "d 是声母，o、e、u 都是韵母。"
+    },
+    {
+     "id": "yw-c2-003",
+     "type": "choice",
+     "stem": "单韵母 a o e i u ü 一共有几个？",
+     "stemPinyin": "dān yùn mǔ yí gòng yǒu jǐ gè",
+     "options": [
+      "4 个",
+      "6 个",
+      "5 个",
+      "8 个"
+     ],
+     "optionsPinyin": [
+      "gè",
+      "gè",
+      "gè",
+      "gè"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "a、o、e、i、u、ü，一共 6 个单韵母。"
+    },
+    {
+     "id": "yw-c2-004",
+     "type": "choice",
+     "stem": "“ā”是第几声？",
+     "stemPinyin": "shì dì jǐ shēng",
+     "options": [
+      "第一声",
+      "第四声",
+      "第二声",
+      "第三声"
+     ],
+     "optionsPinyin": [
+      "dì yì shēng",
+      "dì sì shēng",
+      "dì èr shēng",
+      "dì sān shēng"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "ā 头上是平直的声调符号，读第一声。"
+    },
+    {
+     "id": "yw-c2-005",
+     "type": "choice",
+     "stem": "下面哪个是“ü”？",
+     "stemPinyin": "xià miàn nǎ ge shì",
+     "options": [
+      "u",
+      "ü",
+      "e",
+      "i"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "ü 头上两点，读“迂”；u 没有两点。"
+    },
+    {
+     "id": "yw-c2-006",
+     "type": "choice",
+     "stem": "“爸”的拼音是？",
+     "stemPinyin": "bà de pīn yīn shì",
+     "options": [
+      "bà",
+      "mā",
+      "bā",
+      "pà"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“爸”读 bà，第四声。"
+    },
+    {
+     "id": "yw-c2-007",
+     "type": "choice",
+     "stem": "“妈”的拼音是？",
+     "stemPinyin": "mā de pīn yīn shì",
+     "options": [
+      "mā",
+      "mǎ",
+      "bà",
+      "má"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“妈”读 mā，第一声。"
+    },
+    {
+     "id": "yw-c2-008",
+     "type": "choice",
+     "stem": "“大”的拼音是？",
+     "stemPinyin": "dà de pīn yīn shì",
+     "options": [
+      "tà",
+      "dā",
+      "dà",
+      "bà"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“大”读 dà，声母是 d，不是 t。"
+    },
+    {
+     "id": "yw-c2-009",
+     "type": "choice",
+     "stem": "“马”的拼音是？",
+     "stemPinyin": "mǎ de pīn yīn shì",
+     "options": [
+      "nǎ",
+      "mā",
+      "mǎ",
+      "dà"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“马”读 mǎ，第三声。"
+    },
+    {
+     "id": "yw-c2-010",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "爸",
+       "right": "bà",
+       "leftPinyin": "bà"
+      },
+      {
+       "left": "妈",
+       "right": "mā",
+       "leftPinyin": "mā"
+      },
+      {
+       "left": "土",
+       "right": "tǔ",
+       "leftPinyin": "tǔ"
+      },
+      {
+       "left": "路",
+       "right": "lù",
+       "leftPinyin": "lù"
+      }
+     ],
+     "difficulty": 1,
+     "modes": [
+      "match"
+     ],
+     "explain": "生字和拼音配对。"
+    },
+    {
+     "id": "yw-c2-011",
+     "type": "judge",
+     "stem": "“b”是韵母，“p”是声母。",
+     "stemPinyin": "shì yùn mǔ shì shēng mǔ",
+     "answer": false,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "b 和 p 都是声母；韵母是 a、o、e、i、u、ü 这些。"
+    },
+    {
+     "id": "yw-c2-012",
+     "type": "judge",
+     "stem": "“o”是声母。",
+     "stemPinyin": "shì shēng mǔ",
+     "answer": false,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "o 是单韵母，不是声母。"
+    },
+    {
+     "id": "yw-c2-013",
+     "type": "choice",
+     "stem": "下面哪个是声母？",
+     "stemPinyin": "xià miàn nǎ ge shì shēng mǔ",
+     "options": [
+      "o",
+      "t",
+      "e",
+      "a"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "t 是声母，a、o、e 是韵母。"
+    },
+    {
+     "id": "yw-c2-014",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "b",
+       "right": "声母",
+       "rightPinyin": "shēng mǔ"
+      },
+      {
+       "left": "a",
+       "right": "韵母",
+       "rightPinyin": "yùn mǔ"
+      },
+      {
+       "left": "d",
+       "right": "声母",
+       "rightPinyin": "shēng mǔ"
+      },
+      {
+       "left": "ü",
+       "right": "韵母",
+       "rightPinyin": "yùn mǔ"
+      }
+     ],
+     "difficulty": 2,
+     "modes": [
+      "match"
+     ],
+     "explain": "把字母按“声母/韵母”分类配对。"
+    },
+    {
+     "id": "yw-c2-015",
+     "type": "choice",
+     "stem": "“大”的拼音是 dà，它的声母是（　）。",
+     "stemPinyin": "dà de pīn yīn shì tā de shēng mǔ shì",
+     "options": [
+      "p",
+      "t",
+      "d",
+      "b"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "dà 的声母是 d，不是 t。"
+    },
+    {
+     "id": "yw-c2-016",
+     "type": "choice",
+     "stem": "“土”的拼音是（　）。",
+     "stemPinyin": "tǔ de pīn yīn shì",
+     "options": [
+      "dǔ",
+      "tù",
+      "tǔ",
+      "tú"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“土”读 tǔ，第三声。"
+    },
+    {
+     "id": "yw-c2-017",
+     "type": "judge",
+     "stem": "“u”和“ü”是两个不同的单韵母。",
+     "stemPinyin": "hé shì liǎng gè bù tóng de dān yùn mǔ",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "u 读“乌”，ü 读“迂”，ü 头上两点不能丢。"
+    }
+   ]
+  },
+  {
+   "id": "yw-c3",
+   "title": "第三单元·汉语拼音（g k h / j q x / z c s / zh ch sh r / y w）",
+   "order": 3,
+   "questions": [
+    {
+     "id": "yw-c3-001",
+     "type": "choice",
+     "stem": "下面哪个是翘舌音？",
+     "stemPinyin": "xià miàn nǎ ge shì qiào shé yīn",
+     "options": [
+      "zh",
+      "s",
+      "c",
+      "z"
+     ],
+     "answer": 0,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "zh、ch、sh、r 是翘舌音；z、c、s 是平舌音。"
+    },
+    {
+     "id": "yw-c3-002",
+     "type": "choice",
+     "stem": "下面哪个是平舌音？",
+     "stemPinyin": "xià miàn nǎ ge shì píng shé yīn",
+     "options": [
+      "sh",
+      "r",
+      "zh",
+      "s"
+     ],
+     "answer": 3,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "z、c、s 是平舌音；sh、r、zh 是翘舌音。"
+    },
+    {
+     "id": "yw-c3-003",
+     "type": "choice",
+     "stem": "哪个声母的读音和“鸡”很像？",
+     "stemPinyin": "nǎ ge shēng mǔ de dú yīn hé jī hěn xiàng",
+     "options": [
+      "q",
+      "j",
+      "g",
+      "x"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“j”的读音和“鸡”相似，j q x 是一组。"
+    },
+    {
+     "id": "yw-c3-004",
+     "type": "choice",
+     "stem": "“哥”的拼音是？",
+     "stemPinyin": "gē de pīn yīn shì",
+     "options": [
+      "hē",
+      "kē",
+      "gě",
+      "gē"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“哥”读 gē，第一声。"
+    },
+    {
+     "id": "yw-c3-005",
+     "type": "choice",
+     "stem": "“弟”的拼音是？",
+     "stemPinyin": "dì de pīn yīn shì",
+     "options": [
+      "dǐ",
+      "jì",
+      "tì",
+      "dì"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“弟”读 dì，第四声。"
+    },
+    {
+     "id": "yw-c3-006",
+     "type": "choice",
+     "stem": "“画”的拼音是？",
+     "stemPinyin": "huà de pīn yīn shì",
+     "options": [
+      "huā",
+      "gà",
+      "fà",
+      "huà"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“画”读 huà，第四声；注意和“花 huā”区别。"
+    },
+    {
+     "id": "yw-c3-007",
+     "type": "choice",
+     "stem": "“花”的拼音是？",
+     "stemPinyin": "huā de pīn yīn shì",
+     "options": [
+      "huà",
+      "kuā",
+      "huā",
+      "wā"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“花”读 huā，第一声。"
+    },
+    {
+     "id": "yw-c3-008",
+     "type": "choice",
+     "stem": "“桌”的拼音是？",
+     "stemPinyin": "zhuō de pīn yīn shì",
+     "options": [
+      "chōu",
+      "zhōu",
+      "zuō",
+      "zhuō"
+     ],
+     "answer": 3,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“桌”读 zhuō，翘舌音 zh，不是平舌音 z。"
+    },
+    {
+     "id": "yw-c3-009",
+     "type": "choice",
+     "stem": "“书”的拼音是？",
+     "stemPinyin": "shū de pīn yīn shì",
+     "options": [
+      "shù",
+      "shū",
+      "sū",
+      "chū"
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“书”读 shū，翘舌音 sh，第一声。"
+    },
+    {
+     "id": "yw-c3-010",
+     "type": "choice",
+     "stem": "“棋”的拼音是？",
+     "stemPinyin": "qí de pīn yīn shì",
+     "options": [
+      "jī",
+      "qǐ",
+      "xí",
+      "qí"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“棋”读 qí，第二声。"
+    },
+    {
+     "id": "yw-c3-011",
+     "type": "choice",
+     "stem": "“鱼”的拼音是？",
+     "stemPinyin": "yú de pīn yīn shì",
+     "options": [
+      "yú",
+      "yū",
+      "yù",
+      "wū"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“鱼”读 yú，第二声。"
+    },
+    {
+     "id": "yw-c3-012",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "哥",
+       "right": "gē",
+       "leftPinyin": "gē"
+      },
+      {
+       "left": "花",
+       "right": "huā",
+       "leftPinyin": "huā"
+      },
+      {
+       "left": "书",
+       "right": "shū",
+       "leftPinyin": "shū"
+      },
+      {
+       "left": "棋",
+       "right": "qí",
+       "leftPinyin": "qí"
+      }
+     ],
+     "difficulty": 1,
+     "modes": [
+      "match"
+     ],
+     "explain": "生字和拼音配对。"
+    },
+    {
+     "id": "yw-c3-013",
+     "type": "judge",
+     "stem": "zh、ch、sh、r 都是平舌音。",
+     "stemPinyin": "dōu shì píng shé yīn",
+     "answer": false,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "zh、ch、sh、r 是翘舌音，z、c、s 才是平舌音。"
+    },
+    {
+     "id": "yw-c3-014",
+     "type": "judge",
+     "stem": "j q x 和 ü 相拼时，ü 要去掉两点。",
+     "stemPinyin": "hé xiāng pīn shí yào qù diào liǎng diǎn",
+     "answer": true,
+     "difficulty": 3,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "如 jü→ju、qü→qu、xü→xu，ü 的两点要去掉。"
+    },
+    {
+     "id": "yw-c3-015",
+     "type": "choice",
+     "stem": "“词”的拼音是？",
+     "stemPinyin": "cí de pīn yīn shì",
+     "options": [
+      "cì",
+      "chí",
+      "zǐ",
+      "cí"
+     ],
+     "answer": 3,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“词”读 cí，平舌音 c，第二声。"
+    },
+    {
+     "id": "yw-c3-016",
+     "type": "choice",
+     "stem": "“王”的拼音是（　）。",
+     "stemPinyin": "wáng de pīn yīn shì",
+     "options": [
+      "wǎng",
+      "wāng",
+      "máng",
+      "wáng"
+     ],
+     "answer": 3,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“王”读 wáng，第二声。"
+    },
+    {
+     "id": "yw-c3-017",
+     "type": "choice",
+     "stem": "“鸭”的拼音是（　）。",
+     "stemPinyin": "yā de pīn yīn shì",
+     "options": [
+      "ā",
+      "yuā",
+      "yā",
+      "yiā"
+     ],
+     "answer": 2,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“鸭”读 yā，声母是 y。"
+    },
+    {
+     "id": "yw-c3-018",
+     "type": "choice",
+     "stem": "“乌”的拼音是（　）。",
+     "stemPinyin": "wū de pīn yīn shì",
+     "options": [
+      "wǔ",
+      "ū",
+      "wú",
+      "wū"
+     ],
+     "answer": 3,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“乌”读 wū，第一声，像“乌鸦”的乌。"
+    }
+   ]
+  },
+  {
+   "id": "yw-c4",
+   "title": "第四单元·汉语拼音（ai ei ui / ao ou iu / ie üe er / an en in un ün / ang eng ing ong）",
+   "order": 4,
+   "questions": [
+    {
+     "id": "yw-c4-001",
+     "type": "choice",
+     "stem": "下面哪个是复韵母？",
+     "stemPinyin": "xià miàn nǎ ge shì fù yùn mǔ",
+     "options": [
+      "ai",
+      "ang",
+      "an",
+      "a"
+     ],
+     "answer": 0,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "ai 是两个单韵母组成的复韵母；an、ang 是鼻韵母。"
+    },
+    {
+     "id": "yw-c4-002",
+     "type": "choice",
+     "stem": "下面哪个是前鼻韵母？",
+     "stemPinyin": "xià miàn nǎ ge shì qián bí yùn mǔ",
+     "options": [
+      "ang",
+      "an",
+      "ao",
+      "ai"
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "an、en、in、un、ün 是前鼻韵母，结尾是 n。"
+    },
+    {
+     "id": "yw-c4-003",
+     "type": "choice",
+     "stem": "下面哪个是后鼻韵母？",
+     "stemPinyin": "xià miàn nǎ ge shì hòu bí yùn mǔ",
+     "options": [
+      "ang",
+      "an",
+      "in",
+      "en"
+     ],
+     "answer": 0,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "ang、eng、ing、ong 是后鼻韵母，结尾是 ng。"
+    },
+    {
+     "id": "yw-c4-004",
+     "type": "choice",
+     "stem": "下面哪个是特殊的卷舌韵母？",
+     "stemPinyin": "xià miàn nǎ ge shì tè shū de juǎn shé yùn mǔ",
+     "options": [
+      "ai",
+      "er",
+      "ie",
+      "ui"
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "er 是特殊的卷舌韵母，读“儿”。"
+    },
+    {
+     "id": "yw-c4-005",
+     "type": "choice",
+     "stem": "“白”的拼音是？",
+     "stemPinyin": "bái de pīn yīn shì",
+     "options": [
+      "pāi",
+      "bǎi",
+      "bāi",
+      "bái"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“白”读 bái，第二声。"
+    },
+    {
+     "id": "yw-c4-006",
+     "type": "choice",
+     "stem": "“菜”的拼音是？",
+     "stemPinyin": "cài de pīn yīn shì",
+     "options": [
+      "cāi",
+      "cài",
+      "chài",
+      "zài"
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“菜”读 cài，平舌音 c，第四声。"
+    },
+    {
+     "id": "yw-c4-007",
+     "type": "choice",
+     "stem": "“小”的拼音是？",
+     "stemPinyin": "xiǎo de pīn yīn shì",
+     "options": [
+      "xǎo",
+      "xiāo",
+      "xiǎo",
+      "xiào"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“小”读 xiǎo，第三声。"
+    },
+    {
+     "id": "yw-c4-008",
+     "type": "choice",
+     "stem": "“桥”的拼音是？",
+     "stemPinyin": "qiáo de pīn yīn shì",
+     "options": [
+      "qiáo",
+      "qǎo",
+      "jiāo",
+      "qiāo"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“桥”读 qiáo，第二声。"
+    },
+    {
+     "id": "yw-c4-009",
+     "type": "choice",
+     "stem": "“蓝”的拼音是？",
+     "stemPinyin": "lán de pīn yīn shì",
+     "options": [
+      "lǎng",
+      "rán",
+      "nán",
+      "lán"
+     ],
+     "answer": 3,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“蓝”读 lán，声母是 l，不是 n。"
+    },
+    {
+     "id": "yw-c4-010",
+     "type": "choice",
+     "stem": "“云”的拼音是？",
+     "stemPinyin": "yún de pīn yīn shì",
+     "options": [
+      "yǘn",
+      "yūn",
+      "yún",
+      "yuán"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“云”读 yún，第二声。"
+    },
+    {
+     "id": "yw-c4-011",
+     "type": "choice",
+     "stem": "“雪”的拼音是？",
+     "stemPinyin": "xuě de pīn yīn shì",
+     "options": [
+      "xüě",
+      "xuè",
+      "xuě",
+      "xiě"
+     ],
+     "answer": 2,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“雪”读 xuě，第三声；x 和 ü 相拼 ü 去两点。"
+    },
+    {
+     "id": "yw-c4-012",
+     "type": "choice",
+     "stem": "“昨”的拼音是？",
+     "stemPinyin": "zuó de pīn yīn shì",
+     "options": [
+      "zòu",
+      "zúo",
+      "zuó",
+      "zhuó"
+     ],
+     "answer": 2,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“昨”读 zuó，平舌音 z，第二声。"
+    },
+    {
+     "id": "yw-c4-013",
+     "type": "choice",
+     "stem": "“年”的拼音是？",
+     "stemPinyin": "nián de pīn yīn shì",
+     "options": [
+      "niǎn",
+      "lián",
+      "nián",
+      "niàng"
+     ],
+     "answer": 2,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“年”读 nián，声母是 n，不是 l。"
+    },
+    {
+     "id": "yw-c4-014",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "白",
+       "right": "bái",
+       "leftPinyin": "bái"
+      },
+      {
+       "left": "云",
+       "right": "yún",
+       "leftPinyin": "yún"
+      },
+      {
+       "left": "雪",
+       "right": "xuě",
+       "leftPinyin": "xuě"
+      },
+      {
+       "left": "小",
+       "right": "xiǎo",
+       "leftPinyin": "xiǎo"
+      }
+     ],
+     "difficulty": 1,
+     "modes": [
+      "match"
+     ],
+     "explain": "生字和拼音配对。"
+    },
+    {
+     "id": "yw-c4-015",
+     "type": "judge",
+     "stem": "ang、eng、ing、ong 都是前鼻韵母。",
+     "stemPinyin": "dōu shì qián bí yùn mǔ",
+     "answer": false,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "它们结尾都是 ng，是后鼻韵母；结尾是 n 的才是前鼻韵母。"
+    },
+    {
+     "id": "yw-c4-016",
+     "type": "judge",
+     "stem": "“云”读 yún。",
+     "stemPinyin": "yún dú",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“云”读 yún，第二声。"
+    },
+    {
+     "id": "yw-c4-017",
+     "type": "choice",
+     "stem": "“牛”的拼音是（　）。",
+     "stemPinyin": "niú de pīn yīn shì",
+     "options": [
+      "niú",
+      "liú",
+      "niū",
+      "niù"
+     ],
+     "answer": 0,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“牛”读 niú，声母是 n，不是 l。"
+    },
+    {
+     "id": "yw-c4-018",
+     "type": "choice",
+     "stem": "“羊”的拼音是（　）。",
+     "stemPinyin": "yáng de pīn yīn shì",
+     "options": [
+      "yáng",
+      "xiáng",
+      "yǎng",
+      "yāng"
+     ],
+     "answer": 0,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“羊”读 yáng，第二声。"
+    },
+    {
+     "id": "yw-c4-019",
+     "type": "judge",
+     "stem": "“er”可以自己单独做一个音节，比如“儿”。",
+     "stemPinyin": "kě yǐ zì jǐ dān dú zuò yí gè yīn jié bǐ rú ér",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "er 是特殊的卷舌韵母，能单独成为音节，读“儿”。"
+    }
+   ]
+  },
+  {
+   "id": "yw-c5",
+   "title": "第五单元·阅读（秋天/江南/雪地里的小画家/四季）",
+   "order": 5,
+   "questions": [
+    {
+     "id": "yw-c5-001",
+     "type": "choice",
+     "stem": "《秋天》里，树叶变成了什么颜色？",
+     "stemPinyin": "qiū tiān lǐ shù yè biàn chéng le shén me yán sè",
+     "options": [
+      "绿色",
+      "黄色",
+      "白色",
+      "红色"
+     ],
+     "optionsPinyin": [
+      "lv sè",
+      "huáng sè",
+      "bái sè",
+      "hóng sè"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“天气凉了，树叶黄了。”"
+    },
+    {
+     "id": "yw-c5-002",
+     "type": "choice",
+     "stem": "秋天到了，大雁往（ ）飞。",
+     "stemPinyin": "qiū tiān dào le dà yàn wǎng fēi",
+     "options": [
+      "东",
+      "北",
+      "南",
+      "西"
+     ],
+     "optionsPinyin": [
+      "dōng",
+      "běi",
+      "nán",
+      "xī"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“一群大雁往南飞”，秋天大雁飞到南方过冬。"
+    },
+    {
+     "id": "yw-c5-003",
+     "type": "choice",
+     "stem": "“江南可采莲”出自哪一课？",
+     "stemPinyin": "jiāng nán kě cǎi lián chū zì nǎ yí kè",
+     "options": [
+      "雪地里的小画家",
+      "江南",
+      "秋天",
+      "四季"
+     ],
+     "optionsPinyin": [
+      "xuě dì lǐ de xiǎo huà jiā",
+      "jiāng nán",
+      "qiū tiān",
+      "sì jì"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "《江南》里有一句“江南可采莲，莲叶何田田。”"
+    },
+    {
+     "id": "yw-c5-004",
+     "type": "choice",
+     "stem": "《江南》里说“莲叶何（ ）”？",
+     "stemPinyin": "jiāng nán lǐ shuō lián yè hé",
+     "options": [
+      "弯弯",
+      "尖尖",
+      "圆圆",
+      "田田"
+     ],
+     "optionsPinyin": [
+      "wān wān",
+      "jiān jiān",
+      "yuán yuán",
+      "tián tián"
+     ],
+     "answer": 3,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“莲叶何田田”，形容莲叶又多又密。"
+    },
+    {
+     "id": "yw-c5-005",
+     "type": "choice",
+     "stem": "雪地里的小画家，小鸡画（ ）。",
+     "stemPinyin": "xuě dì lǐ de xiǎo huà jiā xiǎo jī huà",
+     "options": [
+      "竹叶",
+      "月牙",
+      "枫叶",
+      "梅花"
+     ],
+     "optionsPinyin": [
+      "zhú yè",
+      "yuè yá",
+      "fēng yè",
+      "méi huā"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“小鸡画竹叶”，小鸡的脚印像竹叶。"
+    },
+    {
+     "id": "yw-c5-006",
+     "type": "choice",
+     "stem": "小狗画（ ）。",
+     "stemPinyin": "xiǎo gǒu huà",
+     "options": [
+      "枫叶",
+      "月牙",
+      "梅花",
+      "竹叶"
+     ],
+     "optionsPinyin": [
+      "fēng yè",
+      "yuè yá",
+      "méi huā",
+      "zhú yè"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“小狗画梅花”，小狗的脚印像梅花。"
+    },
+    {
+     "id": "yw-c5-007",
+     "type": "choice",
+     "stem": "小鸭画（ ）。",
+     "stemPinyin": "xiǎo yā huà",
+     "options": [
+      "梅花",
+      "月牙",
+      "竹叶",
+      "枫叶"
+     ],
+     "optionsPinyin": [
+      "méi huā",
+      "yuè yá",
+      "zhú yè",
+      "fēng yè"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“小鸭画枫叶”，小鸭的脚印像枫叶。"
+    },
+    {
+     "id": "yw-c5-008",
+     "type": "choice",
+     "stem": "小马画（ ）。",
+     "stemPinyin": "xiǎo mǎ huà",
+     "options": [
+      "枫叶",
+      "竹叶",
+      "梅花",
+      "月牙"
+     ],
+     "optionsPinyin": [
+      "fēng yè",
+      "zhú yè",
+      "méi huā",
+      "yuè yá"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“小马画月牙”，小马的脚印像月牙。"
+    },
+    {
+     "id": "yw-c5-009",
+     "type": "choice",
+     "stem": "雪地里的小画家们，是用什么画的？",
+     "stemPinyin": "xuě dì lǐ de xiǎo huà jiā men shì yòng shén me huà de",
+     "options": [
+      "颜料",
+      "树枝",
+      "脚印",
+      "画笔"
+     ],
+     "optionsPinyin": [
+      "yán liào",
+      "shù zhī",
+      "jiǎo yìn",
+      "huà bǐ"
+     ],
+     "answer": 2,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“不用颜料不用笔，几步就成一幅画”，是用脚印画的。"
+    },
+    {
+     "id": "yw-c5-010",
+     "type": "choice",
+     "stem": "青蛙为什么没参加画画？",
+     "stemPinyin": "qīng wā wèi shén me méi cān jiā huà huà",
+     "options": [
+      "出去玩啦",
+      "生病啦",
+      "不会画画",
+      "在洞里睡着啦"
+     ],
+     "optionsPinyin": [
+      "chū qù wán la",
+      "shēng bìng la",
+      "bú huì huà huà",
+      "zài dòng lǐ shuì zháo la"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“青蛙为什么没参加？他在洞里睡着啦。”"
+    },
+    {
+     "id": "yw-c5-011",
+     "type": "choice",
+     "stem": "草芽尖尖，他对小鸟说：“我是（ ）。”",
+     "stemPinyin": "cǎo yá jiān jiān tā duì xiǎo niǎo shuō wǒ shì",
+     "options": [
+      "秋天",
+      "春天",
+      "夏天",
+      "冬天"
+     ],
+     "optionsPinyin": [
+      "qiū tiān",
+      "chūn tiān",
+      "xià tiān",
+      "dōng tiān"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "《四季》里，草芽尖尖代表春天。"
+    },
+    {
+     "id": "yw-c5-012",
+     "type": "choice",
+     "stem": "荷叶圆圆，他对青蛙说：“我是（ ）。”",
+     "stemPinyin": "hé yè yuán yuán tā duì qīng wā shuō wǒ shì",
+     "options": [
+      "冬天",
+      "春天",
+      "夏天",
+      "秋天"
+     ],
+     "optionsPinyin": [
+      "dōng tiān",
+      "chūn tiān",
+      "xià tiān",
+      "qiū tiān"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "《四季》里，荷叶圆圆代表夏天。"
+    },
+    {
+     "id": "yw-c5-013",
+     "type": "choice",
+     "stem": "谷穗弯弯，他鞠着躬说：“我是（ ）。”",
+     "stemPinyin": "gǔ suì wān wān tā jū zhe gōng shuō wǒ shì",
+     "options": [
+      "春天",
+      "冬天",
+      "秋天",
+      "夏天"
+     ],
+     "optionsPinyin": [
+      "chūn tiān",
+      "dōng tiān",
+      "qiū tiān",
+      "xià tiān"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "《四季》里，谷穗弯弯代表秋天。"
+    },
+    {
+     "id": "yw-c5-014",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "春天",
+       "right": "草芽尖尖",
+       "leftPinyin": "chūn tiān",
+       "rightPinyin": "cǎo yá jiān jiān"
+      },
+      {
+       "left": "夏天",
+       "right": "荷叶圆圆",
+       "leftPinyin": "xià tiān",
+       "rightPinyin": "hé yè yuán yuán"
+      },
+      {
+       "left": "秋天",
+       "right": "谷穗弯弯",
+       "leftPinyin": "qiū tiān",
+       "rightPinyin": "gǔ suì wān wān"
+      },
+      {
+       "left": "冬天",
+       "right": "雪人挺着大肚子",
+       "leftPinyin": "dōng tiān",
+       "rightPinyin": "xuě rén tǐng zhe dà dù zi"
+      }
+     ],
+     "difficulty": 1,
+     "modes": [
+      "match"
+     ],
+     "explain": "《四季》里，季节和样子配对。"
+    },
+    {
+     "id": "yw-c5-015",
+     "type": "judge",
+     "stem": "《雪地里的小画家》里，小猫也来画画了。",
+     "stemPinyin": "xuě dì lǐ de xiǎo huà jiā lǐ xiǎo māo yě lái huà huà le",
+     "answer": false,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "来画画的是小鸡、小狗、小鸭、小马，没有小猫。"
+    },
+    {
+     "id": "yw-c5-016",
+     "type": "choice",
+     "stem": "《秋天》里说，天气凉了，树叶（　）。",
+     "stemPinyin": "qiū tiān lǐ shuō tiān qì liáng le shù yè",
+     "options": [
+      "没了",
+      "黄了",
+      "红了",
+      "绿了"
+     ],
+     "optionsPinyin": [
+      "méi le",
+      "huáng le",
+      "hóng le",
+      "lv le"
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“天气凉了，树叶黄了。”秋天树叶会变黄。"
+    },
+    {
+     "id": "yw-c5-017",
+     "type": "choice",
+     "stem": "《江南》里说，“江南可采（　）”。",
+     "stemPinyin": "jiāng nán lǐ shuō jiāng nán kě cǎi",
+     "options": [
+      "莲",
+      "菜",
+      "花",
+      "果"
+     ],
+     "optionsPinyin": [
+      "lián",
+      "cài",
+      "huā",
+      "guǒ"
+     ],
+     "answer": 0,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“江南可采莲，莲叶何田田。”采的是莲。"
+    },
+    {
+     "id": "yw-c5-018",
+     "type": "choice",
+     "stem": "《四季》里，对小鸟说“我是春天”的是（　）。",
+     "stemPinyin": "sì jì lǐ duì xiǎo niǎo shuō wǒ shì chūn tiān de shì",
+     "options": [
+      "雪人",
+      "谷穗",
+      "荷叶",
+      "草芽"
+     ],
+     "optionsPinyin": [
+      "xuě rén",
+      "gǔ suì",
+      "hé yè",
+      "cǎo yá"
+     ],
+     "answer": 3,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "草芽尖尖，他对小鸟说：“我是春天。”"
+    },
+    {
+     "id": "yw-c5-019",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "《秋天》",
+       "right": "树叶黄了",
+       "leftPinyin": "qiū tiān",
+       "rightPinyin": "shù yè huáng le"
+      },
+      {
+       "left": "《江南》",
+       "right": "采莲",
+       "leftPinyin": "jiāng nán",
+       "rightPinyin": "cǎi lián"
+      },
+      {
+       "left": "《雪地里的小画家》",
+       "right": "脚印画画",
+       "leftPinyin": "xuě dì lǐ de xiǎo huà jiā",
+       "rightPinyin": "jiǎo yìn huà huà"
+      },
+      {
+       "left": "《四季》",
+       "right": "草芽荷叶",
+       "leftPinyin": "sì jì",
+       "rightPinyin": "cǎo yá hé yè"
+      }
+     ],
+     "difficulty": 2,
+     "modes": [
+      "match"
+     ],
+     "explain": "把每篇课文和它写的内容连起来。"
+    }
+   ]
+  },
+  {
+   "id": "yw-c6",
+   "title": "第六单元·识字（对韵歌/日月明/小书包/升国旗）",
+   "order": 6,
+   "questions": [
+    {
+     "id": "yw-c6-001",
+     "type": "choice",
+     "stem": "《对韵歌》里，“云”对（ ）。",
+     "stemPinyin": "duì yùn gē lǐ yún duì",
+     "options": [
+      "水",
+      "雪",
+      "雨",
+      "风"
+     ],
+     "optionsPinyin": [
+      "shuǐ",
+      "xuě",
+      "yǔ",
+      "fēng"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“云对雨，雪对风。”"
+    },
+    {
+     "id": "yw-c6-002",
+     "type": "choice",
+     "stem": "“雪”对（ ）。",
+     "stemPinyin": "xuě duì",
+     "options": [
+      "雨",
+      "花",
+      "云",
+      "风"
+     ],
+     "optionsPinyin": [
+      "yǔ",
+      "huā",
+      "yún",
+      "fēng"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“云对雨，雪对风。”"
+    },
+    {
+     "id": "yw-c6-003",
+     "type": "choice",
+     "stem": "“山清”对（ ）。",
+     "stemPinyin": "shān qīng duì",
+     "options": [
+      "鸟语",
+      "桃红",
+      "水秀",
+      "柳绿"
+     ],
+     "optionsPinyin": [
+      "niǎo yǔ",
+      "táo hóng",
+      "shuǐ xiù",
+      "liǔ lv"
+     ],
+     "answer": 2,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“山清对水秀，柳绿对桃红。”"
+    },
+    {
+     "id": "yw-c6-004",
+     "type": "choice",
+     "stem": "“柳绿”对（ ）。",
+     "stemPinyin": "liǔ lv duì",
+     "options": [
+      "山清",
+      "桃红",
+      "花香",
+      "水秀"
+     ],
+     "optionsPinyin": [
+      "shān qīng",
+      "táo hóng",
+      "huā xiāng",
+      "shuǐ xiù"
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“山清对水秀，柳绿对桃红。”"
+    },
+    {
+     "id": "yw-c6-005",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "云",
+       "right": "雨",
+       "leftPinyin": "yún",
+       "rightPinyin": "yǔ"
+      },
+      {
+       "left": "雪",
+       "right": "风",
+       "leftPinyin": "xuě",
+       "rightPinyin": "fēng"
+      },
+      {
+       "left": "花",
+       "right": "树",
+       "leftPinyin": "huā",
+       "rightPinyin": "shù"
+      },
+      {
+       "left": "鸟",
+       "right": "虫",
+       "leftPinyin": "niǎo",
+       "rightPinyin": "chóng"
+      }
+     ],
+     "difficulty": 1,
+     "modes": [
+      "match"
+     ],
+     "explain": "《对韵歌》里的对对子。"
+    },
+    {
+     "id": "yw-c6-006",
+     "type": "choice",
+     "stem": "“日”加“月”是什么字？",
+     "stemPinyin": "rì jiā yuè shì shén me zì",
+     "options": [
+      "朋",
+      "从",
+      "林",
+      "明"
+     ],
+     "optionsPinyin": [
+      "péng",
+      "cóng",
+      "lín",
+      "míng"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“日月明”，日和月合起来就是“明”。"
+    },
+    {
+     "id": "yw-c6-007",
+     "type": "choice",
+     "stem": "“小”加“大”是什么字？",
+     "stemPinyin": "xiǎo jiā dà shì shén me zì",
+     "options": [
+      "尖",
+      "众",
+      "森",
+      "尘"
+     ],
+     "optionsPinyin": [
+      "jiān",
+      "zhòng",
+      "sēn",
+      "chén"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“小大尖”，上小下大就是“尖”。"
+    },
+    {
+     "id": "yw-c6-008",
+     "type": "choice",
+     "stem": "“小”加“土”是什么字？",
+     "stemPinyin": "xiǎo jiā tǔ shì shén me zì",
+     "options": [
+      "男",
+      "尖",
+      "明",
+      "尘"
+     ],
+     "optionsPinyin": [
+      "nán",
+      "jiān",
+      "míng",
+      "chén"
+     ],
+     "answer": 3,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“小土尘”，小和土合起来是“尘”（尘土）。"
+    },
+    {
+     "id": "yw-c6-009",
+     "type": "choice",
+     "stem": "“人”加“人”是什么字？",
+     "stemPinyin": "rén jiā rén shì shén me zì",
+     "options": [
+      "双",
+      "从",
+      "众",
+      "林"
+     ],
+     "optionsPinyin": [
+      "shuāng",
+      "cóng",
+      "zhòng",
+      "lín"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“二人从”，两个人合起来是“从”。"
+    },
+    {
+     "id": "yw-c6-010",
+     "type": "choice",
+     "stem": "“木”加“木”是什么字？",
+     "stemPinyin": "mù jiā mù shì shén me zì",
+     "options": [
+      "林",
+      "森",
+      "相",
+      "双"
+     ],
+     "optionsPinyin": [
+      "lín",
+      "sēn",
+      "xiāng",
+      "shuāng"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“双木林”，两棵树就是“林”。"
+    },
+    {
+     "id": "yw-c6-011",
+     "type": "choice",
+     "stem": "“田”加“力”是什么字？",
+     "stemPinyin": "tián jiā lì shì shén me zì",
+     "options": [
+      "尖",
+      "明",
+      "男",
+      "尘"
+     ],
+     "optionsPinyin": [
+      "jiān",
+      "míng",
+      "nán",
+      "chén"
+     ],
+     "answer": 2,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“田力男”，田和力合起来是“男”。"
+    },
+    {
+     "id": "yw-c6-012",
+     "type": "choice",
+     "stem": "《升国旗》里说，我们的国旗是（ ）。",
+     "stemPinyin": "shēng guó qí lǐ shuō wǒ men de guó qí shì",
+     "options": [
+      "彩旗",
+      "五星红旗",
+      "队旗",
+      "红旗"
+     ],
+     "optionsPinyin": [
+      "cǎi qí",
+      "wǔ xīng hóng qí",
+      "duì qí",
+      "hóng qí"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“五星红旗，我们的国旗。”"
+    },
+    {
+     "id": "yw-c6-013",
+     "type": "judge",
+     "stem": "三“木”就是“林”。",
+     "stemPinyin": "sān mù jiù shì lín",
+     "answer": false,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "二木才是“林”，三木是“森”。"
+    },
+    {
+     "id": "yw-c6-014",
+     "type": "judge",
+     "stem": "升国旗的时候，我们要立正站好。",
+     "stemPinyin": "shēng guó qí de shí hòu wǒ men yào lì zhèng zhàn hǎo",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“向着国旗，我们立正。望着国旗，我们敬礼。”"
+    },
+    {
+     "id": "yw-c6-015",
+     "type": "choice",
+     "stem": "“小书包”里会放什么？",
+     "stemPinyin": "xiǎo shū bāo lǐ huì fàng shén me",
+     "options": [
+      "枕头",
+      "水果",
+      "玩具小汽车",
+      "课本和文具"
+     ],
+     "optionsPinyin": [
+      "zhěn tou",
+      "shuǐ guǒ",
+      "wán jù xiǎo qì chē",
+      "kè běn hé wén jù"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "小书包里装的是课本、作业本、笔这些学习用品。"
+    },
+    {
+     "id": "yw-c6-016",
+     "type": "choice",
+     "stem": "《对韵歌》里，“鸟”对（　）。",
+     "stemPinyin": "duì yùn gē lǐ niǎo duì",
+     "options": [
+      "虫",
+      "云",
+      "花",
+      "树"
+     ],
+     "optionsPinyin": [
+      "chóng",
+      "yún",
+      "huā",
+      "shù"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“花对树，鸟对虫”，鸟和虫是一对。"
+    },
+    {
+     "id": "yw-c6-017",
+     "type": "choice",
+     "stem": "“人”加上“人”，再加上一个“人”，是什么字？",
+     "stemPinyin": "rén jiā shàng rén zài jiā shàng yí gè rén shì shén me zì",
+     "options": [
+      "从",
+      "森",
+      "品",
+      "众"
+     ],
+     "optionsPinyin": [
+      "cóng",
+      "sēn",
+      "pǐn",
+      "zhòng"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“三人众”，三个人合起来就是“众”。"
+    },
+    {
+     "id": "yw-c6-018",
+     "type": "choice",
+     "stem": "下面哪一样不是《小书包》里的学习用品？",
+     "stemPinyin": "xià miàn nǎ yí yàng bú shì xiǎo shū bāo lǐ de xué xí yòng pǐn",
+     "options": [
+      "铅笔",
+      "橡皮",
+      "玩具熊",
+      "尺子"
+     ],
+     "optionsPinyin": [
+      "qiān bǐ",
+      "xiàng pí",
+      "wán jù xióng",
+      "chǐ zi"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "小书包里装的是橡皮、尺子、铅笔这些学习用品，玩具熊不是。"
+    }
+   ]
+  },
+  {
+   "id": "yw-c7",
+   "title": "第七单元·阅读（小小的船/影子/两件宝）",
+   "order": 7,
+   "questions": [
+    {
+     "id": "yw-c7-001",
+     "type": "choice",
+     "stem": "《小小的船》里，弯弯的月儿像（ ）。",
+     "stemPinyin": "xiǎo xiǎo de chuán lǐ wān wān de yuè ér xiàng",
+     "options": [
+      "小小的船",
+      "香蕉",
+      "桥",
+      "镰刀"
+     ],
+     "optionsPinyin": [
+      "xiǎo xiǎo de chuán",
+      "xiāng jiāo",
+      "qiáo",
+      "lián dāo"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“弯弯的月儿小小的船，小小的船儿两头尖。”"
+    },
+    {
+     "id": "yw-c7-002",
+     "type": "choice",
+     "stem": "小小的船儿两头（ ）。",
+     "stemPinyin": "xiǎo xiǎo de chuán ér liǎng tóu",
+     "options": [
+      "圆",
+      "弯",
+      "平",
+      "尖"
+     ],
+     "optionsPinyin": [
+      "yuán",
+      "wān",
+      "píng",
+      "jiān"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“小小的船儿两头尖。”"
+    },
+    {
+     "id": "yw-c7-003",
+     "type": "choice",
+     "stem": "我在小小的船里坐，看见了闪闪的（ ）。",
+     "stemPinyin": "wǒ zài xiǎo xiǎo de chuán lǐ zuò kàn jiàn le shǎn shǎn de",
+     "options": [
+      "星星",
+      "月亮",
+      "云朵",
+      "太阳"
+     ],
+     "optionsPinyin": [
+      "xīng xīng",
+      "yuè liàng",
+      "yún duǒ",
+      "tài yáng"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“只看见闪闪的星星蓝蓝的天。”"
+    },
+    {
+     "id": "yw-c7-004",
+     "type": "choice",
+     "stem": "《小小的船》里，天是什么颜色的？",
+     "stemPinyin": "xiǎo xiǎo de chuán lǐ tiān shì shén me yán sè de",
+     "options": [
+      "红红的",
+      "蓝蓝的",
+      "黑黑的",
+      "白白的"
+     ],
+     "optionsPinyin": [
+      "hóng hóng de",
+      "lán lán de",
+      "hēi hēi de",
+      "bái bái de"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“只看见闪闪的星星蓝蓝的天。”"
+    },
+    {
+     "id": "yw-c7-005",
+     "type": "choice",
+     "stem": "影子常常跟着我，就像一条（ ）。",
+     "stemPinyin": "yǐng zi cháng cháng gēn zhe wǒ jiù xiàng yì tiáo",
+     "options": [
+      "小猫",
+      "小鱼",
+      "小黑狗",
+      "小黄狗"
+     ],
+     "optionsPinyin": [
+      "xiǎo māo",
+      "xiǎo yú",
+      "xiǎo hēi gǒu",
+      "xiǎo huáng gǒu"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“影子常常跟着我，就像一条小黑狗。”"
+    },
+    {
+     "id": "yw-c7-006",
+     "type": "choice",
+     "stem": "《影子》里，影子在（ ），影子在后。",
+     "stemPinyin": "yǐng zi lǐ yǐng zi zài yǐng zi zài hòu",
+     "options": [
+      "右",
+      "左",
+      "前",
+      "上"
+     ],
+     "optionsPinyin": [
+      "yòu",
+      "zuǒ",
+      "qián",
+      "shàng"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“影子在前，影子在后。”"
+    },
+    {
+     "id": "yw-c7-007",
+     "type": "choice",
+     "stem": "《两件宝》里，人有两件宝，双手和（ ）。",
+     "stemPinyin": "liǎng jiàn bǎo lǐ rén yǒu liǎng jiàn bǎo shuāng shǒu hé",
+     "options": [
+      "耳朵",
+      "大脑",
+      "眼睛",
+      "脚"
+     ],
+     "optionsPinyin": [
+      "ěr duǒ",
+      "dà nǎo",
+      "yǎn jīng",
+      "jiǎo"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“人有两件宝，双手和大脑。”"
+    },
+    {
+     "id": "yw-c7-008",
+     "type": "choice",
+     "stem": "双手会（ ），大脑会思考。",
+     "stemPinyin": "shuāng shǒu huì dà nǎo huì sī kǎo",
+     "options": [
+      "说话",
+      "唱歌",
+      "做工",
+      "走路"
+     ],
+     "optionsPinyin": [
+      "shuō huà",
+      "chàng gē",
+      "zuò gōng",
+      "zǒu lù"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“双手会做工，大脑会思考。”"
+    },
+    {
+     "id": "yw-c7-009",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "小小的船",
+       "right": "弯弯的月儿",
+       "leftPinyin": "xiǎo xiǎo de chuán",
+       "rightPinyin": "wān wān de yuè ér"
+      },
+      {
+       "left": "影子",
+       "right": "就像小黑狗",
+       "leftPinyin": "yǐng zi",
+       "rightPinyin": "jiù xiàng xiǎo hēi gǒu"
+      },
+      {
+       "left": "两件宝",
+       "right": "双手和大脑",
+       "leftPinyin": "liǎng jiàn bǎo",
+       "rightPinyin": "shuāng shǒu hé dà nǎo"
+      }
+     ],
+     "difficulty": 1,
+     "modes": [
+      "match"
+     ],
+     "explain": "课文和它的内容配对。"
+    },
+    {
+     "id": "yw-c7-010",
+     "type": "judge",
+     "stem": "《小小的船》里，我看见闪闪的星星。",
+     "stemPinyin": "xiǎo xiǎo de chuán lǐ wǒ kàn jiàn shǎn shǎn de xīng xīng",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“只看见闪闪的星星蓝蓝的天。”"
+    },
+    {
+     "id": "yw-c7-011",
+     "type": "judge",
+     "stem": "影子是我的好朋友，它常常陪着我。",
+     "stemPinyin": "yǐng zi shì wǒ de hǎo péng yǒu tā cháng cháng péi zhe wǒ",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“影子常常陪着我，它是我的好朋友。”"
+    },
+    {
+     "id": "yw-c7-012",
+     "type": "choice",
+     "stem": "“弯”的意思和哪个字相反？",
+     "stemPinyin": "wān de yì si hé nǎ ge zì xiāng fǎn",
+     "options": [
+      "尖",
+      "圆",
+      "直",
+      "平"
+     ],
+     "optionsPinyin": [
+      "jiān",
+      "yuán",
+      "zhí",
+      "píng"
+     ],
+     "answer": 2,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "弯和直是一对反义词。"
+    },
+    {
+     "id": "yw-c7-013",
+     "type": "choice",
+     "stem": "《影子》里，影子是“我”的（　）。",
+     "stemPinyin": "yǐng zi lǐ yǐng zi shì wǒ de",
+     "options": [
+      "好朋友",
+      "坏朋友",
+      "妈妈",
+      "老师"
+     ],
+     "optionsPinyin": [
+      "hǎo péng yǒu",
+      "huài péng yǒu",
+      "mā mā",
+      "lǎo shī"
+     ],
+     "answer": 0,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“影子常常陪着我，它是我的好朋友。”"
+    },
+    {
+     "id": "yw-c7-014",
+     "type": "choice",
+     "stem": "《两件宝》告诉我们，双手和大脑要（　）。",
+     "stemPinyin": "liǎng jiàn bǎo gào sù wǒ men shuāng shǒu hé dà nǎo yào",
+     "options": [
+      "只用一样",
+      "都不用",
+      "只用双手",
+      "一起用"
+     ],
+     "optionsPinyin": [
+      "zhǐ yòng yí yàng",
+      "dōu bú yòng",
+      "zhǐ yòng shuāng shǒu",
+      "yì qǐ yòng"
+     ],
+     "answer": 3,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“用手又用脑，才能有创造。”双手和大脑要一起用。"
+    },
+    {
+     "id": "yw-c7-015",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "弯",
+       "right": "直",
+       "leftPinyin": "wān",
+       "rightPinyin": "zhí"
+      },
+      {
+       "left": "前",
+       "right": "后",
+       "leftPinyin": "qián",
+       "rightPinyin": "hòu"
+      },
+      {
+       "left": "上",
+       "right": "下",
+       "leftPinyin": "shàng",
+       "rightPinyin": "xià"
+      }
+     ],
+     "difficulty": 2,
+     "modes": [
+      "match"
+     ],
+     "explain": "把意思相反的两个字配成一对。"
+    }
+   ]
+  },
+  {
+   "id": "yw-c8",
+   "title": "第八单元·阅读（比尾巴/乌鸦喝水/雨点儿）",
+   "order": 8,
+   "questions": [
+    {
+     "id": "yw-c8-001",
+     "type": "choice",
+     "stem": "《比尾巴》里，谁的尾巴长？",
+     "stemPinyin": "bǐ wěi ba lǐ shuí de wěi ba cháng",
+     "options": [
+      "兔子",
+      "松鼠",
+      "猴子",
+      "公鸡"
+     ],
+     "optionsPinyin": [
+      "tù zi",
+      "sōng shǔ",
+      "hóu zi",
+      "gōng jī"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“猴子的尾巴长，兔子的尾巴短。”"
+    },
+    {
+     "id": "yw-c8-002",
+     "type": "choice",
+     "stem": "谁的尾巴短？",
+     "stemPinyin": "shuí de wěi ba duǎn",
+     "options": [
+      "猴子",
+      "松鼠",
+      "鸭子",
+      "兔子"
+     ],
+     "optionsPinyin": [
+      "hóu zi",
+      "sōng shǔ",
+      "yā zi",
+      "tù zi"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“猴子的尾巴长，兔子的尾巴短。”"
+    },
+    {
+     "id": "yw-c8-003",
+     "type": "choice",
+     "stem": "谁的尾巴好像一把伞？",
+     "stemPinyin": "shuí de wěi ba hǎo xiàng yì bǎ sǎn",
+     "options": [
+      "孔雀",
+      "兔子",
+      "松鼠",
+      "猴子"
+     ],
+     "optionsPinyin": [
+      "kǒng què",
+      "tù zi",
+      "sōng shǔ",
+      "hóu zi"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“松鼠的尾巴好像一把伞。”"
+    },
+    {
+     "id": "yw-c8-004",
+     "type": "choice",
+     "stem": "谁的尾巴弯？",
+     "stemPinyin": "shuí de wěi ba wān",
+     "options": [
+      "松鼠",
+      "公鸡",
+      "兔子",
+      "猴子"
+     ],
+     "optionsPinyin": [
+      "sōng shǔ",
+      "gōng jī",
+      "tù zi",
+      "hóu zi"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“公鸡的尾巴弯。”"
+    },
+    {
+     "id": "yw-c8-005",
+     "type": "choice",
+     "stem": "谁的尾巴扁？",
+     "stemPinyin": "shuí de wěi ba biǎn",
+     "options": [
+      "松鼠",
+      "猴子",
+      "公鸡",
+      "鸭子"
+     ],
+     "optionsPinyin": [
+      "sōng shǔ",
+      "hóu zi",
+      "gōng jī",
+      "yā zi"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“鸭子的尾巴扁。”"
+    },
+    {
+     "id": "yw-c8-006",
+     "type": "choice",
+     "stem": "《乌鸦喝水》里，乌鸦喝不到瓶子里（ ）的水。",
+     "stemPinyin": "wū yā hē shuǐ lǐ wū yā hē bú dào píng zi lǐ de shuǐ",
+     "options": [
+      "多",
+      "凉",
+      "少",
+      "满"
+     ],
+     "optionsPinyin": [
+      "duō",
+      "liáng",
+      "shǎo",
+      "mǎn"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“瓶子里水不多，瓶口又小，乌鸦喝不着水。”"
+    },
+    {
+     "id": "yw-c8-007",
+     "type": "choice",
+     "stem": "乌鸦把（ ）一个一个放进瓶子里。",
+     "stemPinyin": "wū yā bǎ yí gè yí gè fàng jìn píng zi lǐ",
+     "options": [
+      "小石子",
+      "木棍",
+      "树叶",
+      "沙子"
+     ],
+     "optionsPinyin": [
+      "xiǎo shí zǐ",
+      "mù gùn",
+      "shù yè",
+      "shā zi"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“乌鸦把小石子一个一个地放进瓶子里。”"
+    },
+    {
+     "id": "yw-c8-008",
+     "type": "choice",
+     "stem": "乌鸦最后喝到水了吗？",
+     "stemPinyin": "wū yā zuì hòu hē dào shuǐ le ma",
+     "options": [
+      "喝了一点点又没了",
+      "不知道",
+      "没有喝到",
+      "喝到了"
+     ],
+     "optionsPinyin": [
+      "hē le yì diǎn diǎn yòu méi le",
+      "bù zhī dào",
+      "méi yǒu hē dào",
+      "hē dào le"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "石子放进瓶子，水渐渐升高，乌鸦就喝着水了。"
+    },
+    {
+     "id": "yw-c8-009",
+     "type": "choice",
+     "stem": "《雨点儿》里，雨点儿从（ ）飘落下来。",
+     "stemPinyin": "yǔ diǎn r lǐ yǔ diǎn r cóng piāo luò xià lái",
+     "options": [
+      "山上",
+      "屋顶上",
+      "树上",
+      "云彩里"
+     ],
+     "optionsPinyin": [
+      "shān shàng",
+      "wū dǐng shàng",
+      "shù shàng",
+      "yún cǎi lǐ"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“数不清的雨点儿，从云彩里飘落下来。”"
+    },
+    {
+     "id": "yw-c8-010",
+     "type": "choice",
+     "stem": "《雨点儿》里说，雨点儿（ ）。",
+     "stemPinyin": "yǔ diǎn r lǐ shuō yǔ diǎn r",
+     "options": [
+      "看不见",
+      "很少很少",
+      "数不清",
+      "只有两个"
+     ],
+     "optionsPinyin": [
+      "kàn bú jiàn",
+      "hěn shǎo hěn shǎo",
+      "shǔ bù qīng",
+      "zhǐ yǒu liǎng gè"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“数不清的雨点儿，从云彩里飘落下来。”"
+    },
+    {
+     "id": "yw-c8-011",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "猴子",
+       "right": "尾巴长",
+       "leftPinyin": "hóu zi",
+       "rightPinyin": "wěi ba cháng"
+      },
+      {
+       "left": "兔子",
+       "right": "尾巴短",
+       "leftPinyin": "tù zi",
+       "rightPinyin": "wěi ba duǎn"
+      },
+      {
+       "left": "松鼠",
+       "right": "尾巴像伞",
+       "leftPinyin": "sōng shǔ",
+       "rightPinyin": "wěi ba xiàng sǎn"
+      },
+      {
+       "left": "公鸡",
+       "right": "尾巴弯",
+       "leftPinyin": "gōng jī",
+       "rightPinyin": "wěi ba wān"
+      }
+     ],
+     "difficulty": 1,
+     "modes": [
+      "match"
+     ],
+     "explain": "《比尾巴》里，动物和尾巴配对。"
+    },
+    {
+     "id": "yw-c8-012",
+     "type": "judge",
+     "stem": "《乌鸦喝水》里，乌鸦最后没有喝到水。",
+     "stemPinyin": "wū yā hē shuǐ lǐ wū yā zuì hòu méi yǒu hē dào shuǐ",
+     "answer": false,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "乌鸦把小石子一个一个放进瓶子，水升高了，最后喝到了水。"
+    },
+    {
+     "id": "yw-c8-013",
+     "type": "choice",
+     "stem": "《比尾巴》里，谁的尾巴最好看？",
+     "stemPinyin": "bǐ wěi ba lǐ shuí de wěi ba zuì hǎo kàn",
+     "options": [
+      "公鸡",
+      "猴子",
+      "松鼠",
+      "孔雀"
+     ],
+     "optionsPinyin": [
+      "gōng jī",
+      "hóu zi",
+      "sōng shǔ",
+      "kǒng què"
+     ],
+     "answer": 3,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“孔雀的尾巴最好看。”"
+    },
+    {
+     "id": "yw-c8-014",
+     "type": "choice",
+     "stem": "《乌鸦喝水》里，乌鸦想了什么办法喝到水？",
+     "stemPinyin": "wū yā hē shuǐ lǐ wū yā xiǎng le shén me bàn fǎ hē dào shuǐ",
+     "options": [
+      "把瓶子推倒",
+      "等下雨",
+      "把小石子放进瓶子",
+      "请别人帮忙"
+     ],
+     "optionsPinyin": [
+      "bǎ píng zi tuī dào",
+      "děng xià yǔ",
+      "bǎ xiǎo shí zǐ fàng jìn píng zi",
+      "qǐng bié rén bāng máng"
+     ],
+     "answer": 2,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "乌鸦把小石子一个一个放进瓶子，水渐渐升高，就喝着水了。"
+    },
+    {
+     "id": "yw-c8-015",
+     "type": "choice",
+     "stem": "《雨点儿》里，小雨点儿要去（　）。",
+     "stemPinyin": "yǔ diǎn ér lǐ xiǎo yǔ diǎn ér yào qù",
+     "options": [
+      "没有花没有草的地方",
+      "大海里",
+      "有花有草的地方",
+      "山顶上"
+     ],
+     "optionsPinyin": [
+      "méi yǒu huā méi yǒu cǎo de dì fāng",
+      "dà hǎi lǐ",
+      "yǒu huā yǒu cǎo de dì fāng",
+      "shān dǐng shàng"
+     ],
+     "answer": 2,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "小雨点儿说要去有花有草的地方，大雨点儿要去没有花没有草的地方。"
+    },
+    {
+     "id": "yw-c8-016",
+     "type": "judge",
+     "stem": "《比尾巴》里，鸭子的尾巴弯。",
+     "stemPinyin": "bǐ wěi ba lǐ yā zi de wěi ba wān",
+     "answer": false,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "鸭子的尾巴是“扁”的，尾巴“弯”的是公鸡。"
+    }
+   ]
+  }
+ ]
+}

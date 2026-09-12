@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="一年级练习">
+<meta name="theme-color" content="#43a047">
+<title>一年级练习</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<!-- ═══ 1. 首页（选科） ═══ -->
+<section class="screen is-active" id="screen-home">
+  <header class="topbar">
+    <h1 class="topbar-title">一年级练习</h1>
+    <div class="star-badge" id="home-stars" aria-label="累计星星">⭐ <span id="home-star-count">0</span></div>
+  </header>
+
+  <div class="subject-grid">
+    <button class="subject-card sub-yuwen" data-subject="yuwen">
+      <span class="subject-emoji">📖</span>
+      <span class="subject-name">语文</span>
+      <span class="subject-today" id="today-yuwen">今天还没做</span>
+      <span class="subject-stars" id="stars-yuwen">⭐ 0</span>
+    </button>
+    <button class="subject-card sub-shuxue" data-subject="shuxue">
+      <span class="subject-emoji">🔢</span>
+      <span class="subject-name">数学</span>
+      <span class="subject-today" id="today-shuxue">今天还没做</span>
+      <span class="subject-stars" id="stars-shuxue">⭐ 0</span>
+    </button>
+    <button class="subject-card is-locked" data-subject="yingyu" disabled>
+      <span class="subject-emoji">🔤</span>
+      <span class="subject-name">英语</span>
+      <span class="subject-today">敬请期待</span>
+      <span class="subject-stars">&nbsp;</span>
+    </button>
+  </div>
+
+  <div class="home-foot">
+    <div class="checkin" id="home-checkin" title="连续打卡">📅 <span id="checkin-text">连续 0 天</span></div>
+    <button class="btn-parent" id="btn-parent" aria-label="家长设置">家长设置</button>
+  </div>
+</section>
+
+<!-- ═══ 2. 章节页 ═══ -->
+<section class="screen" id="screen-chapters">
+  <header class="topbar">
+    <button class="btn-back" data-back aria-label="返回">← 返回</button>
+    <h2 class="topbar-title" id="chap-subject">语文</h2>
+    <button class="btn-primary btn-start" id="btn-start">开始</button>
+  </header>
+  <p class="chap-hint" id="chap-hint">点一下章节就可以选中（可以多选）；一个都不选就是练全部。</p>
+  <div class="chapter-list" id="chapter-list"></div>
+</section>
+
+<!-- ═══ 3. 答题页 ═══ -->
+<section class="screen" id="screen-quiz">
+  <header class="quiz-bar">
+    <div class="lives" id="quiz-lives" aria-label="剩余生命"></div>
+    <div class="progress-track"><div class="progress-fill" id="quiz-progress"></div></div>
+    <div class="timer" id="quiz-timer">10:00</div>
+  </header>
+
+  <main class="quiz-body">
+    <div class="q-index" id="quiz-index">第 1 / 12 题</div>
+    <div class="stem-wrap" id="quiz-stem"></div>
+    <img class="quiz-image" id="quiz-image" alt="看图" hidden>
+    <div class="options" id="quiz-options"></div>
+    <div class="match-area" id="quiz-match" hidden>
+      <div class="match-col" id="match-left"></div>
+      <div class="match-col" id="match-right"></div>
+    </div>
+  </main>
+
+  <div class="feedback" id="quiz-feedback" hidden>
+    <div class="fb-emoji" id="fb-emoji">🎉</div>
+    <div class="fb-title" id="fb-title">答对啦！</div>
+    <div class="fb-explain" id="fb-explain"></div>
+    <button class="btn-primary btn-next" id="btn-next">下一题 →</button>
+  </div>
+</section>
+
+<!-- ═══ 4. 成绩页 ═══ -->
+<section class="screen" id="screen-result">
+  <div class="result-head">
+    <div class="result-emoji" id="res-emoji">🎉</div>
+    <h2 class="result-title" id="res-title">太棒了！</h2>
+    <div class="result-stars" id="res-stars"></div>
+  </div>
+  <ul class="result-stats" id="res-stats"></ul>
+  <div class="wrong-box" id="res-wrong-box" hidden>
+    <h3>这次错的题</h3>
+    <div id="res-wrong"></div>
+  </div>
+  <div class="result-actions">
+    <button class="btn-primary" id="btn-retry-wrong">重练错题</button>
+    <button class="btn-secondary" id="btn-to-home">回到首页</button>
+  </div>
+</section>
+
+<!-- ═══ 5. 家长设置 ═══ -->
+<section class="screen" id="screen-parent">
+  <header class="topbar">
+    <h2 class="topbar-title">家长设置</h2>
+    <button class="btn-back" data-back aria-label="返回">完成</button>
+  </header>
+  <div class="settings">
+    <label class="setting-row">
+      <span>每天每科时长</span>
+      <select id="set-duration">
+        <option value="5">5 分钟</option>
+        <option value="10" selected>10 分钟</option>
+        <option value="15">15 分钟</option>
+      </select>
+    </label>
+    <label class="setting-row">
+      <span>每天每科次数</span>
+      <select id="set-times">
+        <option value="0" selected>不限制</option>
+        <option value="1">1 次</option>
+        <option value="2">2 次</option>
+        <option value="3">3 次</option>
+      </select>
+    </label>
+    <label class="setting-row">
+      <span>朗读题目（语音）</span>
+      <input type="checkbox" id="set-tts" checked>
+    </label>
+    <label class="setting-row">
+      <span>音效</span>
+      <input type="checkbox" id="set-sound" checked>
+    </label>
+    <label class="setting-row">
+      <span>语文</span>
+      <input type="checkbox" id="set-yuwen" checked>
+    </label>
+    <label class="setting-row">
+      <span>数学</span>
+      <input type="checkbox" id="set-shuxue" checked>
+    </label>
+    <div class="setting-block">
+      <h3>最近 7 天正确率</h3>
+      <div class="chart" id="parent-chart"></div>
+    </div>
+    <button class="btn-danger" id="btn-clear">清空所有数据（成绩、错题、星星）</button>
+    <p class="settings-tip">小提示：错题本会自动收集答错的题，答对 2 次后自动移出。</p>
+  </div>
+</section>
+
+<script src="js/pinyin.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/modes.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

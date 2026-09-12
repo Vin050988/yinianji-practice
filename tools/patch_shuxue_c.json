@@ -1,0 +1,92 @@
+{
+ "add": {
+  "sx-c1": [
+   {
+    "type": "choice",
+    "stem": "数一数：图上一共有几个圆点？",
+    "imageUrl": "assets/svg/count-7.svg",
+    "options": ["7", "6", "8", "5"],
+    "answer": 0,
+    "explain": "一个一个地数：1、2、3、4、5、6、7，一共 7 个。"
+   },
+   {
+    "type": "choice",
+    "stem": "数一数：图上一共有几个圆点？",
+    "imageUrl": "assets/svg/count-5.svg",
+    "options": ["5", "4", "6", "7"],
+    "answer": 0,
+    "explain": "数出来一共是 5 个。"
+   },
+   {
+    "type": "choice",
+    "stem": "数一数：图上一共有几个圆点？",
+    "imageUrl": "assets/svg/count-9.svg",
+    "options": ["9", "8", "10", "7"],
+    "answer": 0,
+    "explain": "数出来一共是 9 个。"
+   }
+  ],
+  "sx-c4": [
+   {
+    "type": "choice",
+    "stem": "看图形规律：接下来应该是什么？",
+    "imageUrl": "assets/svg/pattern-p1.svg",
+    "options": ["圆形", "三角形", "正方形", "五角星"],
+    "answer": 0,
+    "explain": "顺序是三角形、圆形、三角形、圆形……接下来应该是圆形。"
+   },
+   {
+    "type": "choice",
+    "stem": "看图形规律：接下来应该是什么？",
+    "imageUrl": "assets/svg/pattern-p2.svg",
+    "options": ["正方形", "三角形", "圆形", "长方形"],
+    "answer": 0,
+    "explain": "顺序是正方形、正方形、三角形，一直重复，所以接下来是正方形。"
+   }
+  ],
+  "sx-c7": [
+   {
+    "type": "choice",
+    "stem": "看图形：哪个立体图形的 6 个面都是正方形、一样大？",
+    "imageUrl": "assets/svg/solid-cube.svg",
+    "options": ["正方体", "长方体", "圆柱", "球"],
+    "answer": 0,
+    "explain": "6 个面一样大，都是正方形，这是正方体。"
+   },
+   {
+    "type": "choice",
+    "stem": "看图形：这个立体图形叫什么？",
+    "imageUrl": "assets/svg/solid-cylinder.svg",
+    "options": ["圆柱", "球", "正方体", "长方体"],
+    "answer": 0,
+    "explain": "上下两个面是圆圆的，像柱子一样，这是圆柱。"
+   }
+  ],
+  "sx-c8": [
+   {
+    "type": "choice",
+    "stem": "看钟面：现在是几时？",
+    "imageUrl": "assets/svg/clock-3.svg",
+    "options": ["3 时", "12 时", "5 时", "9 时"],
+    "answer": 0,
+    "explain": "分针指着 12，时针指着 3，就是 3 时。"
+   },
+   {
+    "type": "choice",
+    "stem": "看钟面：现在是几时？",
+    "imageUrl": "assets/svg/clock-7.svg",
+    "options": ["7 时", "12 时", "5 时", "8 时"],
+    "answer": 0,
+    "explain": "分针指着 12，时针指着 7，就是 7 时。"
+   },
+   {
+    "type": "choice",
+    "stem": "看钟面：现在是几时？",
+    "imageUrl": "assets/svg/clock-11.svg",
+    "options": ["11 时", "12 时", "1 时", "10 时"],
+    "answer": 0,
+    "explain": "分针指着 12，时针指着 11，就是 11 时。"
+   }
+  ]
+ }
+}

@@ -1,0 +1,2989 @@
+{
+ "schemaVersion": "1.1",
+ "subject": "shuxue",
+ "subjectName": "数学",
+ "grade": 1,
+ "term": "up",
+ "updated": "2026-09-12",
+ "textbook": "北师大版（2024年修订）一年级上册",
+ "chapters": [
+  {
+   "id": "sx-c0",
+   "title": "我上学啦（数学就在身边、数一数）",
+   "order": 0,
+   "questions": [
+    {
+     "id": "sx-c0-001",
+     "type": "choice",
+     "stem": "数一数：一只手上有几根手指？",
+     "options": [
+      "10",
+      "3",
+      "5",
+      "4"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "一只手上有 5 根手指。"
+    },
+    {
+     "id": "sx-c0-002",
+     "type": "choice",
+     "stem": "一双手一共有几根手指？",
+     "options": [
+      "6",
+      "8",
+      "10",
+      "5"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "一只手 5 根，两只手合起来就是 10 根。"
+    },
+    {
+     "id": "sx-c0-003",
+     "type": "choice",
+     "stem": "数一数：一个星期有几天？",
+     "options": [
+      "7",
+      "5",
+      "10",
+      "6"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "一个星期有 7 天，从星期一到星期日。"
+    },
+    {
+     "id": "sx-c0-004",
+     "type": "choice",
+     "stem": "一辆小汽车有几个轮子？",
+     "options": [
+      "2",
+      "6",
+      "4",
+      "8"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "小汽车有 4 个轮子。"
+    },
+    {
+     "id": "sx-c0-005",
+     "type": "choice",
+     "stem": "一双筷子有几根？",
+     "options": [
+      "3",
+      "4",
+      "1",
+      "2"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "一双筷子有 2 根。"
+    },
+    {
+     "id": "sx-c0-006",
+     "type": "judge",
+     "stem": "我们身边到处都有数学，比如数数、比多少。",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "数一数有几个人、比一比谁多谁少，都是数学。"
+    },
+    {
+     "id": "sx-c0-007",
+     "type": "judge",
+     "stem": "数东西的时候，可以一个一个地从 1 开始数。",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "数东西要一个一个地数，不重复也不漏掉。"
+    },
+    {
+     "id": "sx-c0-008",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "一只手",
+       "right": "5"
+      },
+      {
+       "left": "一双筷子",
+       "right": "2"
+      },
+      {
+       "left": "一个星期",
+       "right": "7"
+      },
+      {
+       "left": "小汽车的轮子",
+       "right": "4"
+      }
+     ],
+     "difficulty": 2,
+     "modes": [
+      "match"
+     ],
+     "explain": "把东西和它的数量连起来。"
+    }
+   ]
+  },
+  {
+   "id": "sx-c1",
+   "title": "第一单元·生活中的数",
+   "order": 1,
+   "questions": [
+    {
+     "id": "sx-c1-001",
+     "type": "choice",
+     "stem": "5 的后面一个数是几？",
+     "options": [
+      "6",
+      "4",
+      "5",
+      "7"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "按顺序数：4、5、6，5 的后面是 6。"
+    },
+    {
+     "id": "sx-c1-002",
+     "type": "choice",
+     "stem": "比 3 多 1 的数是几？",
+     "options": [
+      "4",
+      "5",
+      "2",
+      "3"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "3 再添上 1 就是 4。"
+    },
+    {
+     "id": "sx-c1-003",
+     "type": "choice",
+     "stem": "比 8 少 1 的数是几？",
+     "options": [
+      "9",
+      "7",
+      "6",
+      "8"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "8 去掉 1 就是 7。"
+    },
+    {
+     "id": "sx-c1-004",
+     "type": "choice",
+     "stem": "汉字“六”表示数字几？",
+     "options": [
+      "7",
+      "4",
+      "6",
+      "5"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "“六”就是数字 6。"
+    },
+    {
+     "id": "sx-c1-005",
+     "type": "choice",
+     "stem": "数字 9 的汉字是？",
+     "options": [
+      "八",
+      "九",
+      "七",
+      "十"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "数字 9 写成汉字是“九”。"
+    },
+    {
+     "id": "sx-c1-006",
+     "type": "choice",
+     "stem": "盘子里一个苹果也没有，可以用数字（ ）表示。",
+     "options": [
+      "1",
+      "2",
+      "0",
+      "10"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "什么都没有就用 0 表示。"
+    },
+    {
+     "id": "sx-c1-007",
+     "type": "choice",
+     "stem": "排队时，小明排第 3，他前面有（ ）个人。",
+     "options": [
+      "2",
+      "3",
+      "1",
+      "4"
+     ],
+     "answer": 0,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "排第 3，说明他前面有 2 个人。"
+    },
+    {
+     "id": "sx-c1-008",
+     "type": "choice",
+     "stem": "小猴有 5 个桃子，小兔有 3 个桃子，小猴比小兔多（ ）个。",
+     "options": [
+      "2",
+      "5",
+      "8",
+      "3"
+     ],
+     "answer": 0,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "5 - 3 = 2，小猴多 2 个。"
+    },
+    {
+     "id": "sx-c1-009",
+     "type": "judge",
+     "stem": "7 比 5 小。",
+     "answer": false,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "数数时 7 在 5 的后面，7 比 5 大。"
+    },
+    {
+     "id": "sx-c1-010",
+     "type": "judge",
+     "stem": "数字 2 比数字 10 大。",
+     "answer": false,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "2 在 10 的前面，2 比 10 小。"
+    },
+    {
+     "id": "sx-c1-011",
+     "type": "choice",
+     "stem": "下面哪个数最大？",
+     "options": [
+      "7",
+      "2",
+      "9",
+      "4"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "9 最大，2 最小。"
+    },
+    {
+     "id": "sx-c1-012",
+     "type": "choice",
+     "stem": "下面哪个数最小？",
+     "options": [
+      "6",
+      "1",
+      "8",
+      "3"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "1 最小。"
+    },
+    {
+     "id": "sx-c1-013",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "3",
+       "right": "三"
+      },
+      {
+       "left": "7",
+       "right": "七"
+      },
+      {
+       "left": "10",
+       "right": "十"
+      },
+      {
+       "left": "0",
+       "right": "零"
+      }
+     ],
+     "difficulty": 1,
+     "modes": [
+      "match"
+     ],
+     "explain": "数字和汉字配对。"
+    },
+    {
+     "id": "sx-c1-014",
+     "type": "choice",
+     "stem": "从 1 数到 10，第 10 个数是几？",
+     "options": [
+      "1",
+      "10",
+      "11",
+      "9"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "1、2、3……9、10，第 10 个是 10。"
+    },
+    {
+     "id": "sx-c1-015",
+     "type": "choice",
+     "stem": "9 的后面一个数是几？",
+     "options": [
+      "8",
+      "10",
+      "9",
+      "11"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "按顺序数：8、9、10，9 的后面是 10。"
+    },
+    {
+     "id": "sx-c1-016",
+     "type": "choice",
+     "stem": "比 6 少 2 的数是几？",
+     "options": [
+      "8",
+      "4",
+      "3",
+      "5"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "6 去掉 2 就是 4。"
+    },
+    {
+     "id": "sx-c1-017",
+     "type": "choice",
+     "stem": "5 和 7 中间的数是几？",
+     "options": [
+      "5",
+      "6",
+      "8",
+      "4"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "按顺序数：5、6、7，中间是 6。"
+    },
+    {
+     "id": "sx-c1-018",
+     "type": "choice",
+     "stem": "盘子里一个也没有，可以用数字（　）表示。",
+     "options": [
+      "10",
+      "0",
+      "1",
+      "2"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "什么都没有，就用 0 表示。"
+    },
+    {
+     "id": "sx-c1-019",
+     "type": "choice",
+     "stem": "小猫排在队伍里是第 5 个，它前面有（　）只小动物。",
+     "options": [
+      "4",
+      "6",
+      "3",
+      "5"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "排第 5，说明前面有 4 个。"
+    },
+    {
+     "id": "sx-c1-020",
+     "type": "choice",
+     "stem": "小明书桌上有 4 本书和 3 支铅笔，一共有几样东西？",
+     "options": [
+      "6",
+      "8",
+      "9",
+      "7"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "4 + 3 = 7，一共有 7 样。"
+    },
+    {
+     "id": "sx-c1-021",
+     "type": "choice",
+     "stem": "数一数：图上一共有几个圆点？",
+     "options": [
+      "8",
+      "7",
+      "6",
+      "5"
+     ],
+     "answer": 1,
+     "imageUrl": "assets/svg/count-7.svg",
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "一个一个地数：1、2、3、4、5、6、7，一共 7 个。"
+    },
+    {
+     "id": "sx-c1-022",
+     "type": "choice",
+     "stem": "数一数：图上一共有几个圆点？",
+     "options": [
+      "4",
+      "7",
+      "5",
+      "6"
+     ],
+     "answer": 2,
+     "imageUrl": "assets/svg/count-5.svg",
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "数出来一共是 5 个。"
+    },
+    {
+     "id": "sx-c1-023",
+     "type": "choice",
+     "stem": "数一数：图上一共有几个圆点？",
+     "options": [
+      "10",
+      "7",
+      "8",
+      "9"
+     ],
+     "answer": 3,
+     "imageUrl": "assets/svg/count-9.svg",
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "数出来一共是 9 个。"
+    }
+   ]
+  },
+  {
+   "id": "sx-c2",
+   "title": "第二单元·5以内数加与减",
+   "order": 2,
+   "questions": [
+    {
+     "id": "sx-c2-001",
+     "type": "arith",
+     "stem": "口算小达人",
+     "template": "{a} + {b} = ?",
+     "range": {
+      "a": [
+       0,
+       5
+      ],
+      "b": [
+       0,
+       5
+      ],
+      "ops": [
+       "+"
+      ],
+      "maxResult": 5
+     },
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "再想一想，你一定可以的。"
+    },
+    {
+     "id": "sx-c2-002",
+     "type": "arith",
+     "stem": "口算小达人",
+     "template": "{a} - {b} = ?",
+     "range": {
+      "a": [
+       1,
+       5
+      ],
+      "b": [
+       0,
+       4
+      ],
+      "ops": [
+       "-"
+      ],
+      "minResult": 0
+     },
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "再想一想，你一定可以的。"
+    },
+    {
+     "id": "sx-c2-003",
+     "type": "choice",
+     "stem": "3 + 2 = ?",
+     "options": [
+      "3",
+      "6",
+      "5",
+      "4"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "3 再数 2 个：4、5，结果是 5。"
+    },
+    {
+     "id": "sx-c2-004",
+     "type": "choice",
+     "stem": "4 - 1 = ?",
+     "options": [
+      "3",
+      "5",
+      "4",
+      "2"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "4 去掉 1 个还剩 3。"
+    },
+    {
+     "id": "sx-c2-005",
+     "type": "choice",
+     "stem": "树上有 3 只小鸟，又飞来了 2 只，现在一共有（ ）只。",
+     "options": [
+      "4",
+      "5",
+      "3",
+      "6"
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "3 + 2 = 5，一共有 5 只。"
+    },
+    {
+     "id": "sx-c2-006",
+     "type": "choice",
+     "stem": "盘子里有 5 个苹果，吃了 2 个，还剩（ ）个。",
+     "options": [
+      "3",
+      "2",
+      "5",
+      "4"
+     ],
+     "answer": 0,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "5 - 2 = 3，还剩 3 个。"
+    },
+    {
+     "id": "sx-c2-007",
+     "type": "choice",
+     "stem": "小明有 4 支铅笔，送给同学 1 支，还剩（ ）支。",
+     "options": [
+      "4",
+      "3",
+      "5",
+      "2"
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "4 - 1 = 3，还剩 3 支。"
+    },
+    {
+     "id": "sx-c2-008",
+     "type": "choice",
+     "stem": "2 + 2 = ?",
+     "options": [
+      "2",
+      "3",
+      "5",
+      "4"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "2 加 2 等于 4。"
+    },
+    {
+     "id": "sx-c2-009",
+     "type": "judge",
+     "stem": "1 + 4 = 6。",
+     "answer": false,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "1 加 4 等于 5，不是 6。"
+    },
+    {
+     "id": "sx-c2-010",
+     "type": "judge",
+     "stem": "5 - 5 = 1。",
+     "answer": false,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "5 减去 5 等于 0，不是 1。"
+    },
+    {
+     "id": "sx-c2-011",
+     "type": "choice",
+     "stem": "3 加几等于 5？",
+     "options": [
+      "3",
+      "1",
+      "4",
+      "2"
+     ],
+     "answer": 3,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "3 + 2 = 5，所以是 2。"
+    },
+    {
+     "id": "sx-c2-012",
+     "type": "choice",
+     "stem": "几减 2 等于 3？",
+     "options": [
+      "5",
+      "2",
+      "4",
+      "6"
+     ],
+     "answer": 0,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "5 - 2 = 3，所以是 5。"
+    },
+    {
+     "id": "sx-c2-013",
+     "type": "choice",
+     "stem": "0 + 3 = ?",
+     "options": [
+      "0",
+      "5",
+      "3",
+      "4"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "0 加任何数都等于那个数，0 + 3 = 3。"
+    },
+    {
+     "id": "sx-c2-014",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "1 + 2",
+       "right": "3"
+      },
+      {
+       "left": "4 - 1",
+       "right": "3"
+      },
+      {
+       "left": "2 + 3",
+       "right": "5"
+      },
+      {
+       "left": "5 - 4",
+       "right": "1"
+      }
+     ],
+     "difficulty": 1,
+     "modes": [
+      "match"
+     ],
+     "explain": "算一算，把算式和得数配对。"
+    },
+    {
+     "id": "sx-c2-015",
+     "type": "choice",
+     "stem": "4 + 1 = ?",
+     "options": [
+      "6",
+      "5",
+      "4",
+      "3"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "4 再数 1 个就是 5。"
+    },
+    {
+     "id": "sx-c2-016",
+     "type": "choice",
+     "stem": "5 - 3 = ?",
+     "options": [
+      "3",
+      "1",
+      "2",
+      "4"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "5 去掉 3 个，还剩 2 个。"
+    },
+    {
+     "id": "sx-c2-017",
+     "type": "choice",
+     "stem": "3 - 0 = ?",
+     "options": [
+      "2",
+      "3",
+      "1",
+      "0"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "一个也没有去掉，还是原来的 3。"
+    },
+    {
+     "id": "sx-c2-018",
+     "type": "choice",
+     "stem": "树上有 5 只小鸟，飞走了 5 只，树上还剩（　）只。",
+     "options": [
+      "2",
+      "5",
+      "1",
+      "0"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "5 - 5 = 0，全都飞走了。"
+    },
+    {
+     "id": "sx-c2-019",
+     "type": "choice",
+     "stem": "小明有 2 个苹果，妈妈又给他 2 个，现在一共有（　）个。",
+     "options": [
+      "5",
+      "4",
+      "2",
+      "3"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "2 + 2 = 4，一共有 4 个。"
+    },
+    {
+     "id": "sx-c2-020",
+     "type": "choice",
+     "stem": "5 里面去掉 2 个，还剩（　）个。",
+     "options": [
+      "5",
+      "4",
+      "3",
+      "2"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "5 - 2 = 3。"
+    }
+   ]
+  },
+  {
+   "id": "sx-c3",
+   "title": "综合实践·介绍我的教室（位置：上下左右前后）",
+   "order": 3,
+   "questions": [
+    {
+     "id": "sx-c3-001",
+     "type": "choice",
+     "stem": "小鸟在树上，小鸟在树的（ ）面。",
+     "options": [
+      "下",
+      "上",
+      "右",
+      "左"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "小鸟在树上，所以小鸟在树的上面。"
+    },
+    {
+     "id": "sx-c3-002",
+     "type": "choice",
+     "stem": "眼睛在鼻子的（ ）面。",
+     "options": [
+      "后",
+      "前",
+      "上",
+      "下"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "眼睛长在鼻子的上面。"
+    },
+    {
+     "id": "sx-c3-003",
+     "type": "choice",
+     "stem": "小红站在小明的前面，小明在小红的（ ）面。",
+     "options": [
+      "前",
+      "后",
+      "左",
+      "右"
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "一前一后，前面的是小红，后面的是小明。"
+    },
+    {
+     "id": "sx-c3-004",
+     "type": "choice",
+     "stem": "把书放在桌子上，书就在桌子的（　）面。",
+     "options": [
+      "右",
+      "上",
+      "下",
+      "左"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "书放在桌子上面，所以书在桌子的上面。"
+    },
+    {
+     "id": "sx-c3-005",
+     "type": "judge",
+     "stem": "“上”和“下”是相反的方向。",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "上和下、前和后、左和右都是相反的方向。"
+    },
+    {
+     "id": "sx-c3-006",
+     "type": "judge",
+     "stem": "“前”和“后”是相反的方向。",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "前和后是相反的方向。"
+    },
+    {
+     "id": "sx-c3-007",
+     "type": "choice",
+     "stem": "书架在书桌的上面，书桌就在书架的（　）面。",
+     "options": [
+      "下",
+      "左",
+      "上",
+      "右"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "书架在上面，书桌就在它的下面，上下是一对。"
+    },
+    {
+     "id": "sx-c3-008",
+     "type": "judge",
+     "stem": "小华排在小丽的后面，那么小丽排在小华的前面。",
+     "answer": true,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "前后是相对的，一人在后，另一人就在前。"
+    },
+    {
+     "id": "sx-c3-009",
+     "type": "choice",
+     "stem": "帽子戴在头上，帽子在头的（ ）面。",
+     "options": [
+      "上",
+      "后",
+      "下",
+      "前"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "帽子在头顶上，所以帽子在头的上面。"
+    },
+    {
+     "id": "sx-c3-010",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "上",
+       "right": "下"
+      },
+      {
+       "left": "前",
+       "right": "后"
+      },
+      {
+       "left": "左",
+       "right": "右"
+      }
+     ],
+     "difficulty": 1,
+     "modes": [
+      "match"
+     ],
+     "explain": "把相反的方向配成一对。"
+    },
+    {
+     "id": "sx-c3-011",
+     "type": "choice",
+     "stem": "小丽坐在小华的后面，小华就在小丽的（　）面。",
+     "options": [
+      "左",
+      "前",
+      "后",
+      "右"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "一前一后：小丽在后面，小华就在前面。"
+    },
+    {
+     "id": "sx-c3-012",
+     "type": "choice",
+     "stem": "红旗在黑板的上面，黑板就在红旗的（　）面。",
+     "options": [
+      "下",
+      "右",
+      "上",
+      "左"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "红旗在上面，黑板就在它的下面。"
+    },
+    {
+     "id": "sx-c3-013",
+     "type": "choice",
+     "stem": "小刚站在小明的左边，小明就站在小刚的（　）边。",
+     "options": [
+      "前",
+      "右",
+      "左",
+      "后"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "小刚在左边，小明就在右边。"
+    },
+    {
+     "id": "sx-c3-014",
+     "type": "choice",
+     "stem": "我们举起右手时，另一只手是（　）手。",
+     "options": [
+      "两只",
+      "左",
+      "大",
+      "右"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "一只手是右手，另一只手就是左手。"
+    },
+    {
+     "id": "sx-c3-015",
+     "type": "choice",
+     "stem": "书本放在书桌的上面，书包放在书桌的下面。书包在书桌的（　）面。",
+     "options": [
+      "左",
+      "右",
+      "下",
+      "上"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "书包放在下面，所以书包在书桌的下面。"
+    }
+   ]
+  },
+  {
+   "id": "sx-c4",
+   "title": "第三单元·整理与分类",
+   "order": 4,
+   "questions": [
+    {
+     "id": "sx-c4-001",
+     "type": "choice",
+     "stem": "下面哪一组可以放在一起？",
+     "options": [
+      "铅笔、西瓜、香蕉",
+      "苹果、香蕉、梨",
+      "苹果、桌子、书",
+      "小狗、苹果、梨"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "苹果、香蕉、梨都是水果，可以放在一起。"
+    },
+    {
+     "id": "sx-c4-002",
+     "type": "choice",
+     "stem": "下面哪一个是学习用品？",
+     "options": [
+      "帽子",
+      "苹果",
+      "铅笔",
+      "皮球"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "铅笔是学习用品，苹果是水果。"
+    },
+    {
+     "id": "sx-c4-003",
+     "type": "choice",
+     "stem": "下面哪一个是动物？",
+     "options": [
+      "西瓜",
+      "小猫",
+      "大树",
+      "汽车"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "小猫是动物，大树是植物。"
+    },
+    {
+     "id": "sx-c4-004",
+     "type": "choice",
+     "stem": "衣服应该放进（ ）。",
+     "options": [
+      "衣柜",
+      "冰箱",
+      "鞋柜",
+      "书包"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "衣服放进衣柜，整理得整整齐齐。"
+    },
+    {
+     "id": "sx-c4-005",
+     "type": "choice",
+     "stem": "下面哪一个是蔬菜？",
+     "options": [
+      "苹果",
+      "香蕉",
+      "桃子",
+      "白菜"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "白菜是蔬菜，苹果、香蕉、桃子是水果。"
+    },
+    {
+     "id": "sx-c4-006",
+     "type": "choice",
+     "stem": "下面哪一个是交通工具？",
+     "options": [
+      "花朵",
+      "桌子",
+      "公共汽车",
+      "小猫"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "公共汽车是交通工具，可以带我们去想去的地方。"
+    },
+    {
+     "id": "sx-c4-007",
+     "type": "judge",
+     "stem": "整理房间时，书本应该放在书架上。",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "书本放书架，分类整理房间更整齐。"
+    },
+    {
+     "id": "sx-c4-008",
+     "type": "judge",
+     "stem": "玩具和碗筷可以混在一起放。",
+     "answer": false,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "玩具和碗筷要分开，碗筷是餐具，放在厨房。"
+    },
+    {
+     "id": "sx-c4-009",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "苹果",
+       "right": "水果"
+      },
+      {
+       "left": "小猫",
+       "right": "动物"
+      },
+      {
+       "left": "铅笔",
+       "right": "学习用品"
+      },
+      {
+       "left": "汽车",
+       "right": "交通工具"
+      }
+     ],
+     "difficulty": 1,
+     "modes": [
+      "match"
+     ],
+     "explain": "物品和它的类别配对。"
+    },
+    {
+     "id": "sx-c4-010",
+     "type": "choice",
+     "stem": "下面哪一项和其他三项不一样？",
+     "options": [
+      "香蕉",
+      "苹果",
+      "胡萝卜",
+      "西瓜"
+     ],
+     "answer": 2,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "西瓜、苹果、香蕉是水果，胡萝卜是蔬菜。"
+    },
+    {
+     "id": "sx-c4-011",
+     "type": "choice",
+     "stem": "下面哪一项和其他三项不一样？",
+     "options": [
+      "苹果",
+      "桌子",
+      "床",
+      "椅子"
+     ],
+     "answer": 0,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "桌子、椅子、床是家具，苹果是水果。"
+    },
+    {
+     "id": "sx-c4-012",
+     "type": "judge",
+     "stem": "分类就是把有相同特点的东西放在一起。",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "分类就是按共同特点分一分、理一理。"
+    },
+    {
+     "id": "sx-c4-013",
+     "type": "choice",
+     "stem": "下面哪一个不是餐具？",
+     "options": [
+      "碗",
+      "筷子",
+      "勺子",
+      "铅笔"
+     ],
+     "answer": 3,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "碗、筷子、勺子是餐具，铅笔是学习用品。"
+    },
+    {
+     "id": "sx-c4-014",
+     "type": "choice",
+     "stem": "下面哪一个和“桌子、椅子”是同一类？",
+     "options": [
+      "小狗",
+      "课本",
+      "床",
+      "苹果"
+     ],
+     "answer": 2,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "桌子、椅子、床都是家具。"
+    },
+    {
+     "id": "sx-c4-015",
+     "type": "choice",
+     "stem": "小猫、小狗、兔子，它们都是（　）。",
+     "options": [
+      "植物",
+      "玩具",
+      "动物",
+      "水果"
+     ],
+     "answer": 2,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "小猫、小狗、兔子都是小动物，可以分成一类。"
+    },
+    {
+     "id": "sx-c4-016",
+     "type": "choice",
+     "stem": "整理书包时，下面哪种做法是对的？",
+     "options": [
+      "把玩具塞进书包",
+      "把书本按大小放整齐",
+      "把书本随便乱塞",
+      "把零食和作业本放一起"
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "按大小把书本放整齐，书包才干净好找。"
+    },
+    {
+     "id": "sx-c4-017",
+     "type": "choice",
+     "stem": "看图形规律：接下来应该是什么？",
+     "options": [
+      "三角形",
+      "正方形",
+      "圆形",
+      "五角星"
+     ],
+     "answer": 2,
+     "imageUrl": "assets/svg/pattern-p1.svg",
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "顺序是三角形、圆形、三角形、圆形……接下来应该是圆形。"
+    },
+    {
+     "id": "sx-c4-018",
+     "type": "choice",
+     "stem": "看图形规律：接下来应该是什么？",
+     "options": [
+      "圆形",
+      "三角形",
+      "正方形",
+      "长方形"
+     ],
+     "answer": 2,
+     "imageUrl": "assets/svg/pattern-p2.svg",
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "顺序是正方形、正方形、三角形，一直重复，所以接下来是正方形。"
+    }
+   ]
+  },
+  {
+   "id": "sx-c5",
+   "title": "第四单元·10以内数加与减",
+   "order": 5,
+   "questions": [
+    {
+     "id": "sx-c5-001",
+     "type": "arith",
+     "stem": "口算小达人",
+     "template": "{a} + {b} = ?",
+     "range": {
+      "a": [
+       1,
+       9
+      ],
+      "b": [
+       1,
+       9
+      ],
+      "ops": [
+       "+"
+      ],
+      "maxResult": 10
+     },
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "再想一想，你一定可以的。"
+    },
+    {
+     "id": "sx-c5-002",
+     "type": "arith",
+     "stem": "口算小达人",
+     "template": "{a} - {b} = ?",
+     "range": {
+      "a": [
+       2,
+       10
+      ],
+      "b": [
+       1,
+       9
+      ],
+      "ops": [
+       "-"
+      ],
+      "minResult": 0
+     },
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "再想一想，你一定可以的。"
+    },
+    {
+     "id": "sx-c5-003",
+     "type": "choice",
+     "stem": "6 + 3 = ?",
+     "options": [
+      "9",
+      "10",
+      "8",
+      "7"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "6 再数 3 个：7、8、9，结果是 9。"
+    },
+    {
+     "id": "sx-c5-004",
+     "type": "choice",
+     "stem": "9 - 4 = ?",
+     "options": [
+      "7",
+      "5",
+      "6",
+      "4"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "9 去掉 4 个还剩 5。"
+    },
+    {
+     "id": "sx-c5-005",
+     "type": "choice",
+     "stem": "7 + 2 = ?",
+     "options": [
+      "6",
+      "10",
+      "8",
+      "9"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "7 加 2 等于 9。"
+    },
+    {
+     "id": "sx-c5-006",
+     "type": "choice",
+     "stem": "10 - 3 = ?",
+     "options": [
+      "8",
+      "7",
+      "6",
+      "5"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "10 去掉 3 个还剩 7。"
+    },
+    {
+     "id": "sx-c5-007",
+     "type": "choice",
+     "stem": "公交车上有 6 人，又上来 4 人，现在一共有（ ）人。",
+     "options": [
+      "8",
+      "10",
+      "9",
+      "11"
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "6 + 4 = 10，一共有 10 人。"
+    },
+    {
+     "id": "sx-c5-008",
+     "type": "choice",
+     "stem": "有 8 个苹果，吃了 3 个，还剩（ ）个。",
+     "options": [
+      "4",
+      "3",
+      "5",
+      "6"
+     ],
+     "answer": 2,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "8 - 3 = 5，还剩 5 个。"
+    },
+    {
+     "id": "sx-c5-009",
+     "type": "choice",
+     "stem": "小明有 4 颗糖，小红有 5 颗糖，他们一共有（ ）颗。",
+     "options": [
+      "10",
+      "7",
+      "8",
+      "9"
+     ],
+     "answer": 3,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "4 + 5 = 9，一共有 9 颗。"
+    },
+    {
+     "id": "sx-c5-010",
+     "type": "choice",
+     "stem": "10 个小朋友做游戏，走了 2 个，还剩（ ）个。",
+     "options": [
+      "9",
+      "8",
+      "7",
+      "6"
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "10 - 2 = 8，还剩 8 个。"
+    },
+    {
+     "id": "sx-c5-011",
+     "type": "judge",
+     "stem": "4 + 6 = 10。",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "4 加 6 正好凑成 10。"
+    },
+    {
+     "id": "sx-c5-012",
+     "type": "judge",
+     "stem": "9 - 6 = 2。",
+     "answer": false,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "9 - 6 = 3，不是 2。"
+    },
+    {
+     "id": "sx-c5-013",
+     "type": "choice",
+     "stem": "6 加几等于 10？",
+     "options": [
+      "4",
+      "5",
+      "3",
+      "6"
+     ],
+     "answer": 0,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "6 + 4 = 10，所以是 4。"
+    },
+    {
+     "id": "sx-c5-014",
+     "type": "choice",
+     "stem": "8 减几等于 5？",
+     "options": [
+      "5",
+      "4",
+      "2",
+      "3"
+     ],
+     "answer": 3,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "8 - 3 = 5，所以是 3。"
+    },
+    {
+     "id": "sx-c5-015",
+     "type": "choice",
+     "stem": "草地上有 4 只白兔和 3 只灰兔，一共有（ ）只兔子。",
+     "options": [
+      "5",
+      "6",
+      "8",
+      "7"
+     ],
+     "answer": 3,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "4 + 3 = 7，一共有 7 只。"
+    },
+    {
+     "id": "sx-c5-016",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "3 + 5",
+       "right": "8"
+      },
+      {
+       "left": "10 - 4",
+       "right": "6"
+      },
+      {
+       "left": "2 + 7",
+       "right": "9"
+      },
+      {
+       "left": "9 - 2",
+       "right": "7"
+      }
+     ],
+     "difficulty": 1,
+     "modes": [
+      "match"
+     ],
+     "explain": "算一算，把算式和得数配对。"
+    },
+    {
+     "id": "sx-c5-017",
+     "type": "choice",
+     "stem": "5 + 5 = ?",
+     "options": [
+      "8",
+      "9",
+      "11",
+      "10"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "5 再加 5 就是 10，正好凑成一双手。"
+    },
+    {
+     "id": "sx-c5-018",
+     "type": "choice",
+     "stem": "10 - 4 = ?",
+     "options": [
+      "5",
+      "7",
+      "6",
+      "4"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "10 去掉 4 个，还剩 6 个。"
+    },
+    {
+     "id": "sx-c5-019",
+     "type": "choice",
+     "stem": "8 + 1 = ?",
+     "options": [
+      "8",
+      "10",
+      "7",
+      "9"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "8 再数 1 个就是 9。"
+    },
+    {
+     "id": "sx-c5-020",
+     "type": "choice",
+     "stem": "7 - 3 = ?",
+     "options": [
+      "5",
+      "4",
+      "10",
+      "3"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "7 去掉 3 个，还剩 4 个。"
+    },
+    {
+     "id": "sx-c5-021",
+     "type": "choice",
+     "stem": "小明有 3 支铅笔，又买了 4 支，一共有（　）支。",
+     "options": [
+      "6",
+      "7",
+      "8",
+      "5"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "3 + 4 = 7，一共有 7 支。"
+    },
+    {
+     "id": "sx-c5-022",
+     "type": "choice",
+     "stem": "盘子里有 9 个鸡蛋，吃了 5 个，还剩（　）个。",
+     "options": [
+      "5",
+      "6",
+      "4",
+      "3"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "9 - 5 = 4，还剩 4 个。"
+    },
+    {
+     "id": "sx-c5-023",
+     "type": "choice",
+     "stem": "6 + 4 = 10，那么 4 + 6 = ?",
+     "options": [
+      "4",
+      "10",
+      "6",
+      "8"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "两个数交换位置相加，结果还是 10。"
+    },
+    {
+     "id": "sx-c5-024",
+     "type": "choice",
+     "stem": "10 减几等于 6？",
+     "options": [
+      "6",
+      "4",
+      "5",
+      "3"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "10 - 4 = 6，所以是 4。"
+    }
+   ]
+  },
+  {
+   "id": "sx-c6",
+   "title": "数学好玩·一起做游戏",
+   "order": 6,
+   "questions": [
+    {
+     "id": "sx-c6-001",
+     "type": "choice",
+     "stem": "摸牌游戏里，摸到 2 和 3，把牌上的数加起来是多少？",
+     "options": [
+      "4",
+      "6",
+      "1",
+      "5"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "2 + 3 = 5。边摸边算，把牌上的数加起来。"
+    },
+    {
+     "id": "sx-c6-002",
+     "type": "choice",
+     "stem": "摸牌游戏里，摸到的牌加起来是 7，结果是（　）。",
+     "options": [
+      "没关系，接着摸",
+      "比 6 小，继续摸",
+      "正好等于 6，获胜",
+      "比 6 大，被淘汰"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "游戏规则是结果比 6 大就被淘汰，7 比 6 大。"
+    },
+    {
+     "id": "sx-c6-003",
+     "type": "choice",
+     "stem": "摸到 1 和 4，和是 5，接下来应该（　）。",
+     "options": [
+      "和比 6 大，要被淘汰",
+      "必须马上停手",
+      "和比 6 小，可以继续摸",
+      "已经获胜，不用摸了"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "5 比 6 小，还可以继续摸牌，和越接近 6 越好。"
+    },
+    {
+     "id": "sx-c6-004",
+     "type": "choice",
+     "stem": "摸牌游戏里，摸到 3 和 3，和是（　）。",
+     "options": [
+      "9",
+      "5",
+      "6",
+      "7"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "3 + 3 = 6，正好等于 6。"
+    },
+    {
+     "id": "sx-c6-005",
+     "type": "choice",
+     "stem": "摸到的牌加起来正好是 6，结果是（　）。",
+     "options": [
+      "比 6 大，被淘汰",
+      "和等于 6，不会被淘汰",
+      "必须重新摸",
+      "和比 6 小"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "课本里说：和可以小于 6，也可以等于 6，只有比 6 大才会被淘汰。"
+    },
+    {
+     "id": "sx-c6-006",
+     "type": "choice",
+     "stem": "玩摸牌游戏时，下面哪种做法最聪明？",
+     "options": [
+      "摸完不算和",
+      "记住摸到的数，算好和再决定摸不摸",
+      "只看别人怎么摸",
+      "不管和是多少就一直摸"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "边摸边算，和接近 6 就要想一想要不要再摸。"
+    }
+   ]
+  },
+  {
+   "id": "sx-c7",
+   "title": "第五单元·有趣的立体图形",
+   "order": 7,
+   "questions": [
+    {
+     "id": "sx-c7-001",
+     "type": "choice",
+     "stem": "六个面都是正方形的立体图形是（ ）。",
+     "options": [
+      "球",
+      "正方体",
+      "长方体",
+      "圆柱"
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "正方体的 6 个面都是正方形，像魔方。"
+    },
+    {
+     "id": "sx-c7-002",
+     "type": "choice",
+     "stem": "像砖块一样，有 6 个平平的面、相对的面一样大的立体图形是（　）。",
+     "options": [
+      "长方体",
+      "圆柱",
+      "球",
+      "正方体"
+     ],
+     "answer": 0,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "长方体长长方方的，有 6 个平平的面，像砖块、文具盒。"
+    },
+    {
+     "id": "sx-c7-003",
+     "type": "choice",
+     "stem": "上下两个面都是圆圆的、像柱子一样的立体图形是（ ）。",
+     "options": [
+      "长方体",
+      "圆柱",
+      "正方体",
+      "球"
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "圆柱上下有两个圆面，像柱子、易拉罐。"
+    },
+    {
+     "id": "sx-c7-004",
+     "type": "choice",
+     "stem": "圆滚滚的、可以到处滚的立体图形是（ ）。",
+     "options": [
+      "正方体",
+      "球",
+      "长方体",
+      "圆柱"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "球没有平平的面，到处都能滚。"
+    },
+    {
+     "id": "sx-c7-005",
+     "type": "choice",
+     "stem": "篮球的形状是（ ）。",
+     "options": [
+      "球",
+      "长方体",
+      "正方体",
+      "圆柱"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "篮球是圆圆的球。"
+    },
+    {
+     "id": "sx-c7-006",
+     "type": "choice",
+     "stem": "下面哪种立体图形最容易滚动？",
+     "options": [
+      "球",
+      "正方体",
+      "圆柱",
+      "长方体"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "球圆滚滚的，没有平平的面，最容易滚动。"
+    },
+    {
+     "id": "sx-c7-007",
+     "type": "judge",
+     "stem": "正方体只有 3 个面。",
+     "answer": false,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "正方体有 6 个面，而且 6 个面一样大。"
+    },
+    {
+     "id": "sx-c7-008",
+     "type": "judge",
+     "stem": "球有平平的面。",
+     "answer": false,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "球圆圆的，没有平平的面。"
+    },
+    {
+     "id": "sx-c7-009",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "球",
+       "right": "圆滚滚"
+      },
+      {
+       "left": "正方体",
+       "right": "六个面都是正方形"
+      },
+      {
+       "left": "圆柱",
+       "right": "上下两个圆面"
+      },
+      {
+       "left": "长方体",
+       "right": "像砖块"
+      }
+     ],
+     "difficulty": 2,
+     "modes": [
+      "match"
+     ],
+     "explain": "立体图形和它的样子配对。"
+    },
+    {
+     "id": "sx-c7-010",
+     "type": "choice",
+     "stem": "魔方是一个（ ）。",
+     "options": [
+      "球",
+      "圆柱",
+      "正方体",
+      "长方体"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "魔方的每个面都是正方形，是正方体。"
+    },
+    {
+     "id": "sx-c7-011",
+     "type": "choice",
+     "stem": "圆柱放在地上可以（ ）。",
+     "options": [
+      "只能跳",
+      "滚动",
+      "飘起来",
+      "不能动"
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "圆柱的侧面是弯弯的，可以滚动。"
+    },
+    {
+     "id": "sx-c7-012",
+     "type": "choice",
+     "stem": "下面哪种立体图形不能滚动？",
+     "options": [
+      "圆柱横着放",
+      "球",
+      "正方体",
+      "以上都能滚"
+     ],
+     "answer": 2,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "正方体的面都是平平的，放在桌上不会滚动。"
+    },
+    {
+     "id": "sx-c7-013",
+     "type": "choice",
+     "stem": "长方体和正方体都有几个面？",
+     "options": [
+      "12 个",
+      "8 个",
+      "6 个",
+      "4 个"
+     ],
+     "answer": 2,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "长方体和正方体都有 6 个平平的面。"
+    },
+    {
+     "id": "sx-c7-014",
+     "type": "choice",
+     "stem": "下面哪个物体像圆柱？",
+     "options": [
+      "足球",
+      "魔方",
+      "易拉罐",
+      "课本"
+     ],
+     "answer": 2,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "易拉罐上下是两个圆面，像圆柱。"
+    },
+    {
+     "id": "sx-c7-015",
+     "type": "choice",
+     "stem": "下面哪个物体是球？",
+     "options": [
+      "易拉罐",
+      "冰箱",
+      "足球",
+      "文具盒"
+     ],
+     "answer": 2,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "足球圆圆的，是球。"
+    },
+    {
+     "id": "sx-c7-016",
+     "type": "choice",
+     "stem": "下面哪个物体是长方体？",
+     "options": [
+      "易拉罐",
+      "足球",
+      "魔方",
+      "文具盒"
+     ],
+     "answer": 3,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "文具盒长长方方的，是长方体；魔方是正方体。"
+    },
+    {
+     "id": "sx-c7-017",
+     "type": "choice",
+     "stem": "看图形：哪个立体图形的 6 个面都是正方形、一样大？",
+     "options": [
+      "球",
+      "正方体",
+      "长方体",
+      "圆柱"
+     ],
+     "answer": 1,
+     "imageUrl": "assets/svg/solid-cube.svg",
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "6 个面一样大，都是正方形，这是正方体。"
+    },
+    {
+     "id": "sx-c7-018",
+     "type": "choice",
+     "stem": "看图形：这个立体图形叫什么？",
+     "options": [
+      "正方体",
+      "长方体",
+      "球",
+      "圆柱"
+     ],
+     "answer": 3,
+     "imageUrl": "assets/svg/solid-cylinder.svg",
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "上下两个面是圆圆的，像柱子一样，这是圆柱。"
+    }
+   ]
+  },
+  {
+   "id": "sx-c8",
+   "title": "综合实践·记录我的一天（认识钟表）",
+   "order": 8,
+   "questions": [
+    {
+     "id": "sx-c8-001",
+     "type": "choice",
+     "stem": "钟面上分针指着 12，时针指着 3，是（ ）时。",
+     "options": [
+      "6",
+      "12",
+      "3",
+      "9"
+     ],
+     "answer": 2,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "分针指 12，时针指几就是几时，所以是 3 时。"
+    },
+    {
+     "id": "sx-c8-002",
+     "type": "choice",
+     "stem": "分针指着 12，时针指着 7，是（ ）时。",
+     "options": [
+      "7",
+      "1",
+      "6",
+      "12"
+     ],
+     "answer": 0,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "分针指 12，时针指 7，就是 7 时。"
+    },
+    {
+     "id": "sx-c8-003",
+     "type": "choice",
+     "stem": "分针指着 12，时针也指着 12，是（ ）时。",
+     "options": [
+      "12",
+      "6",
+      "2",
+      "1"
+     ],
+     "answer": 0,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "两根针都指 12，就是 12 时。"
+    },
+    {
+     "id": "sx-c8-004",
+     "type": "judge",
+     "stem": "分针指着 12，时针指着 6，就是 6 时。",
+     "answer": true,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "分针指 12，时针指 6，是 6 时整。"
+    },
+    {
+     "id": "sx-c8-005",
+     "type": "judge",
+     "stem": "分针指着 12，时针指着 9，就是 12 时。",
+     "answer": false,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "分针指 12，时针指 9，是 9 时，不是 12 时。"
+    },
+    {
+     "id": "sx-c8-006",
+     "type": "choice",
+     "stem": "钟面上，又短又粗的是（ ）针。",
+     "options": [
+      "秒",
+      "分",
+      "长",
+      "时"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "又短又粗的是时针，又细又长的是分针。"
+    },
+    {
+     "id": "sx-c8-007",
+     "type": "choice",
+     "stem": "晚上 9 时，我们要（ ）。",
+     "options": [
+      "去上学",
+      "睡觉",
+      "吃早饭",
+      "做早操"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "晚上 9 时是睡觉时间，早睡早起身体好。"
+    },
+    {
+     "id": "sx-c8-008",
+     "type": "choice",
+     "stem": "早上 7 时，我们通常（ ）。",
+     "options": [
+      "起床",
+      "看电视到深夜",
+      "睡觉",
+      "吃午饭"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "早上 7 时起床，准备去上学。"
+    },
+    {
+     "id": "sx-c8-009",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "7 时",
+       "right": "早上起床"
+      },
+      {
+       "left": "12 时",
+       "right": "中午吃饭"
+      },
+      {
+       "left": "9 时",
+       "right": "晚上睡觉"
+      }
+     ],
+     "difficulty": 2,
+     "modes": [
+      "match"
+     ],
+     "explain": "时间和我一天做的事情配对。"
+    },
+    {
+     "id": "sx-c8-010",
+     "type": "judge",
+     "stem": "钟表不能帮助我们记录时间。",
+     "answer": false,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "钟表能告诉我们几点了，帮助我们记录时间、安排一天的事。"
+    },
+    {
+     "id": "sx-c8-011",
+     "type": "choice",
+     "stem": "钟面上分针指着 12，时针指着 8，是（　）时。",
+     "options": [
+      "9",
+      "12",
+      "7",
+      "8"
+     ],
+     "answer": 3,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "分针指着 12，时针指着几就是几时。"
+    },
+    {
+     "id": "sx-c8-012",
+     "type": "choice",
+     "stem": "早上 8 时，我们通常在做什么？",
+     "options": [
+      "睡觉",
+      "吃晚饭",
+      "看星星",
+      "上课"
+     ],
+     "answer": 3,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "早上 8 时是上课时间。"
+    },
+    {
+     "id": "sx-c8-013",
+     "type": "choice",
+     "stem": "钟面上分针指着 12，时针指着 1，是（　）时。",
+     "options": [
+      "2",
+      "1",
+      "12",
+      "11"
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "分针指 12，时针指 1，就是 1 时。"
+    },
+    {
+     "id": "sx-c8-014",
+     "type": "choice",
+     "stem": "钟面上又细又长的是（　）针。",
+     "options": [
+      "短",
+      "分",
+      "秒",
+      "时"
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "又细又长的是分针，又短又粗的是时针。"
+    },
+    {
+     "id": "sx-c8-015",
+     "type": "choice",
+     "stem": "我们吃中午饭大约是（　）。",
+     "options": [
+      "3 时",
+      "12 时",
+      "9 时",
+      "7 时"
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "中午 12 时左右吃午饭。"
+    },
+    {
+     "id": "sx-c8-016",
+     "type": "choice",
+     "stem": "看钟面：现在是几时？",
+     "options": [
+      "12 时",
+      "5 时",
+      "9 时",
+      "3 时"
+     ],
+     "answer": 3,
+     "imageUrl": "assets/svg/clock-3.svg",
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "分针指着 12，时针指着 3，就是 3 时。"
+    },
+    {
+     "id": "sx-c8-017",
+     "type": "choice",
+     "stem": "看钟面：现在是几时？",
+     "options": [
+      "12 时",
+      "7 时",
+      "5 时",
+      "8 时"
+     ],
+     "answer": 1,
+     "imageUrl": "assets/svg/clock-7.svg",
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "分针指着 12，时针指着 7，就是 7 时。"
+    },
+    {
+     "id": "sx-c8-018",
+     "type": "choice",
+     "stem": "看钟面：现在是几时？",
+     "options": [
+      "12 时",
+      "11 时",
+      "1 时",
+      "10 时"
+     ],
+     "answer": 1,
+     "imageUrl": "assets/svg/clock-11.svg",
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "分针指着 12，时针指着 11，就是 11 时。"
+    }
+   ]
+  },
+  {
+   "id": "sx-c9",
+   "title": "总复习",
+   "order": 9,
+   "questions": [
+    {
+     "id": "sx-c9-001",
+     "type": "choice",
+     "stem": "按顺序数：3、4、5、（　）、7。",
+     "options": [
+      "8",
+      "9",
+      "5",
+      "6"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "5 的后面是 6，6 的后面是 7。"
+    },
+    {
+     "id": "sx-c9-002",
+     "type": "choice",
+     "stem": "比 9 大 1 的数是几？",
+     "options": [
+      "10",
+      "8",
+      "11",
+      "9"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "9 再添上 1 就是 10。"
+    },
+    {
+     "id": "sx-c9-003",
+     "type": "choice",
+     "stem": "2 + 6 = ?",
+     "options": [
+      "8",
+      "6",
+      "9",
+      "7"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "2 再数 6 个：3、4、5、6、7、8，结果是 8。"
+    },
+    {
+     "id": "sx-c9-004",
+     "type": "choice",
+     "stem": "9 - 5 = ?",
+     "options": [
+      "5",
+      "4",
+      "3",
+      "14"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "9 去掉 5 个，还剩 4 个。"
+    },
+    {
+     "id": "sx-c9-005",
+     "type": "choice",
+     "stem": "10 - 10 = ?",
+     "options": [
+      "0",
+      "1",
+      "10",
+      "2"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "全都去掉了，一个也不剩，就是 0。"
+    },
+    {
+     "id": "sx-c9-006",
+     "type": "choice",
+     "stem": "下面哪个数最大？",
+     "options": [
+      "7",
+      "8",
+      "10",
+      "9"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "这几个数里 10 最大。"
+    },
+    {
+     "id": "sx-c9-007",
+     "type": "choice",
+     "stem": "小明有 6 颗糖，吃了 2 颗，还剩（　）颗。",
+     "options": [
+      "3",
+      "4",
+      "8",
+      "5"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "6 - 2 = 4，还剩 4 颗。"
+    },
+    {
+     "id": "sx-c9-008",
+     "type": "choice",
+     "stem": "下面哪一组都是学习用品？",
+     "options": [
+      "苹果、香蕉",
+      "铅笔、尺子",
+      "苹果、铅笔",
+      "香蕉、尺子"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "铅笔和尺子是学习用品；苹果、香蕉是水果。"
+    },
+    {
+     "id": "sx-c9-009",
+     "type": "choice",
+     "stem": "小熊在小兔的前面，小兔就在小熊的（　）面。",
+     "options": [
+      "前",
+      "左",
+      "后",
+      "右"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "一前一后：小熊在前面，小兔就在后面。"
+    },
+    {
+     "id": "sx-c9-010",
+     "type": "choice",
+     "stem": "哪个立体图形有 6 个平平的面，而且每个面都一样大？",
+     "options": [
+      "长方体",
+      "正方体",
+      "圆柱",
+      "球"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "正方体的 6 个面一样大，像魔方。"
+    },
+    {
+     "id": "sx-c9-011",
+     "type": "choice",
+     "stem": "钟面上分针指着 12，时针指着 4，是（　）时。",
+     "options": [
+      "5",
+      "3",
+      "12",
+      "4"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "分针指 12，时针指 4，就是 4 时。"
+    },
+    {
+     "id": "sx-c9-012",
+     "type": "choice",
+     "stem": "一盒彩笔有 10 支，用了 3 支，还剩（　）支。",
+     "options": [
+      "6",
+      "8",
+      "9",
+      "7"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "10 - 3 = 7，还剩 7 支。"
+    }
+   ]
+  }
+ ]
+}

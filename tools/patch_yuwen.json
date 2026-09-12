@@ -1,0 +1,488 @@
+{
+ "textbook": "人教版统编版（2024年修订）一年级上册",
+ "chapters_add": [
+  {
+   "id": "yw-c0",
+   "title": "我上学了（我是中国人 / 我爱我们的祖国 / 我是小学生 / 我爱学语文）",
+   "order": 0
+  }
+ ],
+ "fixes": {
+  "yw-c2-015": {
+   "__delete": true
+  },
+  "yw-c1-015": {
+   "stem": "“上”和“下”是一对意思相反的字。",
+   "explain": "上、下是相反的方向，就像课文里说的“天地分上下”。"
+  },
+  "yw-c1-009": {
+   "stem": "“金木水火土”中没有一个“木”字。",
+   "answer": false,
+   "explain": "金、木、水、火、土，第二个字就是“木”，所以这句话不对。"
+  },
+  "yw-c1-010": {
+   "stem": "“三”表示数字 4。",
+   "answer": false,
+   "explain": "“三”表示数字 3，不是 4。"
+  },
+  "yw-c2-011": {
+   "stem": "“b”是韵母，“p”是声母。",
+   "answer": false,
+   "explain": "b 和 p 都是声母；韵母是 a、o、e、i、u、ü 这些。"
+  },
+  "yw-c3-013": {
+   "stem": "zh、ch、sh、r 都是平舌音。",
+   "answer": false,
+   "explain": "zh、ch、sh、r 是翘舌音，z、c、s 才是平舌音。"
+  },
+  "yw-c4-015": {
+   "stem": "ang、eng、ing、ong 都是前鼻韵母。",
+   "answer": false,
+   "explain": "它们结尾都是 ng，是后鼻韵母；结尾是 n 的才是前鼻韵母。"
+  },
+  "yw-c6-013": {
+   "stem": "三“木”就是“林”。",
+   "answer": false,
+   "explain": "二木才是“林”，三木是“森”。"
+  },
+  "yw-c8-012": {
+   "stem": "《乌鸦喝水》里，乌鸦最后没有喝到水。",
+   "answer": false,
+   "explain": "乌鸦把小石子一个一个放进瓶子，水升高了，最后喝到了水。"
+  }
+ },
+ "pinyin_force": {
+  "yw-c8-009": {
+   "stemPinyin": "yǔ diǎn r lǐ yǔ diǎn r cóng piāo luò xià lái"
+  },
+  "yw-c8-010": {
+   "stemPinyin": "yǔ diǎn r lǐ shuō yǔ diǎn r"
+  }
+ },
+ "add": {
+  "yw-c0": [
+   {
+    "type": "choice",
+    "stem": "我们是（　）人。",
+    "options": [
+     "中国",
+     "美国",
+     "法国",
+     "德国"
+    ],
+    "answer": 0,
+    "explain": "我们是中国人，我们的祖国叫中国。"
+   },
+   {
+    "type": "judge",
+    "stem": "我们的祖国是中国。",
+    "answer": true,
+    "explain": "我们的祖国叫中国，我们都是中国人。"
+   },
+   {
+    "type": "choice",
+    "stem": "语文课上，我们主要学（　）。",
+    "options": [
+     "认字、读书",
+     "数数、算题",
+     "跑步、跳远",
+     "画画、做手工"
+    ],
+    "answer": 0,
+    "explain": "语文课上学认字、读课文；数数是数学课的内容。"
+   },
+   {
+    "type": "judge",
+    "stem": "成为小学生以后，我们要按时到校上课。",
+    "answer": true,
+    "explain": "小学生要按时上学，认真听讲。"
+   },
+   {
+    "type": "match",
+    "pairs": [
+     {
+      "left": "我",
+      "right": "wǒ"
+     },
+     {
+      "left": "是",
+      "right": "shì"
+     },
+     {
+      "left": "小",
+      "right": "xiǎo"
+     },
+     {
+      "left": "学",
+      "right": "xué"
+     }
+    ],
+    "explain": "这四个字连起来就是“我是小学”。"
+   }
+  ],
+  "yw-c1": [
+   {
+    "type": "choice",
+    "stem": "“六”的读音是？",
+    "options": [
+     "liù",
+     "liú",
+     "niù",
+     "liū"
+    ],
+    "answer": 0,
+    "explain": "“六”读 liù，是第四声。"
+   },
+   {
+    "type": "choice",
+    "stem": "数字 8 用汉字写是？",
+    "options": [
+     "八",
+     "入",
+     "人",
+     "大"
+    ],
+    "answer": 0,
+    "explain": "数字 8 的汉字是“八”，读 bā。"
+   },
+   {
+    "type": "choice",
+    "stem": "“山川”的“川”指的是（　）。",
+    "options": [
+     "河流",
+     "大山",
+     "天空",
+     "田地"
+    ],
+    "answer": 0,
+    "explain": "“川”指河流，“山川”就是山和河流。"
+   },
+   {
+    "type": "choice",
+    "stem": "“山”字的第一笔是（　）。",
+    "options": [
+     "竖",
+     "竖折",
+     "横",
+     "撇"
+    ],
+    "answer": 0,
+    "explain": "“山”的笔顺是：先写中间的竖，再写竖折，最后写竖。"
+   },
+   {
+    "type": "choice",
+    "stem": "“禾”指的是（　）。",
+    "options": [
+     "谷类庄稼",
+     "水",
+     "火",
+     "大山"
+    ],
+    "answer": 0,
+    "explain": "“禾”指谷类庄稼，像田里的禾苗。"
+   }
+  ],
+  "yw-c2": [
+   {
+    "type": "choice",
+    "stem": "“大”的拼音是 dà，它的声母是（　）。",
+    "options": [
+     "d",
+     "t",
+     "b",
+     "p"
+    ],
+    "answer": 0,
+    "explain": "dà 的声母是 d，不是 t。"
+   },
+   {
+    "type": "choice",
+    "stem": "“土”的拼音是（　）。",
+    "options": [
+     "tǔ",
+     "tú",
+     "dǔ",
+     "tù"
+    ],
+    "answer": 0,
+    "explain": "“土”读 tǔ，第三声。"
+   },
+   {
+    "type": "judge",
+    "stem": "“u”和“ü”是两个不同的单韵母。",
+    "answer": true,
+    "explain": "u 读“乌”，ü 读“迂”，ü 头上两点不能丢。"
+   }
+  ],
+  "yw-c3": [
+   {
+    "type": "choice",
+    "stem": "“王”的拼音是（　）。",
+    "options": [
+     "wáng",
+     "wǎng",
+     "wāng",
+     "máng"
+    ],
+    "answer": 0,
+    "explain": "“王”读 wáng，第二声。"
+   },
+   {
+    "type": "choice",
+    "stem": "“鸭”的拼音是（　）。",
+    "options": [
+     "yā",
+     "yiā",
+     "yuā",
+     "ā"
+    ],
+    "answer": 0,
+    "explain": "“鸭”读 yā，声母是 y。"
+   },
+   {
+    "type": "choice",
+    "stem": "“乌”的拼音是（　）。",
+    "options": [
+     "wū",
+     "wú",
+     "wǔ",
+     "ū"
+    ],
+    "answer": 0,
+    "explain": "“乌”读 wū，第一声，像“乌鸦”的乌。"
+   }
+  ],
+  "yw-c4": [
+   {
+    "type": "choice",
+    "stem": "“牛”的拼音是（　）。",
+    "options": [
+     "niú",
+     "liú",
+     "niù",
+     "niū"
+    ],
+    "answer": 0,
+    "explain": "“牛”读 niú，声母是 n，不是 l。"
+   },
+   {
+    "type": "choice",
+    "stem": "“羊”的拼音是（　）。",
+    "options": [
+     "yáng",
+     "yǎng",
+     "yāng",
+     "xiáng"
+    ],
+    "answer": 0,
+    "explain": "“羊”读 yáng，第二声。"
+   },
+   {
+    "type": "judge",
+    "stem": "“er”可以自己单独做一个音节，比如“儿”。",
+    "answer": true,
+    "explain": "er 是特殊的卷舌韵母，能单独成为音节，读“儿”。"
+   }
+  ],
+  "yw-c5": [
+   {
+    "type": "choice",
+    "stem": "《秋天》里说，天气凉了，树叶（　）。",
+    "options": [
+     "黄了",
+     "绿了",
+     "红了",
+     "没了"
+    ],
+    "answer": 0,
+    "explain": "“天气凉了，树叶黄了。”秋天树叶会变黄。"
+   },
+   {
+    "type": "choice",
+    "stem": "《江南》里说，“江南可采（　）”。",
+    "options": [
+     "莲",
+     "花",
+     "果",
+     "菜"
+    ],
+    "answer": 0,
+    "explain": "“江南可采莲，莲叶何田田。”采的是莲。"
+   },
+   {
+    "type": "choice",
+    "stem": "《四季》里，对小鸟说“我是春天”的是（　）。",
+    "options": [
+     "草芽",
+     "荷叶",
+     "谷穗",
+     "雪人"
+    ],
+    "answer": 0,
+    "explain": "草芽尖尖，他对小鸟说：“我是春天。”"
+   },
+   {
+    "type": "match",
+    "pairs": [
+     {
+      "left": "《秋天》",
+      "right": "树叶黄了"
+     },
+     {
+      "left": "《江南》",
+      "right": "采莲"
+     },
+     {
+      "left": "《雪地里的小画家》",
+      "right": "脚印画画"
+     },
+     {
+      "left": "《四季》",
+      "right": "草芽荷叶"
+     }
+    ],
+    "explain": "把每篇课文和它写的内容连起来。"
+   }
+  ],
+  "yw-c6": [
+   {
+    "type": "choice",
+    "stem": "《对韵歌》里，“鸟”对（　）。",
+    "options": [
+     "虫",
+     "花",
+     "树",
+     "云"
+    ],
+    "answer": 0,
+    "explain": "“花对树，鸟对虫”，鸟和虫是一对。"
+   },
+   {
+    "type": "choice",
+    "stem": "“人”加上“人”，再加上一个“人”，是什么字？",
+    "options": [
+     "众",
+     "从",
+     "森",
+     "品"
+    ],
+    "answer": 0,
+    "explain": "“三人众”，三个人合起来就是“众”。"
+   },
+   {
+    "type": "choice",
+    "stem": "下面哪一样不是《小书包》里的学习用品？",
+    "options": [
+     "玩具熊",
+     "橡皮",
+     "尺子",
+     "铅笔"
+    ],
+    "answer": 0,
+    "explain": "小书包里装的是橡皮、尺子、铅笔这些学习用品，玩具熊不是。"
+   }
+  ],
+  "yw-c7": [
+   {
+    "type": "choice",
+    "stem": "《影子》里，影子是“我”的（　）。",
+    "options": [
+     "好朋友",
+     "坏朋友",
+     "老师",
+     "妈妈"
+    ],
+    "answer": 0,
+    "explain": "“影子常常陪着我，它是我的好朋友。”"
+   },
+   {
+    "type": "choice",
+    "stem": "《两件宝》告诉我们，双手和大脑要（　）。",
+    "options": [
+     "一起用",
+     "只用一样",
+     "都不用",
+     "只用双手"
+    ],
+    "answer": 0,
+    "explain": "“用手又用脑，才能有创造。”双手和大脑要一起用。"
+   },
+   {
+    "type": "match",
+    "pairs": [
+     {
+      "left": "弯",
+      "right": "直"
+     },
+     {
+      "left": "前",
+      "right": "后"
+     },
+     {
+      "left": "上",
+      "right": "下"
+     }
+    ],
+    "explain": "把意思相反的两个字配成一对。"
+   }
+  ],
+  "yw-c8": [
+   {
+    "type": "choice",
+    "stem": "《比尾巴》里，谁的尾巴最好看？",
+    "options": [
+     "孔雀",
+     "猴子",
+     "松鼠",
+     "公鸡"
+    ],
+    "answer": 0,
+    "explain": "“孔雀的尾巴最好看。”"
+   },
+   {
+    "type": "choice",
+    "stem": "《乌鸦喝水》里，乌鸦想了什么办法喝到水？",
+    "options": [
+     "把小石子放进瓶子",
+     "把瓶子推倒",
+     "请别人帮忙",
+     "等下雨"
+    ],
+    "answer": 0,
+    "explain": "乌鸦把小石子一个一个放进瓶子，水渐渐升高，就喝着水了。"
+   },
+   {
+    "type": "choice",
+    "stem": "《雨点儿》里，小雨点儿要去（　）。",
+    "options": [
+     "有花有草的地方",
+     "没有花没有草的地方",
+     "大海里",
+     "山顶上"
+    ],
+    "answer": 0,
+    "explain": "小雨点儿说要去有花有草的地方，大雨点儿要去没有花没有草的地方。"
+   },
+   {
+    "type": "judge",
+    "stem": "《比尾巴》里，鸭子的尾巴弯。",
+    "answer": false,
+    "explain": "鸭子的尾巴是“扁”的，尾巴“弯”的是公鸡。"
+   }
+  ]
+ },
+ "pinyin_rules": [
+  {
+   "from": "shéi",
+   "to": "shuí"
+  },
+  {
+   "from": "shǔ shù",
+   "to": "shǔ shǔ"
+  },
+  {
+   "from": "ba zhǎng",
+   "to": "ba cháng"
+  }
+ ]
+}
