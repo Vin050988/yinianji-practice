@@ -1,8 +1,11 @@
 /* 一年级练习 App · Service Worker
- * 策略：核心资源预缓存 + 运行时懒缓存（cache-first，网络兜底）。
- * 断网时仍可进入并答题（题目数据在 data/*.json，首次加载后即被缓存）。
+ *
+ * 缓存策略：network-first（网络优先）
+ *   - 联网时总是取最新文件 → 在 Mac 上改完并 push 后，iPad 刷新一次即可拿到新版
+ *   - 断网时回退到缓存 → 仍能进入并答题（前提：联网打开过一次）
  */
-const VERSION = 'ypApp-v1.1.2';
+const VERSION = 'ypApp-v1.1.3';
+
 const CORE = [
   './',
   './index.html',
@@ -25,7 +28,7 @@ const CORE = [
 self.addEventListener('install', (e) => {
   e.waitUntil(
     caches.open(VERSION)
-      // 单个资源失败不影响整体安装（例如图片缺失）
+      // 单个资源失败不影响整体安装（例如某张图片缺失）
       .then((c) => Promise.all(CORE.map((u) => c.add(u).catch(() => null))))
       .then(() => self.skipWaiting())
   );
@@ -42,22 +45,23 @@ self.addEventListener('activate', (e) => {
 self.addEventListener('fetch', (e) => {
   const req = e.request;
   if (req.method !== 'GET' || !req.url.startsWith(self.location.origin)) return;
+
   e.respondWith(
-    caches.match(req).then((hit) => {
-      if (hit) {
-        // 后台更新，下次生效
-        fetch(req).then((res) => {
-          if (res && res.ok) caches.open(VERSION).then((c) => c.put(req, res.clone()));
-        }).catch(() => null);
-        return hit;
-      }
-      return fetch(req).then((res) => {
+    fetch(req)
+      .then((res) => {
         if (res && res.ok) {
           const copy = res.clone();
           caches.open(VERSION).then((c) => c.put(req, copy));
         }
         return res;
-      }).catch(() => caches.match('./index.html'));
-    })
+      })
+      .catch(() => {
+        // 断网兜底：先用缓存；打开页面这一请求找不到就回到首页
+        return caches.match(req).then((hit) => {
+          if (hit) return hit;
+          if (req.mode === 'navigate') return caches.match('./index.html');
+          return Response.error();
+        });
+      })
   );
 });
