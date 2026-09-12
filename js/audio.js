@@ -2,6 +2,11 @@
  * 音效：Web Audio 现场合成，不需要素材文件。
  * 语音：Web Speech API 中文朗读；不可用时静默降级（题目仍可正常作答）。
  * 注意：iOS 要求首次交互后才能播放，ensure() 在第一次点击时调用。
+ *
+ * 朗读前会把题目转成「口语文本」（见 toSpeech）：
+ *   中文语音引擎会把算式里的 "-" 读成“至”、把 "（　）" 念成“括号”、
+ *   把书名号引号也念出来，所以先把这些符号换成汉字/停顿再读，
+ *   例如 "5 - 3 = ?" 会读成「5 减 3 等于 多少」。
  */
 window.Sound = (function () {
   var ctx = null;
@@ -58,9 +63,34 @@ window.Speak = (function () {
   var ok = typeof window.speechSynthesis !== 'undefined' && typeof window.SpeechSynthesisUtterance !== 'undefined';
   var lastText = '', lastAt = 0;
 
+  /** 题目文本 → 适合朗读的口语文本（修掉 TTS 念符号的毛病） */
+  function toSpeech(text) {
+    return String(text == null ? '' : text)
+      // 书名号、引号：直接去掉，别念出来
+      .replace(/[《》〈〉]/g, '')
+      .replace(/[“”"'‘’]/g, '')
+      // 填空用的空括号 → 读“多少”
+      .replace(/[（(]\s*[）)]/g, '多少')
+      // 其余括号 → 变成停顿
+      .replace(/[（(]/g, '，').replace(/[）)]/g, '，')
+      // 运算符：中文 TTS 会把 "-" 读成“至/杠”，必须换成汉字
+      .replace(/[-−–—]/g, ' 减 ')
+      .replace(/[+＋]/g, ' 加 ')
+      .replace(/[=＝]/g, ' 等于 ')
+      .replace(/[×✕]/g, ' 乘 ')
+      .replace(/÷/g, ' 除以 ')
+      // 问号：有些引擎会念“问号”，改成停顿
+      .replace(/[?？]/g, '，')
+      // 清理重复标点与多余空格
+      .replace(/，{2,}/g, '，')
+      .replace(/\s*，\s*/g, '，')
+      .replace(/\s{2,}/g, ' ')
+      .trim();
+  }
+
   function say(text, enabled) {
     if (!enabled || !ok || !text) return false;
-    var t = String(text).trim();
+    var t = toSpeech(text);
     if (!t) return false;
     var now = Date.now();
     if (t === lastText && now - lastAt < 1200) return false;   // 防抖
@@ -77,5 +107,5 @@ window.Speak = (function () {
   }
   function stop() { if (ok) { try { window.speechSynthesis.cancel(); } catch (e) {} } }
 
-  return { say: say, stop: stop, available: ok };
+  return { say: say, stop: stop, available: ok, toSpeech: toSpeech };
 })();
