@@ -6,7 +6,7 @@
 ## 一、准备
 
 - iPad 连着 Wi-Fi（能上网即可）；
-- 站点地址：**https://<你的用户名>.github.io/yinianji-practice/**（部署完成后填这里）
+- 站点地址：**https://vin050988.github.io/yinianji-practice/**（直接复制到 iPad 的 Safari 打开）
 
 ## 二、添加到主屏幕（只需做一次）
 
