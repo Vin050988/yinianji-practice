@@ -76,6 +76,8 @@ window.Speak = (function () {
       // 运算符：中文 TTS 会把 "-" 读成“至/杠”，必须换成汉字
       .replace(/[-−–—]/g, ' 减 ')
       .replace(/[+＋]/g, ' 加 ')
+      // 口算题常见的 "= ?" 直接读成「等于多少」，比「等于，问号」自然
+      .replace(/[=＝]\s*[?？]/g, '等于多少')
       .replace(/[=＝]/g, ' 等于 ')
       .replace(/[×✕]/g, ' 乘 ')
       .replace(/÷/g, ' 除以 ')
@@ -85,6 +87,7 @@ window.Speak = (function () {
       .replace(/，{2,}/g, '，')
       .replace(/\s*，\s*/g, '，')
       .replace(/\s{2,}/g, ' ')
+      .replace(/[，,]\s*$/, '')      // 去掉结尾多余的停顿
       .trim();
   }
 
