@@ -29,7 +29,7 @@ try {
 Write-Host "==============================================" -ForegroundColor Green
 Write-Host "  一年级练习 已启动"
 Write-Host "  本机浏览:  http://localhost:$port"
-Write-Host "  iPad 浏览: http://$ip:$port" -ForegroundColor Cyan
+Write-Host "  iPad 浏览: http://${ip}:$port" -ForegroundColor Cyan
 Write-Host "  iPad 连同一个 WiFi，Safari 打开后添加到主屏幕"
 Write-Host "  关闭本窗口即停止"
 Write-Host "==============================================" -ForegroundColor Green
