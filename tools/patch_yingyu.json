@@ -1,0 +1,468 @@
+{
+  "chapters_add": [
+    {
+      "id": "yy-p1",
+      "title": "Project 1 综合复习（Unit 1–3：家人·感受·文具）",
+      "order": 7
+    },
+    {
+      "id": "yy-p2",
+      "title": "Project 2 综合复习（Unit 4–6：能力·动物·颜色）",
+      "order": 8
+    },
+    {
+      "id": "yy-dx",
+      "title": "Daily expressions 日常用语",
+      "order": 9
+    }
+  ],
+  "add": {
+    "yy-p1": [
+      {
+        "type": "choice",
+        "stem": "“爸爸”的英文是？",
+        "options": [
+          "dad",
+          "mum",
+          "sister",
+          "brother"
+        ],
+        "answer": 0,
+        "explain": "dad 是爸爸，mum 是妈妈。"
+      },
+      {
+        "type": "choice",
+        "stem": "“sister” 指的是？",
+        "options": [
+          "姐妹",
+          "兄弟",
+          "爷爷",
+          "奶奶"
+        ],
+        "answer": 0,
+        "explain": "sister 是姐姐或妹妹。"
+      },
+      {
+        "type": "choice",
+        "stem": "你又饿又渴，应该怎么说？",
+        "options": [
+          "I'm hungry and thirsty.",
+          "I'm fine.",
+          "I'm a boy.",
+          "It's red."
+        ],
+        "answer": 0,
+        "explain": "hungry 饿，thirsty 渴。"
+      },
+      {
+        "type": "choice",
+        "stem": "别人问 “How are you today?”，你可以回答？",
+        "options": [
+          "I'm happy.",
+          "It's a pencil.",
+          "This is my dad.",
+          "I can sing."
+        ],
+        "answer": 0,
+        "explain": "问身体/心情，就用 I'm + 感受 来回答。"
+      },
+      {
+        "type": "choice",
+        "stem": "“铅笔盒”的英文是？",
+        "options": [
+          "pencil case",
+          "school bag",
+          "eraser",
+          "ruler"
+        ],
+        "answer": 0,
+        "explain": "pencil case 铅笔盒，school bag 是书包。"
+      },
+      {
+        "type": "choice",
+        "stem": "“How many erasers?” 问的是什么？",
+        "options": [
+          "有多少块橡皮",
+          "橡皮是什么颜色",
+          "这是谁的橡皮",
+          "橡皮在哪里"
+        ],
+        "answer": 0,
+        "explain": "How many 用来问数量。"
+      },
+      {
+        "type": "judge",
+        "stem": "“ruler” 是尺子的意思。",
+        "answer": true,
+        "explain": "ruler 就是尺子。"
+      },
+      {
+        "type": "judge",
+        "stem": "“How many” 是用来问颜色的。",
+        "answer": false,
+        "explain": "问颜色要用 What colour，How many 问的是数量。"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          {
+            "left": "dad",
+            "right": "爸爸"
+          },
+          {
+            "left": "mum",
+            "right": "妈妈"
+          },
+          {
+            "left": "thirsty",
+            "right": "渴"
+          },
+          {
+            "left": "pencil",
+            "right": "铅笔"
+          }
+        ],
+        "explain": "把 Unit 1–3 的重点单词配上中文。"
+      },
+      {
+        "type": "listen",
+        "stem": "This is my mum.",
+        "tts": true,
+        "options": [
+          "这是我妈妈",
+          "这是我爸爸",
+          "这是我姐姐",
+          "这是我爷爷"
+        ],
+        "answer": 0,
+        "explain": "This is my mum. 这是我妈妈。"
+      }
+    ],
+    "yy-p2": [
+      {
+        "type": "choice",
+        "stem": "“I can draw a bird.” 是什么意思？",
+        "options": [
+          "我会画一只鸟",
+          "我会唱一首歌",
+          "我会骑自行车",
+          "我会跳舞"
+        ],
+        "answer": 0,
+        "explain": "draw 画，bird 鸟。"
+      },
+      {
+        "type": "choice",
+        "stem": "你想说“我会跳舞”，应该说？",
+        "options": [
+          "I can dance.",
+          "I can sing.",
+          "I can read.",
+          "I can draw."
+        ],
+        "answer": 0,
+        "explain": "dance 跳舞，sing 唱歌。"
+      },
+      {
+        "type": "choice",
+        "stem": "“猫”的英文是？",
+        "options": [
+          "cat",
+          "dog",
+          "bird",
+          "fish"
+        ],
+        "answer": 0,
+        "explain": "cat 猫，dog 狗。"
+      },
+      {
+        "type": "choice",
+        "stem": "“It's blue.” 说的是什么颜色？",
+        "options": [
+          "蓝色",
+          "红色",
+          "黄色",
+          "绿色"
+        ],
+        "answer": 0,
+        "explain": "blue 蓝色，red 红色。"
+      },
+      {
+        "type": "choice",
+        "stem": "“favourite” 的意思是？",
+        "options": [
+          "最喜欢的",
+          "很开心的",
+          "很大的",
+          "很冷的"
+        ],
+        "answer": 0,
+        "explain": "favourite 最喜欢的。"
+      },
+      {
+        "type": "choice",
+        "stem": "别人问 “What's that?”，你应该怎么回答？",
+        "options": [
+          "用 “It's a …” 回答",
+          "用 “I'm …” 回答",
+          "用 “My name is …” 回答",
+          "用 “How many …” 回答"
+        ],
+        "answer": 0,
+        "explain": "问“那是什么”，回答用 It's a …。"
+      },
+      {
+        "type": "judge",
+        "stem": "“ride a bike” 是骑自行车的意思。",
+        "answer": true,
+        "explain": "ride a bike 骑自行车。"
+      },
+      {
+        "type": "judge",
+        "stem": "“What colour is it?” 是在问“那是什么”。",
+        "answer": false,
+        "explain": "What colour 问的是颜色。"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          {
+            "left": "sing",
+            "right": "唱歌"
+          },
+          {
+            "left": "cat",
+            "right": "猫"
+          },
+          {
+            "left": "red",
+            "right": "红色"
+          },
+          {
+            "left": "bird",
+            "right": "鸟"
+          }
+        ],
+        "explain": "把 Unit 4–6 的重点单词配上中文。"
+      },
+      {
+        "type": "listen",
+        "stem": "It's a yellow kite.",
+        "tts": true,
+        "options": [
+          "它是一只黄色的风筝",
+          "它是一只红色的风筝",
+          "它是一只蓝色的风筝",
+          "它是一只绿色的风筝"
+        ],
+        "answer": 0,
+        "explain": "yellow 黄色，kite 风筝。"
+      }
+    ],
+    "yy-dx": [
+      {
+        "type": "choice",
+        "stem": "早上见到老师，应该说什么？",
+        "options": [
+          "Good morning!",
+          "Good night!",
+          "Goodbye!",
+          "I'm sorry!"
+        ],
+        "answer": 0,
+        "explain": "早上打招呼说 Good morning!。"
+      },
+      {
+        "type": "choice",
+        "stem": "放学和同学分开时，应该说什么？",
+        "options": [
+          "Goodbye!",
+          "Good morning!",
+          "Thank you!",
+          "You're welcome!"
+        ],
+        "answer": 0,
+        "explain": "分别时说 Goodbye!。"
+      },
+      {
+        "type": "choice",
+        "stem": "别人对你说 “Thank you!”，你可以回答？",
+        "options": [
+          "You're welcome.",
+          "I'm sorry.",
+          "Good night.",
+          "Hello."
+        ],
+        "answer": 0,
+        "explain": "别人道谢，回答 You're welcome.（不用谢）。"
+      },
+      {
+        "type": "choice",
+        "stem": "你做错事了，应该说？",
+        "options": [
+          "I'm sorry.",
+          "Thank you.",
+          "Good morning.",
+          "You're welcome."
+        ],
+        "answer": 0,
+        "explain": "做错事要说 I'm sorry.。"
+      },
+      {
+        "type": "choice",
+        "stem": "别人问 “What's your name?”，你应该回答？",
+        "options": [
+          "My name is …",
+          "I'm fine.",
+          "It's red.",
+          "Yes, I can."
+        ],
+        "answer": 0,
+        "explain": "问名字，用 My name is … 回答。"
+      },
+      {
+        "type": "choice",
+        "stem": "别人帮了你，你应该说什么？",
+        "options": [
+          "Thank you!",
+          "Sorry!",
+          "Goodbye!",
+          "Good night!"
+        ],
+        "answer": 0,
+        "explain": "得到帮助要说 Thank you!。"
+      },
+      {
+        "type": "judge",
+        "stem": "“Good night!” 是晚上睡觉前说的话。",
+        "answer": true,
+        "explain": "Good night! 晚安，睡前说。"
+      },
+      {
+        "type": "judge",
+        "stem": "“Hello!” 和 “Hi!” 都可以用来打招呼。",
+        "answer": true,
+        "explain": "两个都是打招呼的话。"
+      },
+      {
+        "type": "match",
+        "pairs": [
+          {
+            "left": "Good morning",
+            "right": "早上好"
+          },
+          {
+            "left": "Thank you",
+            "right": "谢谢"
+          },
+          {
+            "left": "Goodbye",
+            "right": "再见"
+          },
+          {
+            "left": "Sorry",
+            "right": "对不起"
+          }
+        ],
+        "explain": "把日常用语配上中文。"
+      },
+      {
+        "type": "listen",
+        "stem": "Good morning!",
+        "tts": true,
+        "options": [
+          "早上好",
+          "晚安",
+          "谢谢",
+          "再见"
+        ],
+        "answer": 0,
+        "explain": "Good morning! 早上好。"
+      }
+    ],
+    "yy-u3": [
+      {
+        "type": "choice",
+        "stem": "看图片，这个学习用品的英文是？",
+        "imageUrl": "assets/svg/en-pencil.svg",
+        "options": [
+          "pencil",
+          "ruler",
+          "eraser",
+          "bag"
+        ],
+        "answer": 0,
+        "explain": "这是铅笔 pencil。"
+      },
+      {
+        "type": "choice",
+        "stem": "看图片，这个学习用品的英文是？",
+        "imageUrl": "assets/svg/en-bag.svg",
+        "options": [
+          "bag",
+          "pencil case",
+          "ruler",
+          "crayon"
+        ],
+        "answer": 0,
+        "explain": "这是书包 bag。"
+      }
+    ],
+    "yy-u5": [
+      {
+        "type": "choice",
+        "stem": "看图片，这个动物的英文是？",
+        "imageUrl": "assets/svg/en-dog.svg",
+        "options": [
+          "dog",
+          "cat",
+          "bird",
+          "fish"
+        ],
+        "answer": 0,
+        "explain": "这是小狗 dog。"
+      },
+      {
+        "type": "choice",
+        "stem": "看图片，这个动物的英文是？",
+        "imageUrl": "assets/svg/en-cat.svg",
+        "options": [
+          "cat",
+          "dog",
+          "bird",
+          "fish"
+        ],
+        "answer": 0,
+        "explain": "这是小猫 cat。"
+      }
+    ],
+    "yy-u6": [
+      {
+        "type": "choice",
+        "stem": "看图片，这是什么颜色？",
+        "imageUrl": "assets/svg/en-red.svg",
+        "options": [
+          "red",
+          "blue",
+          "yellow",
+          "green"
+        ],
+        "answer": 0,
+        "explain": "这是红色 red。"
+      },
+      {
+        "type": "choice",
+        "stem": "看图片，这是什么颜色？",
+        "imageUrl": "assets/svg/en-blue.svg",
+        "options": [
+          "blue",
+          "red",
+          "black",
+          "white"
+        ],
+        "answer": 0,
+        "explain": "这是蓝色 blue。"
+      }
+    ]
+  }
+}

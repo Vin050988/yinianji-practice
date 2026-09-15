@@ -97,6 +97,7 @@ html, body {
 .subject-card:active { transform: translateY(2px); }
 .sub-yuwen { border-color: #a5d6a7; background: linear-gradient(180deg, #f6fbf6, #fff); }
 .sub-shuxue { border-color: #90caf9; background: linear-gradient(180deg, #f4f9ff, #fff); }
+.sub-yingyu { border-color: #ffcc80; background: linear-gradient(180deg, #fffaf2, #fff); }
 .subject-emoji { font-size: 56px; line-height: 1; }
 .subject-name { font-size: 32px; font-weight: 800; }
 .subject-today { font-size: 20px; color: var(--ink-soft); }

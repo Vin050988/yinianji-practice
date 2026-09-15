@@ -68,7 +68,7 @@ window.Speak = (function () {
     return String(text == null ? '' : text)
       // 书名号、引号：直接去掉，别念出来
       .replace(/[《》〈〉]/g, '')
-      .replace(/[“”"'‘’]/g, '')
+      .replace(/[“”‘’"]/g, '')      // 只去中文引号和双引号，保留英文单引号（I'm）
       // 填空用的空括号 → 读“多少”
       .replace(/[（(]\s*[）)]/g, '多少')
       // 其余括号 → 变成停顿
@@ -91,7 +91,7 @@ window.Speak = (function () {
       .trim();
   }
 
-  function say(text, enabled) {
+  function say(text, enabled, lang) {
     if (!enabled || !ok || !text) return false;
     var t = toSpeech(text);
     if (!t) return false;
@@ -101,7 +101,7 @@ window.Speak = (function () {
     try {
       window.speechSynthesis.cancel();
       var u = new window.SpeechSynthesisUtterance(t);
-      u.lang = 'zh-CN';
+      u.lang = lang || 'zh-CN';    // 英语题干传 'en-US'，否则用中文语音
       u.rate = 0.92;
       u.pitch = 1.05;
       window.speechSynthesis.speak(u);

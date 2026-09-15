@@ -96,6 +96,14 @@ window.Engine = (function () {
     return null;   // 极端情况下放弃该题
   }
 
+  /** 选项归一化：把 {text,imageUrl} 形式统一成字符串（英语 listen 题会用到） */
+  function normOptions(raw) {
+    return (raw || []).map(function (o) {
+      if (o && typeof o === 'object') return String(o.text || '');
+      return String(o);
+    });
+  }
+
   /** 把题库里的一道题转成统一的渲染结构 */
   function toItem(q, chapterId, subject, used) {
     if (q.type === 'arith') return makeArith(q, used);
@@ -111,7 +119,7 @@ window.Engine = (function () {
       return {
         id: q.id, qid: q.id, chapterId: chapterId, type: 'judge',
         stem: q.stem, stemPinyin: q.stemPinyin, imageUrl: q.imageUrl,
-        options: ['对', '错'],
+        options: ['对', '错'], optionImages: [],
         optionsPinyin: ['duì', 'cuò'],
         correctIndex: q.answer ? 0 : 1,
         explain: q.explain || '', difficulty: q.difficulty, subject: subject
@@ -121,7 +129,8 @@ window.Engine = (function () {
     return {
       id: q.id, qid: q.id, chapterId: chapterId, type: q.type,
       stem: q.stem, stemPinyin: q.stemPinyin, imageUrl: q.imageUrl,
-      options: q.options || [], optionsPinyin: q.optionsPinyin || [],
+      options: normOptions(q.options), optionsPinyin: q.optionsPinyin || [],
+      optionImages: q.optionImages || [],
       correctIndex: q.answer,
       explain: q.explain || '', difficulty: q.difficulty, subject: subject
     };

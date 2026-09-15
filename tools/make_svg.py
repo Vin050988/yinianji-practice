@@ -106,6 +106,81 @@ def pattern(kind):
     return wrap(''.join(s), 248, 240)
 
 
+def _shadow():
+    return '<ellipse cx="120" cy="212" rx="70" ry="10" fill="#e0e6e9"/>'
+
+
+def dog():
+    """小狗（正面头像）"""
+    p = [_shadow(),
+         '<ellipse cx="74" cy="96" rx="20" ry="42" fill="#a9743f" transform="rotate(-18 74 96)"/>',
+         '<ellipse cx="166" cy="96" rx="20" ry="42" fill="#a9743f" transform="rotate(18 166 96)"/>',
+         '<circle cx="120" cy="118" r="62" fill="#d7a86e"/>',
+         '<ellipse cx="120" cy="146" rx="30" ry="24" fill="#f3ddc4"/>',
+         '<circle cx="98" cy="104" r="8" fill="%s"/>' % INK,
+         '<circle cx="142" cy="104" r="8" fill="%s"/>' % INK,
+         '<ellipse cx="120" cy="136" rx="13" ry="10" fill="%s"/>' % INK,
+         '<path d="M120 146 v10 M120 156 q-12 10 -22 0 M120 156 q12 10 22 0" fill="none" stroke="%s" stroke-width="4" stroke-linecap="round"/>' % INK]
+    return wrap(''.join(p))
+
+
+def cat():
+    """小猫（正面头像）"""
+    p = [_shadow(),
+         '<polygon points="70,78 84,30 118,62" fill="#e0a43a"/>',
+         '<polygon points="170,78 156,30 122,62" fill="#e0a43a"/>',
+         '<circle cx="120" cy="120" r="62" fill="#f2c14e"/>',
+         '<ellipse cx="120" cy="148" rx="28" ry="20" fill="#fdf0d0"/>',
+         '<circle cx="98" cy="108" r="8" fill="%s"/>' % INK,
+         '<circle cx="142" cy="108" r="8" fill="%s"/>' % INK,
+         '<polygon points="120,132 112,126 128,126" fill="#ef9a9a"/>',
+         '<path d="M120 132 v8" stroke="%s" stroke-width="4" stroke-linecap="round"/>' % INK,
+         '<path d="M60 132 h26 M60 144 h26 M154 132 h26 M154 144 h26" stroke="%s" stroke-width="3" stroke-linecap="round"/>' % SOFT]
+    return wrap(''.join(p))
+
+
+def pencil():
+    """铅笔"""
+    p = ['<polygon points="120,26 146,72 94,72" fill="#ffe0b2"/>',
+         '<polygon points="120,26 128,40 112,40" fill="#4e342e"/>',
+         '<rect x="94" y="70" width="52" height="118" fill="#fdd835"/>',
+         '<rect x="94" y="70" width="16" height="118" fill="#fbc02d"/>',
+         '<rect x="94" y="188" width="52" height="22" fill="#ef9a9a"/>',
+         '<rect x="94" y="204" width="52" height="12" rx="6" fill="#b0bec5"/>',
+         '<circle cx="120" cy="150" r="7" fill="#f9a825"/>']
+    return wrap(''.join(p))
+
+
+def bag():
+    """书包"""
+    p = ['<path d="M78 96 q42 -34 84 0" fill="none" stroke="#3f51b5" stroke-width="10" stroke-linecap="round"/>',
+         '<rect x="52" y="92" width="136" height="112" rx="18" fill="#5c6bc0"/>',
+         '<rect x="52" y="92" width="136" height="38" rx="18" fill="#3f51b5"/>',
+         '<rect x="76" y="146" width="88" height="46" rx="12" fill="#7986cb"/>',
+         '<circle cx="120" cy="132" r="8" fill="#ffca28"/>',
+         '<rect x="112" y="146" width="16" height="10" rx="4" fill="#ffca28"/>']
+    return wrap(''.join(p))
+
+
+def apple():
+    """红苹果"""
+    p = ['<path d="M120 74 q-10 -22 6 -34" fill="none" stroke="#6d4c41" stroke-width="7" stroke-linecap="round"/>',
+         '<ellipse cx="140" cy="52" rx="22" ry="12" fill="#66bb6a" transform="rotate(-20 140 52)"/>',
+         '<path d="M120 84 q-58 -14 -58 48 q0 62 58 78 q58 -16 58 -78 q0 -62 -58 -48 z" fill="#e53935"/>',
+         '<path d="M92 116 q-12 20 -4 44" fill="none" stroke="#ef9a9a" stroke-width="8" stroke-linecap="round" opacity="0.7"/>']
+    return wrap(''.join(p))
+
+
+def ball():
+    """蓝色球"""
+    p = ['<circle cx="120" cy="132" r="74" fill="#1e88e5"/>',
+         '<path d="M120 58 q-46 74 0 148" fill="none" stroke="#1565c0" stroke-width="6"/>',
+         '<path d="M120 58 q46 74 0 148" fill="none" stroke="#1565c0" stroke-width="6"/>',
+         '<ellipse cx="120" cy="132" rx="74" ry="26" fill="none" stroke="#1565c0" stroke-width="6"/>',
+         '<ellipse cx="94" cy="98" rx="20" ry="13" fill="#bbdefb" opacity="0.85" transform="rotate(-25 94 98)"/>']
+    return wrap(''.join(p))
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
     made = []
@@ -120,6 +195,11 @@ def main():
     for n in range(1, 11):
         f = 'count-%d.svg' % n
         open(os.path.join(OUT, f), 'w', encoding='utf-8').write(count(n))
+        made.append(f)
+    for name, fn in (('en-dog', dog), ('en-cat', cat), ('en-pencil', pencil),
+                     ('en-bag', bag), ('en-red', apple), ('en-blue', ball)):
+        f = '%s.svg' % name
+        open(os.path.join(OUT, f), 'w', encoding='utf-8').write(fn())
         made.append(f)
     for k in ('p1', 'p2', 'p3'):
         f = 'pattern-%s.svg' % k

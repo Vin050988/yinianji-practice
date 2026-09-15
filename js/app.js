@@ -37,7 +37,7 @@
     var settings = Store.getSettings();
     $('home-star-count').textContent = Store.starsTotal();
     var done = [];
-    ['yuwen', 'shuxue'].forEach(function (sub) {
+    ['yuwen', 'shuxue', 'yingyu'].forEach(function (sub) {
       var left = sessionsLeft(sub);
       var enabled = settings.subjects[sub] !== false;
       var card = document.querySelector('.subject-card[data-subject="' + sub + '"]');
@@ -221,7 +221,14 @@
     }
     // 朗读题干（可关闭；失败自动降级）
     var settings = Store.getSettings();
-    if (settings.tts) Speak.say(item.stem, true);
+    if (settings.tts) Speak.say(item.stem, true, speechLang(item));
+  }
+
+  /** 纯英文题干用英文语音，含中文的（如“grandma 的中文意思是？”）用中文语音 */
+  function speechLang(item) {
+    var t = String(item.stem || '');
+    var hasEn = /[A-Za-z]/.test(t), hasZh = /[\u4e00-\u9fff]/.test(t);
+    return (hasEn && !hasZh) ? 'en-US' : 'zh-CN';
   }
 
   function pickOption(idx) {
@@ -425,6 +432,7 @@
     $('set-sound').checked = !!s.sound;
     $('set-yuwen').checked = s.subjects.yuwen !== false;
     $('set-shuxue').checked = s.subjects.shuxue !== false;
+    $('set-yingyu').checked = s.subjects.yingyu !== false;
     renderChart();
     show('screen-parent');
   }
@@ -459,6 +467,9 @@
     $('set-shuxue').addEventListener('change', function () {
       var s = Store.getSettings(); s.subjects.shuxue = this.checked; Store.saveSettings({ subjects: s.subjects });
     });
+    $('set-yingyu').addEventListener('change', function () {
+      var s = Store.getSettings(); s.subjects.yingyu = this.checked; Store.saveSettings({ subjects: s.subjects });
+    });
     $('btn-clear').addEventListener('click', function () {
       if (confirm('确定要清空所有成绩、错题和星星吗？这个操作不能撤销。')) {
         Store.clearAll();
@@ -473,7 +484,6 @@
     document.querySelectorAll('.subject-card[data-subject]').forEach(function (card) {
       card.addEventListener('click', function () {
         var sub = card.dataset.subject;
-        if (sub === 'yingyu') { alert('英语还在准备中，先把语文数学练好吧～'); return; }
         Sound.ensure();
         Sound.tap(Store.getSettings().sound);
         if (sessionsLeft(sub) <= 0) { alert('今天这一科已经练完啦，明天再来吧！\n（可以在「家长设置」里把次数改成「不限制」）'); return; }

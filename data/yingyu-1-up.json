@@ -2,9 +2,1813 @@
  "schemaVersion": "1.1",
  "subject": "yingyu",
  "subjectName": "英语",
+ "textbook": "《英语口语交际》一年级上册（沪教版/上海教育出版社 2025 新教材，深圳适用）",
  "grade": 1,
  "term": "up",
- "updated": "2026-09-12",
- "textbook": "沪教版·牛津深圳版（待教材到手后按规范补充）",
- "chapters": []
+ "updated": "2026-09-15",
+ "chapters": [
+  {
+   "id": "yy-u1",
+   "title": "Unit 1 What is your family like?（家庭成员）",
+   "order": 1,
+   "questions": [
+    {
+     "id": "yy-u1-001",
+     "type": "choice",
+     "stem": "“grandma” 的中文意思是？",
+     "options": [
+      "奶奶",
+      "爷爷",
+      "妈妈",
+      "爸爸"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "grandma 是奶奶/外婆"
+    },
+    {
+     "id": "yy-u1-002",
+     "type": "choice",
+     "stem": "“brother” 指的是？",
+     "options": [
+      "妈妈",
+      "姐姐",
+      "兄弟（哥哥/弟弟）",
+      "妹妹"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "brother 是兄弟"
+    },
+    {
+     "id": "yy-u1-003",
+     "type": "choice",
+     "stem": "想介绍“这是我的妈妈”，应该说？",
+     "options": [
+      "She's my sister.",
+      "He's my grandpa.",
+      "This is my mum.",
+      "This is my dad."
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "mum 是妈妈"
+    },
+    {
+     "id": "yy-u1-004",
+     "type": "choice",
+     "stem": "别人问 “Who is she?”，你回答？",
+     "options": [
+      "She's my mum.",
+      "It's a dog.",
+      "I'm fine.",
+      "He's my dad."
+     ],
+     "answer": 0,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "she 指女性，回答用 She's…"
+    },
+    {
+     "id": "yy-u1-005",
+     "type": "choice",
+     "stem": "“He's my dad.” 意思是？",
+     "options": [
+      "她是我妈妈",
+      "这是我姐姐",
+      "他是我爸爸",
+      "我是个男孩"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "he 指男性，dad 是爸爸"
+    },
+    {
+     "id": "yy-u1-006",
+     "type": "judge",
+     "stem": "“grandpa” 是奶奶。",
+     "answer": false,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "grandpa 是爷爷/外公，grandma 才是奶奶"
+    },
+    {
+     "id": "yy-u1-007",
+     "type": "judge",
+     "stem": "“sister” 指姐妹。",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "sister 是姐姐或妹妹"
+    },
+    {
+     "id": "yy-u1-008",
+     "type": "judge",
+     "stem": "故事里奶奶说 “I like noodles.”，意思是“我喜欢面条”。",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "noodles 是面条"
+    },
+    {
+     "id": "yy-u1-009",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "grandma",
+       "right": "奶奶"
+      },
+      {
+       "left": "grandpa",
+       "right": "爷爷"
+      },
+      {
+       "left": "dad",
+       "right": "爸爸"
+      },
+      {
+       "left": "mum",
+       "right": "妈妈"
+      }
+     ],
+     "difficulty": 2,
+     "modes": [
+      "match"
+     ],
+     "explain": "家庭成员称呼中英配对"
+    },
+    {
+     "id": "yy-u1-010",
+     "type": "listen",
+     "stem": "mum",
+     "options": [
+      "妈妈",
+      "爸爸",
+      "爷爷",
+      "奶奶"
+     ],
+     "answer": 0,
+     "tts": true,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "mum 是妈妈"
+    }
+   ],
+   "audio": {
+    "story": "audio/u1-story.mp3",
+    "words": "audio/u1-words.mp3"
+   }
+  },
+  {
+   "id": "yy-u2",
+   "title": "Unit 2 How are you today?（情绪与感受）",
+   "order": 2,
+   "questions": [
+    {
+     "id": "yy-u2-001",
+     "type": "choice",
+     "stem": "“hungry” 的意思是？",
+     "options": [
+      "渴",
+      "冷",
+      "热",
+      "饿"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "hungry 是饿了"
+    },
+    {
+     "id": "yy-u2-002",
+     "type": "choice",
+     "stem": "“thirsty” 的意思是？",
+     "options": [
+      "开心",
+      "渴",
+      "饿",
+      "累"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "thirsty 是渴了"
+    },
+    {
+     "id": "yy-u2-003",
+     "type": "choice",
+     "stem": "天气很热，你说？",
+     "options": [
+      "I'm hot.",
+      "I'm happy.",
+      "I'm thin.",
+      "I'm cold."
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "hot 是热"
+    },
+    {
+     "id": "yy-u2-004",
+     "type": "choice",
+     "stem": "别人问 “How are you?”，你回答？",
+     "options": [
+      "I'm a boy.",
+      "I'm happy.",
+      "This is my dad.",
+      "It's red."
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "How are you? 问身体/心情，用 I'm… 回答"
+    },
+    {
+     "id": "yy-u2-005",
+     "type": "choice",
+     "stem": "故事里兔子说 “I'm hot and thirsty.”，意思是？",
+     "options": [
+      "我很开心",
+      "我又冷又饿",
+      "我累了",
+      "我又热又渴"
+     ],
+     "answer": 3,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "hot 热 + thirsty 渴"
+    },
+    {
+     "id": "yy-u2-006",
+     "type": "choice",
+     "stem": "“tired” 的意思是？",
+     "options": [
+      "冷的",
+      "累的",
+      "开心的",
+      "饿的"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "tired 是累了"
+    },
+    {
+     "id": "yy-u2-007",
+     "type": "judge",
+     "stem": "“cold” 是热的意思。",
+     "answer": false,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "cold 是冷的，hot 才是热的"
+    },
+    {
+     "id": "yy-u2-008",
+     "type": "judge",
+     "stem": "龟兔赛跑最后是乌龟赢了。",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "Tortoise wins. 乌龟赢了"
+    },
+    {
+     "id": "yy-u2-009",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "cold",
+       "right": "冷"
+      },
+      {
+       "left": "hot",
+       "right": "热"
+      },
+      {
+       "left": "hungry",
+       "right": "饿"
+      },
+      {
+       "left": "thirsty",
+       "right": "渴"
+      }
+     ],
+     "difficulty": 2,
+     "modes": [
+      "match"
+     ],
+     "explain": "感受词中英配对"
+    },
+    {
+     "id": "yy-u2-010",
+     "type": "listen",
+     "stem": "I'm hungry.",
+     "options": [
+      "我饿了",
+      "我渴了",
+      "我冷了",
+      "我累了"
+     ],
+     "answer": 0,
+     "tts": true,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "hungry 是饿"
+    }
+   ],
+   "audio": {
+    "story": "audio/u2-story.mp3",
+    "words": "audio/u2-words.mp3"
+   }
+  },
+  {
+   "id": "yy-u3",
+   "title": "Unit 3 What do you take to school?（学习用品与数字）",
+   "order": 3,
+   "questions": [
+    {
+     "id": "yy-u3-001",
+     "type": "choice",
+     "stem": "“pencil case” 是？",
+     "options": [
+      "尺子",
+      "铅笔",
+      "橡皮",
+      "铅笔盒"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "pencil case 铅笔盒"
+    },
+    {
+     "id": "yy-u3-002",
+     "type": "choice",
+     "stem": "“eraser” 是？",
+     "options": [
+      "尺子",
+      "橡皮",
+      "铅笔",
+      "书包"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "eraser 橡皮"
+    },
+    {
+     "id": "yy-u3-003",
+     "type": "choice",
+     "stem": "“How many pencils?” 是在问？",
+     "options": [
+      "几岁",
+      "什么颜色",
+      "多少支铅笔",
+      "你是谁"
+     ],
+     "answer": 2,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "How many 问数量"
+    },
+    {
+     "id": "yy-u3-004",
+     "type": "choice",
+     "stem": "“ruler” 的中文是？",
+     "options": [
+      "蜡笔",
+      "尺子",
+      "橡皮",
+      "书本"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "ruler 尺子"
+    },
+    {
+     "id": "yy-u3-005",
+     "type": "choice",
+     "stem": "“Is that my pencil?” 意思是？",
+     "options": [
+      "有多少铅笔",
+      "那是我的铅笔吗",
+      "这是我的铅笔盒",
+      "那是我爸爸"
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "Is that…? 那是……吗？"
+    },
+    {
+     "id": "yy-u3-006",
+     "type": "choice",
+     "stem": "故事里老师问 “How many pencils?”，Mary 一开始说有几支？",
+     "options": [
+      "一支",
+      "四支",
+      "三支",
+      "两支"
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "Mary 说 Four，后来发现 Oh, I have three."
+    },
+    {
+     "id": "yy-u3-007",
+     "type": "judge",
+     "stem": "“two erasers” 是两块橡皮。",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "two 二，eraser 橡皮"
+    },
+    {
+     "id": "yy-u3-008",
+     "type": "judge",
+     "stem": "“bag” 是铅笔盒。",
+     "answer": false,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "bag 是书包，pencil case 才是铅笔盒"
+    },
+    {
+     "id": "yy-u3-009",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "pencil",
+       "right": "铅笔"
+      },
+      {
+       "left": "ruler",
+       "right": "尺子"
+      },
+      {
+       "left": "eraser",
+       "right": "橡皮"
+      },
+      {
+       "left": "crayon",
+       "right": "蜡笔"
+      }
+     ],
+     "difficulty": 2,
+     "modes": [
+      "match"
+     ],
+     "explain": "学习用品中英配对"
+    },
+    {
+     "id": "yy-u3-010",
+     "type": "listen",
+     "stem": "three pencils",
+     "options": [
+      "三支铅笔",
+      "三块橡皮",
+      "四把尺子",
+      "一个铅笔盒"
+     ],
+     "answer": 0,
+     "tts": true,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "three 三，pencils 铅笔"
+    },
+    {
+     "id": "yy-u3-011",
+     "type": "choice",
+     "stem": "看图片，这个学习用品的英文是？",
+     "options": [
+      "ruler",
+      "pencil",
+      "eraser",
+      "bag"
+     ],
+     "answer": 1,
+     "imageUrl": "assets/svg/en-pencil.svg",
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "这是铅笔 pencil。"
+    },
+    {
+     "id": "yy-u3-012",
+     "type": "choice",
+     "stem": "看图片，这个学习用品的英文是？",
+     "options": [
+      "ruler",
+      "crayon",
+      "bag",
+      "pencil case"
+     ],
+     "answer": 2,
+     "imageUrl": "assets/svg/en-bag.svg",
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "这是书包 bag。"
+    }
+   ],
+   "audio": {
+    "story": "audio/u3-story.mp3",
+    "words": "audio/u3-words.mp3"
+   }
+  },
+  {
+   "id": "yy-u4",
+   "title": "Unit 4 What can you do?（能力）",
+   "order": 4,
+   "questions": [
+    {
+     "id": "yy-u4-001",
+     "type": "choice",
+     "stem": "“sing” 是？",
+     "options": [
+      "读书",
+      "画画",
+      "跳舞",
+      "唱歌"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "sing 唱歌"
+    },
+    {
+     "id": "yy-u4-002",
+     "type": "choice",
+     "stem": "“dance” 是？",
+     "options": [
+      "骑车",
+      "唱歌",
+      "跳舞",
+      "写字"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "dance 跳舞"
+    },
+    {
+     "id": "yy-u4-003",
+     "type": "choice",
+     "stem": "想问“你会做什么？”，说？",
+     "options": [
+      "How are you?",
+      "What colour?",
+      "What can you do?",
+      "Who is she?"
+     ],
+     "answer": 2,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "What can you do? 你会做什么？"
+    },
+    {
+     "id": "yy-u4-004",
+     "type": "choice",
+     "stem": "“I can draw.” 意思是？",
+     "options": [
+      "我会读书",
+      "我会画画",
+      "我会跳舞",
+      "我会唱歌"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "draw 画画"
+    },
+    {
+     "id": "yy-u4-005",
+     "type": "choice",
+     "stem": "“play the violin” 是？",
+     "options": [
+      "踢足球",
+      "拉小提琴",
+      "打篮球",
+      "弹钢琴"
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "play the violin 拉小提琴"
+    },
+    {
+     "id": "yy-u4-006",
+     "type": "choice",
+     "stem": "故事里妹妹说 “I can dance.”，意思是？",
+     "options": [
+      "我会唱歌",
+      "我会骑车",
+      "我会跳舞",
+      "我会画画"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "dance 跳舞"
+    },
+    {
+     "id": "yy-u4-007",
+     "type": "judge",
+     "stem": "“read” 是读书、看书的意思。",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "read 读、看书"
+    },
+    {
+     "id": "yy-u4-008",
+     "type": "judge",
+     "stem": "“ride a bike” 是开汽车。",
+     "answer": false,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "ride a bike 是骑自行车"
+    },
+    {
+     "id": "yy-u4-009",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "sing",
+       "right": "唱歌"
+      },
+      {
+       "left": "dance",
+       "right": "跳舞"
+      },
+      {
+       "left": "draw",
+       "right": "画画"
+      },
+      {
+       "left": "read",
+       "right": "读书"
+      }
+     ],
+     "difficulty": 2,
+     "modes": [
+      "match"
+     ],
+     "explain": "能力动词中英配对"
+    },
+    {
+     "id": "yy-u4-010",
+     "type": "listen",
+     "stem": "I can sing.",
+     "options": [
+      "我会唱歌",
+      "我会跳舞",
+      "我会画画",
+      "我会骑车"
+     ],
+     "answer": 0,
+     "tts": true,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "sing 唱歌"
+    }
+   ],
+   "audio": {
+    "story": "audio/u4-story.mp3",
+    "words": "audio/u4-words.mp3"
+   }
+  },
+  {
+   "id": "yy-u5",
+   "title": "Unit 5 What is your favourite animal?（动物）",
+   "order": 5,
+   "questions": [
+    {
+     "id": "yy-u5-001",
+     "type": "choice",
+     "stem": "小狗 dog 的叫声是？",
+     "options": [
+      "Tweet",
+      "Miaow",
+      "Woof Woof",
+      "Splash"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "dog 汪汪叫 Woof"
+    },
+    {
+     "id": "yy-u5-002",
+     "type": "choice",
+     "stem": "小猫 cat 的叫声是？",
+     "options": [
+      "Miaow",
+      "Tweet",
+      "Roar",
+      "Woof"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "cat 喵喵叫 Miaow"
+    },
+    {
+     "id": "yy-u5-003",
+     "type": "choice",
+     "stem": "“What's that?” 意思是？",
+     "options": [
+      "你好吗",
+      "你几岁",
+      "什么颜色",
+      "那是什么"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "What's that? 那是什么？"
+    },
+    {
+     "id": "yy-u5-004",
+     "type": "choice",
+     "stem": "“bird” 是？",
+     "options": [
+      "鱼",
+      "猫",
+      "狗",
+      "鸟"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "bird 鸟"
+    },
+    {
+     "id": "yy-u5-005",
+     "type": "choice",
+     "stem": "“tortoise” 是？",
+     "options": [
+      "老虎",
+      "乌龟",
+      "仓鼠",
+      "兔子"
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "tortoise 乌龟"
+    },
+    {
+     "id": "yy-u5-006",
+     "type": "choice",
+     "stem": "故事里 Lucy 问 “What's that, Grandpa?”，爷爷回答？",
+     "options": [
+      "It's red.",
+      "Oh, it's a baby bird.",
+      "This is my mum.",
+      "I'm hungry."
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "爷爷说那是一只鸟宝宝"
+    },
+    {
+     "id": "yy-u5-007",
+     "type": "judge",
+     "stem": "“fish” 在水里，发出 splash（哗啦）的声音。",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "fish 鱼，Splash 水花声"
+    },
+    {
+     "id": "yy-u5-008",
+     "type": "judge",
+     "stem": "“hamster” 是乌龟。",
+     "answer": false,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "hamster 是仓鼠，tortoise 才是乌龟"
+    },
+    {
+     "id": "yy-u5-009",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "dog",
+       "right": "狗"
+      },
+      {
+       "left": "cat",
+       "right": "猫"
+      },
+      {
+       "left": "bird",
+       "right": "鸟"
+      },
+      {
+       "left": "fish",
+       "right": "鱼"
+      }
+     ],
+     "difficulty": 2,
+     "modes": [
+      "match"
+     ],
+     "explain": "动物单词中英配对"
+    },
+    {
+     "id": "yy-u5-010",
+     "type": "listen",
+     "stem": "It's a bird.",
+     "options": [
+      "它是一只鸟",
+      "它是一只狗",
+      "它是一只猫",
+      "它是一条鱼"
+     ],
+     "answer": 0,
+     "tts": true,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "bird 鸟"
+    },
+    {
+     "id": "yy-u5-011",
+     "type": "choice",
+     "stem": "看图片，这个动物的英文是？",
+     "options": [
+      "fish",
+      "cat",
+      "bird",
+      "dog"
+     ],
+     "answer": 3,
+     "imageUrl": "assets/svg/en-dog.svg",
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "这是小狗 dog。"
+    },
+    {
+     "id": "yy-u5-012",
+     "type": "choice",
+     "stem": "看图片，这个动物的英文是？",
+     "options": [
+      "dog",
+      "bird",
+      "cat",
+      "fish"
+     ],
+     "answer": 2,
+     "imageUrl": "assets/svg/en-cat.svg",
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "这是小猫 cat。"
+    }
+   ],
+   "audio": {
+    "story": "audio/u5-story.mp3",
+    "words": "audio/u5-words.mp3"
+   }
+  },
+  {
+   "id": "yy-u6",
+   "title": "Unit 6 What colours can you see?（颜色）",
+   "order": 6,
+   "questions": [
+    {
+     "id": "yy-u6-001",
+     "type": "choice",
+     "stem": "“red” 是？",
+     "options": [
+      "红色",
+      "蓝色",
+      "绿色",
+      "黄色"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "red 红色"
+    },
+    {
+     "id": "yy-u6-002",
+     "type": "choice",
+     "stem": "“green” 是？",
+     "options": [
+      "黑色",
+      "红色",
+      "白色",
+      "绿色"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "green 绿色"
+    },
+    {
+     "id": "yy-u6-003",
+     "type": "choice",
+     "stem": "想问“风筝是什么颜色？”，说？",
+     "options": [
+      "What colour is the kite?",
+      "What can you do?",
+      "Who is he?",
+      "How old are you?"
+     ],
+     "answer": 0,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "What colour 问颜色"
+    },
+    {
+     "id": "yy-u6-004",
+     "type": "choice",
+     "stem": "“yellow” 是？",
+     "options": [
+      "灰色",
+      "蓝色",
+      "紫色",
+      "黄色"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "yellow 黄色"
+    },
+    {
+     "id": "yy-u6-005",
+     "type": "choice",
+     "stem": "故事里树是红色的，变色龙会变成？",
+     "options": [
+      "绿色",
+      "红色",
+      "黄色",
+      "灰色"
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "The tree is red. The chameleon is red too."
+    },
+    {
+     "id": "yy-u6-006",
+     "type": "choice",
+     "stem": "“favourite” 的意思是？",
+     "options": [
+      "好看的",
+      "最喜欢的",
+      "大的",
+      "红色的"
+     ],
+     "answer": 1,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "favourite 最喜欢的"
+    },
+    {
+     "id": "yy-u6-007",
+     "type": "judge",
+     "stem": "“blue” 是蓝色。",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "blue 蓝色"
+    },
+    {
+     "id": "yy-u6-008",
+     "type": "judge",
+     "stem": "“black” 是白色。",
+     "answer": false,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "black 黑色，white 才是白色"
+    },
+    {
+     "id": "yy-u6-009",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "red",
+       "right": "红"
+      },
+      {
+       "left": "yellow",
+       "right": "黄"
+      },
+      {
+       "left": "green",
+       "right": "绿"
+      },
+      {
+       "left": "blue",
+       "right": "蓝"
+      }
+     ],
+     "difficulty": 2,
+     "modes": [
+      "match"
+     ],
+     "explain": "颜色词中英配对"
+    },
+    {
+     "id": "yy-u6-010",
+     "type": "listen",
+     "stem": "It's red.",
+     "options": [
+      "它是红色的",
+      "它是黄色的",
+      "它是绿色的",
+      "它是蓝色的"
+     ],
+     "answer": 0,
+     "tts": true,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "red 红色"
+    },
+    {
+     "id": "yy-u6-011",
+     "type": "choice",
+     "stem": "看图片，这是什么颜色？",
+     "options": [
+      "green",
+      "blue",
+      "yellow",
+      "red"
+     ],
+     "answer": 3,
+     "imageUrl": "assets/svg/en-red.svg",
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "这是红色 red。"
+    },
+    {
+     "id": "yy-u6-012",
+     "type": "choice",
+     "stem": "看图片，这是什么颜色？",
+     "options": [
+      "white",
+      "black",
+      "blue",
+      "red"
+     ],
+     "answer": 2,
+     "imageUrl": "assets/svg/en-blue.svg",
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "这是蓝色 blue。"
+    }
+   ],
+   "audio": {
+    "story": "audio/u6-story.mp3",
+    "words": "audio/u6-words.mp3"
+   }
+  },
+  {
+   "id": "yy-p1",
+   "title": "Project 1 综合复习（Unit 1–3：家人·感受·文具）",
+   "order": 7,
+   "questions": [
+    {
+     "id": "yy-p1-001",
+     "type": "choice",
+     "stem": "“爸爸”的英文是？",
+     "options": [
+      "dad",
+      "sister",
+      "mum",
+      "brother"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "dad 是爸爸，mum 是妈妈。"
+    },
+    {
+     "id": "yy-p1-002",
+     "type": "choice",
+     "stem": "“sister” 指的是？",
+     "options": [
+      "奶奶",
+      "爷爷",
+      "姐妹",
+      "兄弟"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "sister 是姐姐或妹妹。"
+    },
+    {
+     "id": "yy-p1-003",
+     "type": "choice",
+     "stem": "你又饿又渴，应该怎么说？",
+     "options": [
+      "It's red.",
+      "I'm a boy.",
+      "I'm fine.",
+      "I'm hungry and thirsty."
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "hungry 饿，thirsty 渴。"
+    },
+    {
+     "id": "yy-p1-004",
+     "type": "choice",
+     "stem": "别人问 “How are you today?”，你可以回答？",
+     "options": [
+      "I can sing.",
+      "I'm happy.",
+      "This is my dad.",
+      "It's a pencil."
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "问身体/心情，就用 I'm + 感受 来回答。"
+    },
+    {
+     "id": "yy-p1-005",
+     "type": "choice",
+     "stem": "“铅笔盒”的英文是？",
+     "options": [
+      "eraser",
+      "pencil case",
+      "school bag",
+      "ruler"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "pencil case 铅笔盒，school bag 是书包。"
+    },
+    {
+     "id": "yy-p1-006",
+     "type": "choice",
+     "stem": "“How many erasers?” 问的是什么？",
+     "options": [
+      "有多少块橡皮",
+      "这是谁的橡皮",
+      "橡皮是什么颜色",
+      "橡皮在哪里"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "How many 用来问数量。"
+    },
+    {
+     "id": "yy-p1-007",
+     "type": "judge",
+     "stem": "“ruler” 是尺子的意思。",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "ruler 就是尺子。"
+    },
+    {
+     "id": "yy-p1-008",
+     "type": "judge",
+     "stem": "“How many” 是用来问颜色的。",
+     "answer": false,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "问颜色要用 What colour，How many 问的是数量。"
+    },
+    {
+     "id": "yy-p1-009",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "dad",
+       "right": "爸爸"
+      },
+      {
+       "left": "mum",
+       "right": "妈妈"
+      },
+      {
+       "left": "thirsty",
+       "right": "渴"
+      },
+      {
+       "left": "pencil",
+       "right": "铅笔"
+      }
+     ],
+     "difficulty": 2,
+     "modes": [
+      "match"
+     ],
+     "explain": "把 Unit 1–3 的重点单词配上中文。"
+    },
+    {
+     "id": "yy-p1-010",
+     "type": "listen",
+     "stem": "This is my mum.",
+     "options": [
+      "这是我妈妈",
+      "这是我爸爸",
+      "这是我姐姐",
+      "这是我爷爷"
+     ],
+     "answer": 0,
+     "tts": true,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "This is my mum. 这是我妈妈。"
+    }
+   ]
+  },
+  {
+   "id": "yy-p2",
+   "title": "Project 2 综合复习（Unit 4–6：能力·动物·颜色）",
+   "order": 8,
+   "questions": [
+    {
+     "id": "yy-p2-001",
+     "type": "choice",
+     "stem": "“I can draw a bird.” 是什么意思？",
+     "options": [
+      "我会画一只鸟",
+      "我会骑自行车",
+      "我会唱一首歌",
+      "我会跳舞"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "draw 画，bird 鸟。"
+    },
+    {
+     "id": "yy-p2-002",
+     "type": "choice",
+     "stem": "你想说“我会跳舞”，应该说？",
+     "options": [
+      "I can draw.",
+      "I can dance.",
+      "I can read.",
+      "I can sing."
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "dance 跳舞，sing 唱歌。"
+    },
+    {
+     "id": "yy-p2-003",
+     "type": "choice",
+     "stem": "“猫”的英文是？",
+     "options": [
+      "fish",
+      "dog",
+      "bird",
+      "cat"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "cat 猫，dog 狗。"
+    },
+    {
+     "id": "yy-p2-004",
+     "type": "choice",
+     "stem": "“It's blue.” 说的是什么颜色？",
+     "options": [
+      "红色",
+      "蓝色",
+      "黄色",
+      "绿色"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "blue 蓝色，red 红色。"
+    },
+    {
+     "id": "yy-p2-005",
+     "type": "choice",
+     "stem": "“favourite” 的意思是？",
+     "options": [
+      "很开心的",
+      "很大的",
+      "很冷的",
+      "最喜欢的"
+     ],
+     "answer": 3,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "favourite 最喜欢的。"
+    },
+    {
+     "id": "yy-p2-006",
+     "type": "choice",
+     "stem": "别人问 “What's that?”，你应该怎么回答？",
+     "options": [
+      "用 “It's a …” 回答",
+      "用 “I'm …” 回答",
+      "用 “How many …” 回答",
+      "用 “My name is …” 回答"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "问“那是什么”，回答用 It's a …。"
+    },
+    {
+     "id": "yy-p2-007",
+     "type": "judge",
+     "stem": "“ride a bike” 是骑自行车的意思。",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "ride a bike 骑自行车。"
+    },
+    {
+     "id": "yy-p2-008",
+     "type": "judge",
+     "stem": "“What colour is it?” 是在问“那是什么”。",
+     "answer": false,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "What colour 问的是颜色。"
+    },
+    {
+     "id": "yy-p2-009",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "sing",
+       "right": "唱歌"
+      },
+      {
+       "left": "cat",
+       "right": "猫"
+      },
+      {
+       "left": "red",
+       "right": "红色"
+      },
+      {
+       "left": "bird",
+       "right": "鸟"
+      }
+     ],
+     "difficulty": 2,
+     "modes": [
+      "match"
+     ],
+     "explain": "把 Unit 4–6 的重点单词配上中文。"
+    },
+    {
+     "id": "yy-p2-010",
+     "type": "listen",
+     "stem": "It's a yellow kite.",
+     "options": [
+      "它是一只黄色的风筝",
+      "它是一只红色的风筝",
+      "它是一只蓝色的风筝",
+      "它是一只绿色的风筝"
+     ],
+     "answer": 0,
+     "tts": true,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "yellow 黄色，kite 风筝。"
+    }
+   ]
+  },
+  {
+   "id": "yy-dx",
+   "title": "Daily expressions 日常用语",
+   "order": 9,
+   "questions": [
+    {
+     "id": "yy-dx-001",
+     "type": "choice",
+     "stem": "早上见到老师，应该说什么？",
+     "options": [
+      "Goodbye!",
+      "Good night!",
+      "Good morning!",
+      "I'm sorry!"
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "早上打招呼说 Good morning!。"
+    },
+    {
+     "id": "yy-dx-002",
+     "type": "choice",
+     "stem": "放学和同学分开时，应该说什么？",
+     "options": [
+      "Goodbye!",
+      "Thank you!",
+      "You're welcome!",
+      "Good morning!"
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "分别时说 Goodbye!。"
+    },
+    {
+     "id": "yy-dx-003",
+     "type": "choice",
+     "stem": "别人对你说 “Thank you!”，你可以回答？",
+     "options": [
+      "I'm sorry.",
+      "Hello.",
+      "You're welcome.",
+      "Good night."
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "别人道谢，回答 You're welcome.（不用谢）。"
+    },
+    {
+     "id": "yy-dx-004",
+     "type": "choice",
+     "stem": "你做错事了，应该说？",
+     "options": [
+      "Good morning.",
+      "Thank you.",
+      "I'm sorry.",
+      "You're welcome."
+     ],
+     "answer": 2,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "做错事要说 I'm sorry.。"
+    },
+    {
+     "id": "yy-dx-005",
+     "type": "choice",
+     "stem": "别人问 “What's your name?”，你应该回答？",
+     "options": [
+      "My name is …",
+      "It's red.",
+      "Yes, I can.",
+      "I'm fine."
+     ],
+     "answer": 0,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "问名字，用 My name is … 回答。"
+    },
+    {
+     "id": "yy-dx-006",
+     "type": "choice",
+     "stem": "别人帮了你，你应该说什么？",
+     "options": [
+      "Sorry!",
+      "Thank you!",
+      "Goodbye!",
+      "Good night!"
+     ],
+     "answer": 1,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "得到帮助要说 Thank you!。"
+    },
+    {
+     "id": "yy-dx-007",
+     "type": "judge",
+     "stem": "“Good night!” 是晚上睡觉前说的话。",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "Good night! 晚安，睡前说。"
+    },
+    {
+     "id": "yy-dx-008",
+     "type": "judge",
+     "stem": "“Hello!” 和 “Hi!” 都可以用来打招呼。",
+     "answer": true,
+     "difficulty": 1,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "两个都是打招呼的话。"
+    },
+    {
+     "id": "yy-dx-009",
+     "type": "match",
+     "pairs": [
+      {
+       "left": "Good morning",
+       "right": "早上好"
+      },
+      {
+       "left": "Thank you",
+       "right": "谢谢"
+      },
+      {
+       "left": "Goodbye",
+       "right": "再见"
+      },
+      {
+       "left": "Sorry",
+       "right": "对不起"
+      }
+     ],
+     "difficulty": 2,
+     "modes": [
+      "match"
+     ],
+     "explain": "把日常用语配上中文。"
+    },
+    {
+     "id": "yy-dx-010",
+     "type": "listen",
+     "stem": "Good morning!",
+     "options": [
+      "早上好",
+      "晚安",
+      "谢谢",
+      "再见"
+     ],
+     "answer": 0,
+     "tts": true,
+     "difficulty": 2,
+     "modes": [
+      "level",
+      "timer"
+     ],
+     "explain": "Good morning! 早上好。"
+    }
+   ]
+  }
+ ],
+ "extras": {
+  "project1": "audio/project1.mp3",
+  "project2": "audio/project2.mp3",
+  "dailyExpressions": "audio/daily-expressions.mp3"
+ },
+ "audioNote": "每单元 audio.story=课文完整朗读(跟读), audio.words=单词表; 听力题若未指定 audio 字段则用 TTS 朗读 stem。"
 }

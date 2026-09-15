@@ -27,7 +27,11 @@ SRC_FILES = {
     'yuwen': '语文题库 yuwen-1-up.json（115题）.json',
     'shuxue': '数学题库 shuxue-1-up.json（91题+口算模板）.json',
 }
-OUT_FILES = {'yuwen': 'yuwen-1-up.json', 'shuxue': 'shuxue-1-up.json'}
+# 英语题库由豆包交付，已归档到工作区素材目录（不在原始素材包里）
+ALT_SRC = {
+    'yingyu': '/Users/haichao/Ai/AIwenjian/文档/一年级英语素材/yingyu-1-up.json（豆包原始交付）.json',
+}
+OUT_FILES = {'yuwen': 'yuwen-1-up.json', 'shuxue': 'shuxue-1-up.json', 'yingyu': 'yingyu-1-up.json'}
 
 CJK = re.compile(r'[\u4e00-\u9fff]')
 MARKS = {'a': 'āáǎà', 'o': 'ōóǒò', 'e': 'ēéěè', 'i': 'īíǐì', 'u': 'ūúǔù', 'ü': 'ǖǘǚǜ'}
@@ -121,6 +125,8 @@ def guess_difficulty(q, chapter_id):
         return 2
     if chapter_id in ('yw-c3', 'yw-c4', 'yw-c5', 'yw-c7', 'yw-c8', 'sx-c4', 'sx-c7', 'sx-c8'):
         return 2
+    if chapter_id.startswith('yy-'):
+        return 2 if (t == 'listen' or '故事' in stem) else 1
     return 1
 
 
@@ -158,9 +164,21 @@ def apply_rules(text, rules):
     return text
 
 
+def norm_options(q):
+    """把 listen 题里 {text,imageUrl} 形式的选项统一成字符串数组，
+    图片路径收进 optionImages（前端可选使用）。"""
+    opts = q.get('options')
+    if isinstance(opts, list) and opts and isinstance(opts[0], dict):
+        q['options'] = [str(o.get('text') or '') for o in opts]
+        imgs = [o.get('imageUrl') or '' for o in opts]
+        if any(imgs):
+            q['optionImages'] = imgs
+    return q
+
+
 def normalize(q, chapter_id, subject, force, rules=None):
     """补齐/纠正单题字段。force 为该题的强制拼音覆盖（可选）。"""
-    q = dict(q)
+    q = norm_options(dict(q))
     force = force or {}
     rules = rules or []
     t = q.get('type')
@@ -193,8 +211,8 @@ def normalize(q, chapter_id, subject, force, rules=None):
     if q.get('type') == 'choice':
         q = shuffle_options(q, q.get('id') or q.get('stem') or '')
     # 字段顺序整理（便于人工 review）
-    order = ['id', 'type', 'stem', 'stemPinyin', 'options', 'optionsPinyin', 'answer',
-             'pairs', 'template', 'range', 'imageUrl', 'difficulty', 'modes', 'explain']
+    order = ['id', 'type', 'stem', 'stemPinyin', 'options', 'optionsPinyin', 'optionImages', 'answer',
+             'pairs', 'template', 'range', 'imageUrl', 'tts', 'difficulty', 'modes', 'explain']
     return {k: q[k] for k in order if k in q}
 
 
@@ -263,7 +281,7 @@ def validate(doc, subject):
 # ---------- 主流程 ----------
 
 def build(subject):
-    src_path = os.path.join(SRC, SRC_FILES[subject])
+    src_path = ALT_SRC.get(subject) or os.path.join(SRC, SRC_FILES[subject])
     patch_path = os.path.join(HERE, 'patch_%s.json' % subject)
     with open(src_path, encoding='utf-8') as f:
         doc = json.load(f)
@@ -346,10 +364,10 @@ def build(subject):
 
 
 if __name__ == '__main__':
-    targets = sys.argv[1:] or ['yuwen', 'shuxue']
+    targets = sys.argv[1:] or ['yuwen', 'shuxue', 'yingyu']
     bad = 0
     for t in targets:
-        if t not in SRC_FILES:
+        if t not in SRC_FILES and t not in ALT_SRC:
             print('未知学科:', t)
             bad += 1
             continue

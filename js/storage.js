@@ -14,7 +14,7 @@ window.Store = (function () {
     timesPerDay: 0,                                // 每天每科次数上限；0 = 不限制
     tts: true,                                     // 语音朗读题干
     sound: true,                                   // 音效
-    subjects: { yuwen: true, shuxue: true }        // 各科开关
+    subjects: { yuwen: true, shuxue: true, yingyu: true }   // 各科开关
   };
 
   function read(key, def) {
@@ -42,7 +42,7 @@ window.Store = (function () {
     var s = read(KEY.settings, null) || {};
     var out = {};
     for (var k in DEFAULT_SETTINGS) out[k] = (s[k] === undefined ? DEFAULT_SETTINGS[k] : s[k]);
-    out.subjects = s.subjects || { yuwen: true, shuxue: true };
+    out.subjects = s.subjects || { yuwen: true, shuxue: true, yingyu: true };
     return out;
   }
   function saveSettings(patch) {
