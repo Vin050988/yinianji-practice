@@ -173,13 +173,17 @@
     $('quiz-progress').style.width = Math.round((s.index / s.total) * 100) + '%';
     renderLives();
 
-    // 题干（语文带拼音注音）
+    // 题干（语文带拼音注音）+ 朗读按钮
     var stemEl = $('quiz-stem');
-    if (item.subject === 'yuwen' && item.stemPinyin) {
-      stemEl.innerHTML = Pinyin.wrap(item.stem, item.stemPinyin);
-    } else {
-      stemEl.innerHTML = Pinyin.plain(item.stem);
-    }
+    var stemHtml = (item.subject === 'yuwen' && item.stemPinyin)
+      ? Pinyin.wrap(item.stem, item.stemPinyin)
+      : Pinyin.plain(item.stem);
+    stemEl.innerHTML = '<div class="stem-text">' + stemHtml + '</div>' +
+      '<button type="button" class="speak-btn speak-stem" aria-label="朗读题目">🔈</button>';
+    stemEl.querySelector('.speak-stem').addEventListener('click', function (e) {
+      e.stopPropagation();
+      speak(item.stem);
+    });
     // 配图
     var img = $('quiz-image');
     if (item.imageUrl) { img.src = item.imageUrl; img.hidden = false; }
@@ -201,9 +205,11 @@
       optionsEl.hidden = false;
       matchEl.hidden = true;
       item.options.forEach(function (optText, i) {
-        var b = document.createElement('button');
-        b.className = 'option';
-        b.type = 'button';
+        // 选项外层用 div[role=button]：因为里面要放「朗读」按钮，HTML 不允许按钮嵌套
+        var row = document.createElement('div');
+        row.className = 'option';
+        row.setAttribute('role', 'button');
+        row.setAttribute('tabindex', '0');
         var key = document.createElement('span');
         key.className = 'opt-key';
         key.textContent = String.fromCharCode(65 + i);      // A B C D
@@ -214,21 +220,38 @@
         } else {
           label.innerHTML = Pinyin.plain(optText);
         }
-        b.appendChild(key); b.appendChild(label);
-        b.addEventListener('click', function () { pickOption(i); });
-        optionsEl.appendChild(b);
+        var spk = document.createElement('button');
+        spk.type = 'button';
+        spk.className = 'speak-btn';
+        spk.setAttribute('aria-label', '朗读这个选项');
+        spk.textContent = '🔈';
+        spk.addEventListener('click', function (e) {
+          e.stopPropagation();                              // 点喇叭不要选中该项
+          speak(optText);
+        });
+        row.appendChild(key); row.appendChild(label); row.appendChild(spk);
+        row.addEventListener('click', function () { pickOption(i); });
+        optionsEl.appendChild(row);
       });
     }
     // 朗读题干（可关闭；失败自动降级）
     var settings = Store.getSettings();
-    if (settings.tts) Speak.say(item.stem, true, speechLang(item));
+    if (settings.tts) Speak.say(item.stem, true, pickLang(item.stem), settings.rate);
   }
 
-  /** 纯英文题干用英文语音，含中文的（如“grandma 的中文意思是？”）用中文语音 */
-  function speechLang(item) {
-    var t = String(item.stem || '');
+  /** 纯英文文本用英文语音，含中文的（如“grandma 的中文意思是？”）用中文语音 */
+  function pickLang(text) {
+    var t = String(text || '');
     var hasEn = /[A-Za-z]/.test(t), hasZh = /[\u4e00-\u9fff]/.test(t);
     return (hasEn && !hasZh) ? 'en-US' : 'zh-CN';
+  }
+
+  /** 朗读一段文本（遵守家长设置里的开关与语速） */
+  function speak(text) {
+    if (!text) return;
+    var st2 = Store.getSettings();
+    if (!st2.tts) return;
+    Speak.say(text, true, pickLang(text), st2.rate);
   }
 
   function pickOption(idx) {
@@ -240,7 +263,7 @@
     var res = s.answer(idx);
     var buttons = $('quiz-options').querySelectorAll('.option');
     buttons.forEach(function (b, i) {
-      b.disabled = true;
+      b.classList.add('is-locked');       // div 没有 disabled，用类名锁视觉；逻辑锁在 pickOption 里
       if (i === item.correctIndex) b.classList.add('is-right');
       else if (i === idx) b.classList.add('is-wrong');
     });
@@ -429,6 +452,7 @@
     $('set-duration').value = String(s.duration);
     $('set-times').value = String(s.timesPerDay);
     $('set-tts').checked = !!s.tts;
+    $('set-rate').value = String(s.rate || 0.8);
     $('set-sound').checked = !!s.sound;
     $('set-yuwen').checked = s.subjects.yuwen !== false;
     $('set-shuxue').checked = s.subjects.shuxue !== false;
@@ -460,6 +484,7 @@
     $('set-duration').addEventListener('change', function () { Store.saveSettings({ duration: Number(this.value) }); });
     $('set-times').addEventListener('change', function () { Store.saveSettings({ timesPerDay: Number(this.value) }); });
     $('set-tts').addEventListener('change', function () { Store.saveSettings({ tts: this.checked }); });
+    $('set-rate').addEventListener('change', function () { Store.saveSettings({ rate: Number(this.value) }); });
     $('set-sound').addEventListener('change', function () { Store.saveSettings({ sound: this.checked }); });
     $('set-yuwen').addEventListener('change', function () {
       var s = Store.getSettings(); s.subjects.yuwen = this.checked; Store.saveSettings({ subjects: s.subjects });

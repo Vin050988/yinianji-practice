@@ -12,7 +12,8 @@ window.Store = (function () {
   var DEFAULT_SETTINGS = {
     duration: 10,                                  // 每次会话分钟数
     timesPerDay: 0,                                // 每天每科次数上限；0 = 不限制
-    tts: true,                                     // 语音朗读题干
+    tts: true,                                     // 语音朗读
+    rate: 0.8,                                     // 朗读语速（0.7 慢 / 0.8 默认 / 1 正常）
     sound: true,                                   // 音效
     subjects: { yuwen: true, shuxue: true, yingyu: true }   // 各科开关
   };

@@ -91,7 +91,7 @@ window.Speak = (function () {
       .trim();
   }
 
-  function say(text, enabled, lang) {
+  function say(text, enabled, lang, rate) {
     if (!enabled || !ok || !text) return false;
     var t = toSpeech(text);
     if (!t) return false;
@@ -102,7 +102,7 @@ window.Speak = (function () {
       window.speechSynthesis.cancel();
       var u = new window.SpeechSynthesisUtterance(t);
       u.lang = lang || 'zh-CN';    // 英语题干传 'en-US'，否则用中文语音
-      u.rate = 0.92;
+      u.rate = rate || 0.8;        // 一年级放慢一点（0.8 ≈ 比正常慢两成）
       u.pitch = 1.05;
       window.speechSynthesis.speak(u);
       return true;
