@@ -91,6 +91,49 @@ window.Speak = (function () {
       .trim();
   }
 
+  var voiceCache = {};
+
+  /** 给语音质量打分：优先「本地 + 增强/高级音质」，避开合成感很重的压缩音 */
+  function scoreVoice(v) {
+    var s = 0;
+    if (v.localService) s += 2;
+    if (/enhanced|premium|natural|siri/i.test(v.name || '')) s += 3;
+    if (/compact|eloquence|albert|zarvox/i.test(v.name || '')) s -= 3;
+    return s;
+  }
+
+  /** 按语言挑一个可用且质量最好的语音；语音列表还没加载好时返回 null（下次再试） */
+  function pickVoice(lang) {
+    if (!ok) return null;
+    var key = String(lang || 'zh-CN').slice(0, 2).toLowerCase();
+    if (voiceCache[key] !== undefined) return voiceCache[key];
+    var vs = [];
+    try { vs = window.speechSynthesis.getVoices() || []; } catch (e) { vs = []; }
+    if (!vs.length) return null;
+    var cands = vs.filter(function (v) {
+      return String(v.lang || '').toLowerCase().replace('_', '-').indexOf(key) === 0;
+    });
+    var pick = null;
+    if (cands.length) {
+      cands.sort(function (a, b) { return scoreVoice(b) - scoreVoice(a); });
+      pick = cands[0];
+    }
+    voiceCache[key] = pick;
+    return pick;
+  }
+
+  /** 供家长自检显示：当前用的是哪个语音 */
+  function voiceInfo(lang) {
+    var v = pickVoice(lang);
+    if (!v) {
+      var vs = [];
+      try { vs = window.speechSynthesis.getVoices() || []; } catch (e) {}
+      return vs.length ? ('未找到 ' + lang + ' 语音（系统里只有 ' + vs.length + ' 个语音）')
+                       : '语音列表尚未加载（请再点一次）';
+    }
+    return v.name + '（' + v.lang + (v.localService ? ' · 本机' : ' · 云端') + '）';
+  }
+
   function say(text, enabled, lang, rate) {
     if (!enabled || !ok || !text) return false;
     var t = toSpeech(text);
@@ -102,13 +145,17 @@ window.Speak = (function () {
       window.speechSynthesis.cancel();
       var u = new window.SpeechSynthesisUtterance(t);
       u.lang = lang || 'zh-CN';    // 英语题干传 'en-US'，否则用中文语音
-      u.rate = rate || 0.8;        // 一年级放慢一点（0.8 ≈ 比正常慢两成）
-      u.pitch = 1.05;
+      var v = pickVoice(u.lang);
+      if (v) u.voice = v;          // 显式指定语音，避免系统挑到最差的那个
+      u.volume = 1;                // 音量拉满（最终仍受系统音量控制）
+      u.rate = rate || 0.8;        // 一年级放慢一点
+      u.pitch = 1.0;
       window.speechSynthesis.speak(u);
       return true;
     } catch (e) { return false; }
   }
   function stop() { if (ok) { try { window.speechSynthesis.cancel(); } catch (e) {} } }
 
-  return { say: say, stop: stop, available: ok, toSpeech: toSpeech };
+  return { say: say, stop: stop, available: ok, toSpeech: toSpeech,
+           voiceInfo: voiceInfo, pickVoice: pickVoice };
 })();

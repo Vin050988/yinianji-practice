@@ -4,7 +4,7 @@
  *   - 联网时总是取最新文件 → 在 Mac 上改完并 push 后，iPad 刷新一次即可拿到新版
  *   - 断网时回退到缓存 → 仍能进入并答题（前提：联网打开过一次）
  */
-const VERSION = 'ypApp-v1.1.5';
+const VERSION = 'ypApp-v1.1.6';
 
 const CORE = [
   './',

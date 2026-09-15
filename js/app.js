@@ -236,7 +236,7 @@
     }
     // 朗读题干（可关闭；失败自动降级）
     var settings = Store.getSettings();
-    if (settings.tts) Speak.say(item.stem, true, pickLang(item.stem), settings.rate);
+    if (settings.tts) speak(item.stem);
   }
 
   /** 纯英文文本用英文语音，含中文的（如“grandma 的中文意思是？”）用中文语音 */
@@ -246,12 +246,19 @@
     return (hasEn && !hasZh) ? 'en-US' : 'zh-CN';
   }
 
+  /** 英语比中文再慢一档（一年级听英文单词/短句需要更清楚） */
+  function pickRate(lang, base) {
+    var r = base || 0.8;
+    return (lang === 'en-US') ? Math.max(0.5, Math.round(r * 0.8 * 100) / 100) : r;
+  }
+
   /** 朗读一段文本（遵守家长设置里的开关与语速） */
   function speak(text) {
     if (!text) return;
     var st2 = Store.getSettings();
     if (!st2.tts) return;
-    Speak.say(text, true, pickLang(text), st2.rate);
+    var lang = pickLang(text);
+    Speak.say(text, true, lang, pickRate(lang, st2.rate));
   }
 
   function pickOption(idx) {
@@ -485,6 +492,12 @@
     $('set-times').addEventListener('change', function () { Store.saveSettings({ timesPerDay: Number(this.value) }); });
     $('set-tts').addEventListener('change', function () { Store.saveSettings({ tts: this.checked }); });
     $('set-rate').addEventListener('change', function () { Store.saveSettings({ rate: Number(this.value) }); });
+    $('btn-test-speak').addEventListener('click', function () {
+      var st4 = Store.getSettings();
+      Speak.say('Hello! This is my mum. I can sing.', true, 'en-US', pickRate('en-US', st4.rate));
+      $('voice-info').textContent = '当前英文语音：' + (Speak.voiceInfo ? Speak.voiceInfo('en-US') : '不可用')
+        + '　（若发音含混，建议在 iPad「设置 → 辅助功能 → 朗读内容 → 声音 → 英语」里下载增强音质）';
+    });
     $('set-sound').addEventListener('change', function () { Store.saveSettings({ sound: this.checked }); });
     $('set-yuwen').addEventListener('change', function () {
       var s = Store.getSettings(); s.subjects.yuwen = this.checked; Store.saveSettings({ subjects: s.subjects });
