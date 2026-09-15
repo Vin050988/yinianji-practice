@@ -125,6 +125,15 @@ html, body {
   flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch;
   padding: 14px 20px 28px; display: flex; flex-direction: column; gap: 12px;
 }
+.chapter-row { display: flex; gap: 10px; align-items: stretch; }
+.chapter-row .chapter-item { flex: 1; min-width: 0; }
+.chap-audio {
+  flex: 0 0 auto; width: 84px; font-size: 19px; font-weight: 600;
+  font-family: inherit; color: var(--ink-soft); background: #eef3f5;
+  border: 3px solid var(--line); border-radius: 16px; cursor: pointer;
+}
+.chap-audio.is-playing { background: var(--green-light); border-color: var(--green); color: var(--green-dark); }
+.chap-audio:active { transform: translateY(2px); }
 .chapter-item {
   background: var(--card); border: 3px solid var(--line); border-radius: 16px;
   padding: 16px 18px; min-height: var(--tap);

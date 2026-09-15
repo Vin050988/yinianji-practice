@@ -77,10 +77,54 @@
     });
   }
 
+  /** 本地是否放了真人朗读音频（公网版没有 audio/ 目录 → 自动不显示音频按钮） */
+  var hasAudio = false;
+
+  /** 章节 → 音频文件映射（与老师提供的 mp3 命名保持一致） */
+  function chapterAudio(chId) {
+    var m = /^yy-u([1-6])$/.exec(chId);
+    if (m) return { words: 'audio/u' + m[1] + '-words.mp3', story: 'audio/u' + m[1] + '-story.mp3' };
+    if (chId === 'yy-p1') return { story: 'audio/project1.mp3' };
+    if (chId === 'yy-p2') return { story: 'audio/project2.mp3' };
+    if (chId === 'yy-dx') return { story: 'audio/daily-expressions.mp3' };
+    return null;
+  }
+
+  var audioEl = null, audioBtnNow = null;
+  function stopAudio() {
+    if (audioEl) { try { audioEl.pause(); audioEl.currentTime = 0; } catch (e) {} }
+    if (audioBtnNow) audioBtnNow.classList.remove('is-playing');
+    audioBtnNow = null;
+  }
+  function playChapterAudio(src, btn) {
+    if (!audioEl) {
+      audioEl = new Audio();
+      audioEl.addEventListener('ended', stopAudio);
+      audioEl.addEventListener('error', function () {
+        stopAudio();
+        alert('这段音频没找到或无法播放（本地版需要 audio/ 文件夹里有对应的 mp3）。');
+      });
+    }
+    var playing = audioEl.getAttribute('src') === src && !audioEl.paused && !audioEl.ended;
+    stopAudio();
+    if (playing) return;                       // 再点一次 = 停止
+    audioEl.src = src;
+    var pr = audioEl.play();
+    if (pr && pr.then) {
+      pr.then(function () { btn.classList.add('is-playing'); audioBtnNow = btn; })
+        .catch(function () { alert('音频播放失败，请确认 audio/ 里有这个文件。'); });
+    } else {
+      btn.classList.add('is-playing'); audioBtnNow = btn;
+    }
+  }
+
   function renderChapters() {
     var list = $('chapter-list');
     list.innerHTML = '';
+    stopAudio();
     st.chapters.forEach(function (c) {
+      var row = document.createElement('div');
+      row.className = 'chapter-row';
       var b = document.createElement('button');
       b.className = 'chapter-item';
       b.type = 'button';
@@ -98,8 +142,31 @@
         b.classList.toggle('is-selected', st.selected.indexOf(c.id) >= 0);
         Sound.tap(Store.getSettings().sound);
       });
-      list.appendChild(b);
+      row.appendChild(b);
+
+      // 本地版才有：真人朗读按钮（单词表 / 课文）
+      if (hasAudio) {
+        var au = chapterAudio(c.id);
+        if (au) {
+          if (au.words) row.appendChild(makeAudioBtn('🎧词', au.words, '听单词表'));
+          if (au.story) row.appendChild(makeAudioBtn('🎧文', au.story, '听课文朗读'));
+        }
+      }
+      list.appendChild(row);
     });
+  }
+
+  function makeAudioBtn(label, src, title) {
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'chap-audio';
+    btn.textContent = label;
+    btn.title = title;
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      playChapterAudio(src, btn);
+    });
+    return btn;
   }
 
   function startFromChapters() {
@@ -559,10 +626,21 @@
     window.addEventListener('orientationchange', function () { tick(); });
   }
 
+  function probeAudio() {
+    // 公网版没有 audio/ 目录，HEAD 会 404 → 自动不显示音频按钮
+    return fetch('audio/u1-words.mp3', { method: 'HEAD' })
+      .then(function (r) {
+        hasAudio = !!r.ok;
+        if (hasAudio && $('screen-chapters').classList.contains('is-active')) renderChapters();
+      })
+      .catch(function () { hasAudio = false; });
+  }
+
   function init() {
     bind();
     bindParent();
     renderHome();
+    probeAudio();
     // 预加载题库，进章节更快
     Engine.load('yuwen').catch(function () {});
     Engine.load('shuxue').catch(function () {});
